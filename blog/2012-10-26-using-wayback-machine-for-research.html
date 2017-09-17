@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc" />
+    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css" />
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="DC.Contributor.PersonalName" content="Butch Lazorchak" />
+    <meta name="DC.Creator.PersonalName" content="Nicholas Taylor" />
+    <meta name="DC.Date" content="2012-10-26" scheme="W3CDTF" />
+    <meta name="DC.Format" content="text/html" scheme="IMT" />
+    <meta name="DC.Language" content="en-US" scheme="RFC4646" />
+    <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0/" scheme="URL" />
+    <meta name="DC.Source" content="https://nullhandle.org/" scheme="URL" />
+    <meta name="DC.Title" content="Using Wayback Machine for Research" />
+    <meta name="DC.Type" content="blogPost" />
+    <script src="../js/responsive-nav.js" type="text/javascript"></script>
+    <title>Using Wayback Machine for Research</title>
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <div class="border"></div>
+    <nav class="nav-collapse" id="nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../biography.html">Biography</a></li>
+        <li><a href="../resume.html">R&eacute;sum&eacute;</a></li>
+        <li class="active"><a href="index.html">Blog</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content" itemscope itemtype="http://schema.org/BlogPosting">
+      <h2 itemprop="headline">Using Wayback Machine for Research</h2>
+      <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="../biography.html" itemprop="url" rel="author"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2017-08-12T10:06:00-07:00" itemprop="dateModified" /><time datetime="2012-10-26T11:48:44+00:00" itemprop="datePublished">26 October 2012</time></div>
+      <br />
+      <div itemprop="articleBody">
+        <div>Prompted by questions from Library of Congress staff on how to more effectively use web archives to answer research questions, I recently gave a presentation on "<a href="https://blogs.loc.gov/digitalpreservation/files/2012/10/Using_Wayback_Machine_for_Research_2.pdf">Using Wayback Machine for Research</a>" (PDF). I thought that readers of <a href="https://blogs.loc.gov/digitalpreservation/">The Signal</a> might be interested in this topic as well. This post covers the outline of the presentation.</div>
+        <br />
+        <figure class="figure-left" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+          <img alt="Wayback Machine logo" height="88" itemprop="url" src="https://blogs.loc.gov/digitalpreservation/files/2012/10/wayback_machine_logo.jpg" width="288" />
+          <meta itemprop="height" content="88" />
+          <meta itemprop="width" content="288" />
+          <figcaption></figcaption>
+        </figure>
+        <div>The Wayback Machine that many people are familiar with is the <a href="https://archive.org/web/web.php">Internet Archive Wayback Machine</a>. The <a href="https://archive.org/">Internet Archive</a> is an <a href="https://www.digitalpreservation.gov/partners/ia.html">NDIIPP partner</a> and a <a href="https://netpreserve.org/member-organizations/internet-archive">Founding Member</a> of the <a href="https://netpreserve.org/">International Internet Preservation Consortium</a>. Their mission includes creating an archive of the entire public web; the Wayback Machine is the interface for accessing it.</div>
+        <br />
+        <div>While the Internet Archive has been primarily responsible for the development of Wayback Machine, it is an <a href="https://github.com/internetarchive/wayback">open source project</a>. Internet Archive also devised the name "Wayback Machine;" it is a reference to <a href="https://en.wikipedia.org/w/index.php?title=The_Rocky_and_Bullwinkle_Show&amp;oldid=518018262">The Rocky &amp; Bullwinkle Show's</a> homophonous <a href="https://en.wikipedia.org/w/index.php?title=WABAC_machine&amp;oldid=515581014">"WABAC" Machine</a>, a time machine itself named in the convention of mid-century mainframe computers (e.g., ENIAC, UNIVAC, MANIAC, etc.). The contemporary Wayback Machine thus appropriately evokes both the idea of traveling back in time and powerful computing technology (necessary for web archiving).</div>
+        <br />
+        <div>Internet Archive's Wayback Machine is just one among many, however; over half of the <a href="https://en.wikipedia.org/w/index.php?title=List_of_Web_archiving_initiatives&amp;oldid=519736193">web archiving initiatives listed on Wikipedia</a> provide access via Wayback Machine. It is the most common software used to "replay" the contents of ISO-standard Web ARChive (<a href="https://www.digitalpreservation.gov/formats/fdd/fdd000236.shtml">WARC</a>) file containers.</div>
+        <br />
+        <div>Wayback Machine performs this feat by dynamically rewriting the links it encounters on archived webpages to point to other resources in the archive. It does an admirable job at this, but, with as much variation as it encounters between websites, it may have trouble replaying particular webpages or webpage elements. JavaScript-driven features, for example, are <a href="https://ws-dl.blogspot.com/2012/10/2012-10-10-zombies-in-archives.html">especially problematic</a>.</div>
+        <br />
+        <div>Understanding the basic mechanics of Wayback Machine makes it easier to navigate around within a web archive. For example, the URL can be modified to request particular resources, show the time coverage for particular resources in the archive, or show all archived resources from a particular domain. Since Wayback Machine can only replay specifically-requested URLs, it is difficult to access past versions of a webpage if that webpage changed URLs at some point and there was no redirect in place.</div>
+        <br />
+        <figure class="figure-right" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" xmlns:dct="http://purl.org/dc/terms/">
+          <img alt="2006 Library of Congress website displayed in Internet Archive's Wayback Machine" height="255" src="https://blogs.loc.gov/digitalpreservation/files/2012/10/2006_www.loc_.gov_in_wayback_2-300x225.jpg" width="300" />
+          <meta itemprop="height" content="255" />
+          <meta itemprop="width" content="300" />
+          <figcaption><a href="https://web.archive.org/web/20061026030251/http://www.loc.gov/index.html" property="dct:title">2006 Library of Congress website</a> displayed in the <a href="https://archive.org/web/">Internet Archive Wayback Machine</a></figcaption>
+        </figure>
+        <div>The presentation offers a couple of examples of how these basic techniques could be used to find specific information in a web archive. The first example explores a strategy for finding a webpage whose historical URL is unknown by navigating to another webpage in the archive that is likely to link to it. The second example demonstrates that the conceptual organization of websites persists longer than their precise URL structure. This trend can be used to access content that was previously publicly available but has since been moved to a private section of a website.</div>
+        <br />
+        <div>Of course, it may not even be necessary to consult web archives in the first place. <a href="http://arxiv.org/pdf/0907.2268v2.pdf">Recent research</a> (PDF) suggests that ostensibly missing resources on the live web have more often been moved than removed. The <a href="https://addons.mozilla.org/en-US/firefox/addon/synchronicity/">Synchronicity</a> Firefox add-on, based on technology from the <a href="http://www.digitalpreservation.gov/partners/tprw.html">NDIIPP-funded</a> <a href="http://mementoweb.org/">Memento project</a>, leverages web archives to help locate the resource's new location. If that fails, the <a href="https://addons.mozilla.org/en-US/firefox/addon/mementofox/">MementoFox</a> Firefox add-on can help to find the web archive with the best coverage for the desired resource and time range.</div>
+        <br />
+        <div>Click on the following links to learn more about <a href="//www.loc.gov/webarchiving/">Web Archiving at the Library of Congress</a> or to view the <a href="//lcweb2.loc.gov/diglib/lcwa/html/lcwa-home.html">Library of Congress Web Archives</a>, displayed (naturally) via Wayback Machine.</div>
+      </div>
+      <br />
+      <div class="byline"><a href="https://nullhandle.org/blog/2012-10-26-using-wayback-machine-for-research.html" rel="canonical">Permalink</a> | <a href="https://blogs.loc.gov/thesignal/2012/10/10950/">Crossposted</a> to <a href="https://blogs.loc.gov/thesignal/">The Signal</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" width="80" /></a></div>
+      <br />
+      <script>
+        var nav = responsiveNav(".nav-collapse");
+      </script>
+    </div>
+  </body>
+</html>

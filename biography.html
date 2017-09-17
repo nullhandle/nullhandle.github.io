@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/responsive-nav.css" rel="stylesheet" type="text/css" />
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Biography of Nicholas Taylor." />
+    <title>biography - nullhandle.org</title>
+    <script src="js/responsive-nav.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      function selectText(containerid) {
+        if (document.selection) {
+          var range = document.body.createTextRange();
+          range.moveToElementText(document.getElementById(containerid));
+          range.select();
+        } else if (window.getSelection) {
+          var range = document.createRange();
+          range.selectNode(document.getElementById(containerid));
+          window.getSelection().addRange(range);
+        }
+      }
+    </script>
+  </head>
+  <body itemscope itemtype="http://schema.org/Person">
+    <div class="border"></div>
+    <nav class="nav-collapse" id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="biography.html">Biography</a></li>
+        <li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <a href="img/7553395182_99b971323c_o_(640x640).jpg"><img alt="headshot of Nicholas Taylor" class="headshot" height="120" itemprop="image" src="img/7553395182_99b971323c_o_(640x640).jpg" width="120" /></a>
+      <div id="biography" itemprop="description" onClick="selectText('biography')">Nicholas Taylor is the Program Manager for <a href="https://www.lockss.org/">LOCKSS</a> and <a href="https://library.stanford.edu/projects/web-archiving">Web Archiving</a> at <a href="https://library.stanford.edu/">Stanford University Libraries</a>. In this role, he manages the provision of distributed digital preservation software and services used by hundreds of institutions across tens of networks, including the <a href="https://www.lockss.org/community/networks/">Global LOCKSS Network</a> and the <a href="https://www.clockss.org/">CLOCKSS Archive</a>. He also oversees efforts by <a href="https://library.stanford.edu/">Stanford University Libraries</a> to establish web archiving as a core collection development activity and digital service. He is a regular collaborator and speaker on web archiving technology development, best practices, and standards. Prior to <a href="https://library.stanford.edu/">Stanford Libraries</a>, he served as a web archiving technical specialist for the <a href="https://www.loc.gov/">Library of Congress</a>. He possesses an M.A. in <a href="http://cct.georgetown.edu/">Communication, Culture, and Technology</a> from <a href="http://www.georgetown.edu/">Georgetown University</a> and an <a href="https://ischool.umd.edu/mlis">M.L.S.</a> from the <a href="https://www.umd.edu/">University of Maryland, College Park</a>.</div>
+      <script>
+        var nav = responsiveNav(".nav-collapse");
+      </script>
+    </div>
+  </body>
+</html>

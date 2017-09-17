@@ -1,0 +1,368 @@
+a {
+  text-decoration: none;
+  color: #369;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px auto;
+  max-width: 800px;
+}
+
+figcaption {
+  border: 1px solid #ccc;
+  border-top: 0px;
+  caption-side: bottom;
+  display: table-caption;
+  font-size: .75em;
+  padding-bottom: 4px;
+  text-align: center;
+}
+
+figure {
+  border: 1px solid #ccc;
+  border-bottom: 0px;
+  display: table;
+  margin: 5px 20px 5px 5px;
+  padding: 4px;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #2f4858;
+  margin-bottom: 3px;
+}
+
+*::-moz-selection {
+  background: #37302a none repeat scroll 0px 0px;
+  color: #fff;
+}
+
+img::-moz-selection {
+  background: transparent none repeat scroll 0px 0px;
+}
+
+nav ol, nav ul {
+  list-style: outside none none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.blog-archive {
+  margin-left: 76%;
+  text-align: center;
+}
+
+.blog-snippets {
+  float: left;
+  width: 75%;
+}
+
+.blog-video {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.border {
+  background: #369 none repeat scroll 0px 0px;
+  height: 0.5em;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+.byline {
+  border-top: 1px solid #d5d5d5;
+  color: #888;
+  font-size: .9em;
+  padding-top: 2px;
+}
+
+.code {
+  font-family: monospace;
+}
+
+.content {
+  padding: 75px 5px 10px 5px;
+}
+
+.copyright {
+  float:right;
+  margin-top:2px;
+}
+
+.figure-left {
+  float: left;
+}
+
+.figure-middle {
+  margin: auto;
+}
+
+.figure-right {
+  float: right;
+}
+
+.headshot {
+  float: left;
+  margin-right: 15px;
+}
+
+.icon-contact {
+  background-image: url('../img/contact_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  padding-left: 19px;
+}
+
+.icon-date {
+  background-image: url('../img/date_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  padding-left: 19px;
+}
+
+.icon-github {
+  background-image: url('../img/github_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  padding: 0px 1px 0px 18px;
+}
+
+.icon-linkedin {
+  background-image: url('../img/linkedin_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  padding: 0px 1px 0px 18px;
+}
+
+.icon-location {
+  background-image: url('../img/location_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  padding-left: 18px;
+}
+
+.icon-twitter {
+  background-image: url('../img/twitter_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  padding: 0px 1px 0px 18px;
+}
+
+.icon-url {
+  background-image: url('../img/url_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  padding-left: 19px;
+}
+
+.image-highlight {
+  border: 1px solid #ccc;
+  display: table;
+  float: left;
+  margin: 5px 20px 5px 5px;
+  padding: 4px;
+}
+
+.label-lapis-lazuli {
+  background-color: #369;
+  border-radius: 3px;
+  color: #c1d1e0;
+  font-size: .8em;
+  font-weight: bold;
+  padding: 1px 4px 1px;
+}
+
+.label-dark-slate-gray {
+  background-color: #2f4858;
+  border-radius: 3px;
+  color: #c1c8cd;
+  font-size: .8em;
+  font-weight: bold;
+  padding: 1px 4px 1px;
+}
+
+.label-dark-sky-blue {
+  background-color: #86bbd8;
+  border-radius: 3px;
+  color: #3e586b;
+  font-size: .8em;
+  font-weight: bold;
+  padding: 1px 4px 1px;
+}
+
+.label-granny-smith-apple {
+  background-color: #9ee493;
+  border-radius: 3px;
+  color: #456457;
+  font-size: .8em;
+  font-weight: bold;
+  padding: 1px 4px 1px;
+}
+
+.label-medium-spring-bud {
+  background-color: #cacf85;
+  border-radius: 3px;
+  color: #576a6d;
+  font-size: .8em;
+  font-weight: bold;
+  padding: 1px 4px 1px;
+}
+
+.nav-collapse.disable-pointer-events {
+  pointer-events: none;
+}
+
+.nav-collapse {
+  font-family: "Open Sans", sans-serif;
+  z-index: 1;
+}
+
+.nav-collapse, .nav-collapse * {
+  box-sizing: border-box;
+}
+
+.nav-collapse, .nav-collapse ul {
+  float: left;
+  list-style: outside none none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+@media screen and (min-width: 46.25em) {
+  .nav-collapse, .nav-collapse ul {
+      text-align: center;
+  }
+}
+
+.nav-collapse li {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 46.25em) {
+  .nav-collapse li {
+    display: inline-block;
+    float: none;
+    margin-left: 0.4em;
+    margin-right: 0.2em;
+    width: auto;
+  }
+}
+
+.nav-collapse a {
+  background: #369 none repeat scroll 0px 0px;
+  border-bottom: 1px solid white;
+  color: white;
+  float: left;
+  font-size: 112.5%;
+  font-weight: 400px;
+  letter-spacing: 2px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.nav-collapse a:focus {
+  background: #369 none repeat scroll 0px 0px;
+  outline: medium none;
+}
+
+@media screen and (min-width: 46.25em) {
+  .nav-collapse a {
+    background: transparent none repeat scroll 0px 0px;
+    border: 0px none;
+    color: #37302a;
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 1.96em 0.7em 0.5em;
+    transition: background 0.5s ease 0s;
+  }
+  .nav-collapse a:hover, .nav-collapse a:focus {
+    background: #86bbd8 none repeat scroll 0px 0px;
+  }
+}
+
+@media screen and (min-width: 46.25em) {
+  .nav-collapse .active a {
+    background: #369 none repeat scroll 0px 0px;
+    color: #fff;
+  }
+  .nav-collapse .active a:hover {
+    text-decoration: none;
+  }
+  .nav-collapse .active a:focus {
+    background: #369 none repeat scroll 0px 0px;
+  }
+}
+
+.js .nav-collapse {
+    clip: rect(0px, 0px, 0px, 0px);
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+    position: absolute;
+}
+
+@media screen and (min-width: 46.25em) {
+  .js .nav-collapse {
+    max-height: none;
+    position: relative;
+  }
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.nav-toggle {
+  -moz-user-select: none;
+  background: #369 url("http://responsive-nav.com/images/hamburger.gif") no-repeat scroll 50% 33%;
+  display: block;
+  float: right;
+  height: 55px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 70px;
+}
+
+@media not all, screen and (min--moz-device-pixel-ratio: 1.3), not all, not all, screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .nav-toggle {
+    background-image: url("http://responsive-nav.com/images/hamburger-retina.gif");
+    background-size: 100px 100px;
+  }
+}
+
+@media screen and (min-width: 46.25em) {
+  .nav-toggle {
+    display: none;
+  }
+}
+
+.previous_year {
+  font-weight: 900;
+}
+
+.word-cloud {
+  display: block;
+  margin: 0px auto;
+  max-width: 640px;
+}

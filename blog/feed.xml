@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <description>Nicholas Taylor's website</description>
+    <link>https://nullhandle.org/</link>
+    <title>nullhandle.org</title>
+    <item>
+      <title>Transferring "Libraries of Congress" of Data</title>
+      <link>2011-07-11-transferring-libraries-of-congress-of-data.html</link>
+      <pubDate>2011-07-11T11:51:56-04:00</pubDate>
+      <description>If science reporters, IT industry pundits and digital storage and network infrastructure purveyors &lt;a href=&quot;http://newsroom.cisco.com/press-release-content?type=webcontent&amp;articleId=5386763&quot;&gt;are&lt;/a&gt; &lt;a href=&quot;http://enterprise.media.seagate.com/2010/12/inside-it-storage/future-storage-technology-how-to-store-the-entire-u-s-library-of-congress-on-a-coin/"&gt;to&lt;/a&gt; &lt;a href=&quot;http://www.opternity.com/&quot;>be&lt;/a&gt; &lt;a href=&quot;http://articles.baltimoresun.com/2011-05-07/news/bs-md-nsa-bin-laden-20110507_1_bin-terrorist-leader-intelligence-agencies/2&quot;>believed&lt;/a&gt;, devices are being lab-tested even now that can store all of the data in the Library of Congress or transmit it over a network in mere moments. To this list of improbable claims, I'd like to add another: by the most conservative estimates, I transfer more than a Library of Congress' worth of data to the Library of Congress every month.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc" />
+    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css" />
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="DC.Contributor.PersonalName" content="Bill LeFurgy" />
+    <meta name="DC.Creator.PersonalName" content="Nicholas Taylor" />
+    <meta name="DC.Date" content="2013-04-30" scheme="W3CDTF" />
+    <meta name="DC.Format" content="text/html" scheme="IMT" />
+    <meta name="DC.Language" content="en-US" scheme="RFC4646" />
+    <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0/" scheme="URL" />
+    <meta name="DC.Source" content="https://nullhandle.org/" scheme="URL" />
+    <meta name="DC.Title" content="Link Persistence, Website Persistence" />
+    <meta name="DC.Type" content="blogPost" />
+    <script src="../js/responsive-nav.js" type="text/javascript"></script>
+    <title>Link Persistence, Website Persistence</title>
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <div class="border"></div>
+    <nav class="nav-collapse" id="nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../biography.html">Biography</a></li>
+        <li><a href="../resume.html">R&eacute;sum&eacute;</a></li>
+        <li class="active"><a href="index.html">Blog</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content" itemscope itemtype="http://schema.org/BlogPosting">
+      <h2 itemprop="headline">Link Persistence, Website Persistence</h2>
+      <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="../biography.html" itemprop="url" rel="author"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2012-08-12T10:07:00-07:00" itemprop="dateModified" /><time datetime="2013-04-30T11:17:27+00:00" itemprop="datePublished">30 April 2013</time></div>
+      <br />
+      <div itemprop="articleBody">
+        <div>A <a href="https://blogs.loc.gov/digitalpreservation/2011/11/the-average-lifespan-of-a-webpage/">previous post</a> on this blog explored why it's so hard to come up with a reliable measurement of the average lifespan of a webpage. In essence, the argument came down to this: links and the websites they represent tend to become decoupled over time. Without a broad understanding of how that process takes place, it's hard to make definitive claims about the persistence of websites when available automated tools can only capably check for the persistence of links.</div>
+        <br />
+        <figure class="figure-middle" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" xmlns:dct="http://purl.org/dc/terms/">
+          <img alt="screenshots of http://www.fb.com/ home page in 2002 and 2013" sizes="(min-width: 640px) 640px, (max-width: 640px) 300px" src="https://blogs.loc.gov/digitalpreservation/files/2013/04/working_link_different_website-1024x768.jpg" srcset="https://blogs.loc.gov/digitalpreservation/files/2013/04/working_link_different_website-1024x768.jpg 640w, https://blogs.loc.gov/thesignal/files/2013/04/working_link_different_website-300x225.jpg 300w" />
+          <figcaption>Working link, different website: in 2002, http://www.fb.com/ was the American Farm Bureau website. The link still works in 2013, but it now corresponds to Facebook's website. The American Farm Bureau website has moved to http://www.fb.org/.</figcaption>
+        </figure>
+        <br />
+        <div>In an ideal web, webmasters would adhere to Tim Berners-Lee's notion of &#8220;<a href="https://www.w3.org/Provider/Style/URI.html" class="external">cool URIs</a>&#8221; &#8211; links that have been purposely maintained so as to remain stable. Stable links are more useful to users, and it is technically feasible to maintain any particular link for at least the lifespan of the resource it points to. However, given both the popular perception of and the abundance of scholarly literature on link decay, it's probably safe to say that Tim Berners-Lee's vision for a cool URI-enabled web hasn't yet been realized.</div>
+        <br />
+        <div>The good news is that websites are more durable than links. This is supported <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.66.7773" class="external">by</a> <a href="https://arxiv.org/abs/0907.2268" class="external">multiple</a> <a href="https://arxiv.org/abs/1105.3459" class="external">studies</a> and makes intuitive sense, as well. The bad news is that most <a href="https://netpreserve.org/web-archiving/tools-and-software" class="external">contemporary web archiving tools</a> are actually link archiving tools; they are designed to agnostically capture and replay the content represented by links, not the intellectual objects (i.e., the websites) of interest <em>per se</em>. For the <a href="https://lcweb2.loc.gov/diglib/lcwa/html/lcwa-home.html">Library of Congress thematic web archives</a>, we can only assure that the links we're capturing continue to correspond to the websites we care about preserving by manually inspecting them on an ongoing basis.</div>
+        <br />
+        <figure class="figure-middle" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" xmlns:dct="http://purl.org/dc/terms/">
+          <img alt="screenshots of Missouri Secretary of State website home page in 2002 and 2013" sizes="(min-width: 640px) 640px, (max-width: 640px) 300px" src="https://blogs.loc.gov/thesignal/files/2013/04/nonworking_link_website_exists-1024x763.jpg" srcset="https://blogs.loc.gov/thesignal/files/2013/04/nonworking_link_website_exists-1024x763.jpg 640w, https://blogs.loc.gov/thesignal/files/2013/04/nonworking_link_website_exists-300x223.jpg 300w" />
+          <figcaption>Non-working link, but the website still exists: in 2002, the Missouri Secretary of State website could be found at http://www.state.mo.us/. That link no longer works in 2013, but the website still exists, now at http://www.sos.mo.gov/.</figcaption>
+        </figure>
+        <br />
+        <div>To better understand the discrepancy between link and website persistence as well as the disposition of websites that we previously archived, intern <a href="http://catalindexheidi.blogspot.com/2010/07/mi-mi-internado-el-acceso-la.html" class="external">Heidi Hernandez</a> and I revisited 1,071 links archived as part of the <a href="//lcweb2.loc.gov/diglib/lcwa/html/elec2002/elec2002-overview.html">U.S. Election 2002 web archive collection</a>. We excluded over 1,000 links corresponding to electoral candidate websites, as they were especially short-lived. The remaining links corresponded to state government, political party, advocacy group, newspaper, and political blog sites.</div>
+        <br />
+        <div>We followed a two-part methodology. First, following the approach of many other link persistence studies, we ran the entire list of links through a link checker and recorded the <a href="https://en.wikipedia.org/w/index.php?title=List_of_HTTP_status_codes&amp;oldid=551575270" class="external">http response codes</a> (e.g., <a href="https://en.wikipedia.org/w/index.php?title=HTTP_404&amp;oldid=551512286" class="external">404</a>, <a href="https://en.wikipedia.org/w/index.php?title=List_of_HTTP_status_codes&amp;oldid=551575270#2xx_Success" class="external">200</a>, <a href="https://en.wikipedia.org/w/index.php?title=HTTP_301&amp;oldid=543841999" class="external">301</a>, <a href="https://en.wikipedia.org/w/index.php?title=List_of_HTTP_status_codes&amp;oldid=551575270#5xx_Server_Error" class="external">500</a>, etc.). Second, we visited each of the links and noted whether the corresponding website was the same as that which was archived. If the website was different, or if the link didn't work, we tried to discover the new location of the website using search engines.</div>
+        <br />
+        <div>There were a few noteworthy findings:</div>
+        <ol>
+          <li>Taking the link persistence measurement as a measurement of website persistence <em>overestimated</em> the latter, because some working links pointed to different websites. In our study, 8% of working links pointed to different websites.</li>
+          <li>Taking the link persistence measurement as a measurement of website persistence also and more significantly <em>underestimated</em> website persistence, because websites often existed at new locations even if their previous link either no longer worked or now corresponded to a different website. In our study, 82% of websites associated with non-working links and 48% of websites whose links now corresponded to different websites still existed.</li>
+          <li>In aggregate, 94% of the previously-archived websites still existed, 3% more than would've been predicted by checking links alone.</li>
+        </ol>
+        <div>This last point should most certainly not be interpreted as a sign of the superfluity of web archiving; recall that over 1,000 links to now-disappeared websites were excluded from the analysis. Also consider, for example, that just because the <a href="http://www.whitehouse.gov/">White House website</a> still exists eleven years after <a href="https://webarchive.loc.gov/lcwa0006/20020701204005/http://www.whitehouse.gov/">we archived it</a> as part of the <a href="https://lcweb2.loc.gov/diglib/lcwa/html/elec2002/elec2002-overview.html">U.S. Election 2002 web archive collection</a> doesn't mean that any of the resources that made up the White House website of eleven years ago are still accessible now.</div>
+        <br />
+        <div>All-in-all, though, the results suggest a more complicated picture of the ephemeral web than the popular conception that tends to conflate the disappearance of links and that of websites.</div>
+      </div>
+      <br />
+      <div class="byline"><a href="https://nullhandle.org/blog/2013-04-30-link-persistence-website-persistence.html" rel="canonical">Permalink</a> | <a href="https://blogs.loc.gov/thesignal/2013/04/link-persistence-website-persistence/">Crossposted</a> to <a href="https://blogs.loc.gov/thesignal/">The Signal</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" width="80" /></a></div>
+      <br />
+      <script>
+        var nav = responsiveNav(".nav-collapse");
+      </script>
+    </div>
+  </body>
+</html>

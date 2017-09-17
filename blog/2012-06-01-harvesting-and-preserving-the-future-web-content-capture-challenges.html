@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc" />
+    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css" />
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="DC.Contributor.PersonalName" content="Butch Lazorchak" />
+    <meta name="DC.Creator.PersonalName" content="Nicholas Taylor" />
+    <meta name="DC.Date" content="2012-06-01" scheme="W3CDTF" />
+    <meta name="DC.Format" content="text/html" scheme="IMT" />
+    <meta name="DC.Language" content="en-US" scheme="RFC4646" />
+    <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0/" scheme="URL" />
+    <meta name="DC.Source" content="https://nullhandle.org/" scheme="URL" />
+    <meta name="DC.Title" content="Harvesting and Preserving the Future Web: Content Capture Challenges" />
+    <meta name="DC.Type" content="blogPost" />
+    <script src="../js/responsive-nav.js" type="text/javascript"></script>
+    <title>Harvesting and Preserving the Future Web: Content Capture Challenges</title>
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <div class="border"></div>
+    <nav class="nav-collapse" id="nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../biography.html">Biography</a></li>
+        <li><a href="../resume.html">R&eacute;sum&eacute;</a></li>
+        <li class="active"><a href="index.html">Blog</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content" itemscope itemtype="http://schema.org/BlogPosting">
+      <h2 itemprop="headline">Harvesting and Preserving the Future Web: Content Capture Challenges</h2>
+      <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="../biography.html" itemprop="url" rel="author"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2017-09-17T09:23:00-07:00" itemprop="dateModified" /><time datetime="2012-06-01T13:03:54+00:00" itemprop="datePublished">1 June 2012</time></div>
+      <br />
+      <div itemprop="articleBody">
+        <div>Following our earlier <a href="https://blogs.loc.gov/digitalpreservation/2012/05/iipc12-a-week-of-web-archiving/">summary</a> of the recent <a href="https://netpreserve.org/">International Internet Preservation Consortium</a> <a href="https://netpreserve.org/events/2012ga.php">General Assembly</a>, I thought I'd share some of the insights from the workshop, "<a href="https://www.netpreserve.org/events/2012ga.php#20120503">Harvesting and Preserving the Future Web</a>".</div>
+        <br />
+        <div>The workshop was divided into three topics:</div>
+        <ol>
+          <li>capture, challenges in acquiring web content;</li>
+          <li>replay, challenges in recreating the user experience from the archived content; and</li>
+          <li>scale, challenges in doing both of these at <a href="http://orweblog.oclc.org/archives/001238.html">web scale</a>.</li>
+        </ol>
+        <div>I'll be talking about capture here, leaving replay and scale for <a href="2012-06-18-harvesting-and-preserving-the-future-web-replay-and-scale-challenges.html">a second post</a>.</div>
+        <h3>Capture</h3>
+        <div><a href="https://archive.org/about/bios.php">Kris Carpenter Negulescu</a> from the <a href="https://archive.org/">Internet Archive</a> cued up the session with an <a href="https://www.netpreserve.org/events/dc_ga/04_Thursday/Harvesting%20the%20Future%20Web/OverviewFutureWebWorkshop.pdf">overview</a> (PDF) of challenges to capturing web content. She noted that the <a href="https://en.wikipedia.org/w/index.php?title=Semantic_Web&amp;oldid=494551462#Semantic_Web_solutions">web-as-a-collection-of-documents</a> is rapidly becoming something much more akin to a <a href="http://www.wired.com/cloudline/2012/05/web-cloud-api/">programming environment</a>, marked by <a href="https://en.wikipedia.org/w/index.php?title=Rich_Internet_application&amp;oldid=493892922">desktop-like interactive applications</a>, complex service and content <a href="https://en.wikipedia.org/w/index.php?title=Mashup_(web_application_hybrid)&amp;oldid=490951127">mashups</a>, <a href="https://en.wikipedia.org/w/index.php?title=Social_networking_service&amp;oldid=495307052">social networking services</a>, <a href="https://en.wikipedia.org/w/index.php?title=Streaming_media&amp;oldid=494454480">streaming media</a>, and <a href="https://en.wikipedia.org/w/index.php?title=Virtual_world&amp;oldid=494643886">immersive worlds</a>.</div>
+        <br />
+        <div>Kris also provided an overview of current and prospective strategies for tackling these challenges: making the traditional <a href="https://en.wikipedia.org/w/index.php?title=Web_crawler&amp;oldid=494153924">web crawler</a> behave more like a browser; integrate diverse approaches into unified workflows; design and code new custom tools; record screenshots to capture look-and-feel; record video of user interactions; and deposit web content into archives.</div>
+        <br />
+        <div>Adam Miller, also from Internet Archive, explained his use of <a href="http://phantomjs.org/">PhantomJS</a>, a <a href="http://blog.arhg.net/2009/10/what-is-headless-browser.html">headless browser</a>, to identify JavaScript links and trigger AJAX content that might otherwise be opaque to <a href="https://en.wikipedia.org/w/index.php?title=Heritrix&amp;oldid=493621270">Heritrix</a>. <a href="https://public.lanl.gov/herbertv/home/">Herbert van de Sompel</a> from <a href="https://lanl.gov/">Los Alamos National Laboratories</a> <a href="http://library.lanl.gov/">Research Library</a> followed, <a href="https://www.netpreserve.org/events/dc_ga/04_Thursday/Harvesting the Future Web/LANL_RL_IIPC_2012.pdf">presenting</a> (PDF) a non-traditional web archiving paradigm called <a href="https://en.wikipedia.org/w/index.php?title=Web_archiving&amp;oldid=488244066#Transactional_archiving">transactional web archiving</a>. Instead of dispatching a client crawler, a transactional archive-enabled web server would "archive itself" by mirroring its <a href="https://en.wikipedia.org/w/index.php?title=List_of_HTTP_header_fields&amp;oldid=495004873#Responses">HTTP responses</a> to an archive.</div>
+        <br />
+        <div>Notwithstanding overcoming some of the technical challenges in capturing content, there was consensus that increasing personalization and integration of third-party services was eroding the notion that any sort of canonical user experience could be archived. <a href="https://www.lockss.org/contact-us/dshr/">David Rosenthal</a> from the <a href="https://www.lockss.org/">LOCKSS Program</a> expressed this sentiment most eloquently with the comment, "we may have to settle for capturing 'a' user experience rather than 'the' user experience."</div>
+        <br />
+        <div>On the other hand, it could be said that which has been archived of the web so far hasn't been as generic as supposed, given extant <a href="https://en.wikipedia.org/w/index.php?title=Personalization&amp;oldid=491224160#Web_pages">customization</a> based on <a href="https://en.wikipedia.org/w/index.php?title=Geotargeting&amp;oldid=481865084">geography</a>, <a href="https://en.wikipedia.org/w/index.php?title=User_agent&amp;oldid=490262714#User_agent_sniffing">user-agent</a>, and <a href="https://en.wikipedia.org/w/index.php?title=HTTP_cookie&amp;oldid=494766286#Personalization">cookies</a>. Kris took this point further, arguing that we should be careful to suppose that archives have even historically been representative of a "universalized" social experience; some of the oldest preserved documents reflect only the upper classes of ancient Egyptian society.</div>
+        <br />
+        <div>Summarizing the session, my takeaway was that the field needed not only innovative new technical approaches to capturing content but also an evolution in understanding of what it meant to "archive the web."</div>
+        <br />
+        <div>For another account of the session, please see also David Rosenthal's <a href="https://blog.dshr.org/2012/05/harvesting-and-preserving-future-web.html">write-up</a>.</div>
+      </div>
+      <br />
+      <div class="byline"><a href="https://nullhandle.org/blog/2012-06-01-harvesting-and-preserving-the-future-web-content-capture-challenges.html" rel="canonical">Permalink</a> | <a href="https://blogs.loc.gov/thesignal/2012/06/harvesting-and-preserving-the-future-web-replay-and-scale-challenges/">Crossposted</a> to <a href="https://blogs.loc.gov/thesignal/">The Signal</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" width="80" /></a></div>
+      <br />
+      <script>
+        var nav = responsiveNav(".nav-collapse");
+      </script>
+    </div>
+  </body>
+</html>
