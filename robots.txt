@@ -1,2 +1,23 @@
-User-agent: * 
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: facebot
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: YandexBot
 Disallow: /
