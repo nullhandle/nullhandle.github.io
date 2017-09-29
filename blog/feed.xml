@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <description>Nicholas Taylor's website</description>
     <link>https://nullhandle.org/</link>
     <title>nullhandle.org</title>
+    <item>
+      <title>Changing LOCKSS</title>
+      <link>2017-03-21-changing-lockss.html</link>
+      <pubDate>2017-03-21T00:00:00-07:00</pubDate>
+      <description>On a fall day in 1999, a hike &lt;a href="https://www.sccgov.org/sites/parks/parkfinder/Pages/JosephDGrant.aspx"&gt;in the woods&lt;/a&gt; became the backdrop for a spontaneous problem-solving session on the preservation gap affecting online journals. The hikers, an electronic serials librarian (&lt;a href="https://www.lockss.org/contact-us/victoria-reich/"&gt;Vicky Reich&lt;/a&gt;) and a computer scientist (&lt;a href="https://www.lockss.org/contact-us/dshr/"&gt;David Rosenthal&lt;/a&gt;), sketched out a plan to replicate the incidentally distributed, redundant architecture by which print journals had been preserved, in a digital system. They brought the proposal to the Stanford University Librarian, &lt;a href="https://profiles.stanford.edu/michael-keller"&gt;Michael Keller&lt;/a&gt;, who famously blessed the project with the admonition, "don't cost me any money; don't get me into trouble; do what you want."</description>
+    </item>
     <item>
       <title>Transferring "Libraries of Congress" of Data</title>
       <link>2011-07-11-transferring-libraries-of-congress-of-data.html</link>
