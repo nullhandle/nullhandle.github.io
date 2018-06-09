@@ -1,228 +1,418 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://nullhandle.org/</loc>
+    <loc>https://nullhandle.org/</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/biography.html</loc>
+    <loc>https://nullhandle.org/biography.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2011.html</loc>
+    <loc>https://nullhandle.org/blog/2011.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2011-07-11-transferring-libraries-of-congress-of-data.html</loc>
+    <loc>https://nullhandle.org/blog/2011-07-11-transferring-libraries-of-congress-of-data.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2011-08-18-web-archive-preservation-planning.html</loc>
+    <loc>https://nullhandle.org/blog/2011-08-18-web-archive-preservation-planning.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2011-11-08-the-average-lifespan-of-a-webpage.html</loc>
+    <loc>https://nullhandle.org/blog/2011-11-08-the-average-lifespan-of-a-webpage.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2012.html</loc>
+    <loc>https://nullhandle.org/blog/2012.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2012-02-06-designing-preservable-websites-redux.html</loc>
+    <loc>https://nullhandle.org/blog/2012-02-06-designing-preservable-websites-redux.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2012-03-28-the-value-of-a-broken-link.html</loc>
+    <loc>https://nullhandle.org/blog/2012-03-28-the-value-of-a-broken-link.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2012-06-01-harvesting-and-preserving-the-future-web-content-capture-challenges.html</loc>
+    <loc>https://nullhandle.org/blog/2012-06-01-harvesting-and-preserving-the-future-web-content-capture-challenges.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2012-06-18-harvesting-and-preserving-the-future-web-replay-and-scale-challenges.html</loc>
+    <loc>https://nullhandle.org/blog/2012-06-18-harvesting-and-preserving-the-future-web-replay-and-scale-challenges.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2012-08-06-the-immeasurable-library-of-congress.html</loc>
+    <loc>https://nullhandle.org/blog/2012-08-06-the-immeasurable-library-of-congress.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2012-10-26-using-wayback-machine-for-research.html</loc>
+    <loc>https://nullhandle.org/blog/2012-10-26-using-wayback-machine-for-research.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2013.html</loc>
+    <loc>https://nullhandle.org/blog/2013.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2013-04-30-link-persistence-website-persistence.html</loc>
+    <loc>https://nullhandle.org/blog/2013-04-30-link-persistence-website-persistence.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2013-11-05-anatomy-of-a-web-archive.html</loc>
+    <loc>https://nullhandle.org/blog/2013-11-05-anatomy-of-a-web-archive.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014.html</loc>
+    <loc>https://nullhandle.org/blog/2014.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-04-18-personal-digital-web-archiving.html</loc>
+    <loc>https://nullhandle.org/blog/2014-04-18-personal-digital-web-archiving.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-04-29-campaign-web-archives-support-multi-institutional-research.html</loc>
+    <loc>https://nullhandle.org/blog/2014-04-29-campaign-web-archives-support-multi-institutional-research.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-06-12-recap-of-international-web-archiving-community-meeting.html</loc>
+    <loc>https://nullhandle.org/blog/2014-06-12-recap-of-international-web-archiving-community-meeting.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-07-28-the-mh17-crash-and-selective-web-archiving.html</loc>
+    <loc>https://nullhandle.org/blog/2014-07-28-the-mh17-crash-and-selective-web-archiving.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-09-17-reliable-and-confidential-archiving-of-u-s-supreme-court-web-cites.html</loc>
+    <loc>https://nullhandle.org/blog/2014-09-17-reliable-and-confidential-archiving-of-u-s-supreme-court-web-cites.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-09-29-guidance-on-building-archivable-websites.html</loc>
+    <loc>https://nullhandle.org/blog/2014-09-29-guidance-on-building-archivable-websites.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-10-09-web-observatory-briefing-and-workshop.html</loc>
+    <loc>https://nullhandle.org/blog/2014-10-09-web-observatory-briefing-and-workshop.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-10-20-designing-for-archivability.html</loc>
+    <loc>https://nullhandle.org/blog/2014-10-20-designing-for-archivability.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-10-28-explore-the-oldest-us-website.html</loc>
+    <loc>https://nullhandle.org/blog/2014-10-28-explore-the-oldest-us-website.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-11-04-noteworthy-discoveries-in-the-slac-web-archive.html</loc>
+    <loc>https://nullhandle.org/blog/2014-11-04-noteworthy-discoveries-in-the-slac-web-archive.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2014-12-19-sul-joins-the-iipc-steering-committee.html</loc>
+    <loc>https://nullhandle.org/blog/2014-12-19-sul-joins-the-iipc-steering-committee.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2015.html</loc>
+    <loc>https://nullhandle.org/blog/2015.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2015-01-07-register-now-for-the-2015-iipc-general-assembly.html</loc>
+    <loc>https://nullhandle.org/blog/2015-01-07-register-now-for-the-2015-iipc-general-assembly.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2015-03-25-the-history-of-the-iipc-through-web-archives.html</loc>
+    <loc>https://nullhandle.org/blog/2015-03-25-the-history-of-the-iipc-through-web-archives.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2015-05-18-looking-ahead-from-the-2015-iipc-general-assembly.html</loc>
+    <loc>https://nullhandle.org/blog/2015-05-18-looking-ahead-from-the-2015-iipc-general-assembly.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2015-07-13-sul-developer-wins-best-poster-award-at-jcdl.html</loc>
+    <loc>https://nullhandle.org/blog/2015-07-13-sul-developer-wins-best-poster-award-at-jcdl.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2015-09-03-recap-of-web-archiving-at-saa-annual-meeting.html</loc>
+    <loc>https://nullhandle.org/blog/2015-09-03-recap-of-web-archiving-at-saa-annual-meeting.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2015-12-09-browsing-the-ancient-web-with-an-ancient-browser.html</loc>
+    <loc>https://nullhandle.org/blog/2015-12-09-browsing-the-ancient-web-with-an-ancient-browser.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2015-12-17-questions-of-ethics-at-web-archives-2015.html</loc>
+    <loc>https://nullhandle.org/blog/2015-12-17-questions-of-ethics-at-web-archives-2015.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2016.html</loc>
+    <loc>https://nullhandle.org/blog/2016.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2016-03-01-resources-for-research-using-web-archives.html</loc>
+    <loc>https://nullhandle.org/blog/2016-03-01-resources-for-research-using-web-archives.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2016-03-21-upcoming-seminar-by-digital-humanities-and-internet-studies-scholar.html</loc>
+    <loc>https://nullhandle.org/blog/2016-03-21-upcoming-seminar-by-digital-humanities-and-internet-studies-scholar.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2016-05-12-reflections-on-the-2016-iipc-general-assembly-and-web-archiving-conference.html</loc>
+    <loc>https://nullhandle.org/blog/2016-05-12-reflections-on-the-2016-iipc-general-assembly-and-web-archiving-conference.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/2017-03-21-changing-lockss.html</loc>
+    <loc>https://nullhandle.org/blog/2017-03-21-changing-lockss.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/blog/index.html</loc>
+    <loc>https://nullhandle.org/blog/index.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/contact.html</loc>
+    <loc>https://nullhandle.org/contact.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/index.html</loc>
+    <loc>https://nullhandle.org/index.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
-    <loc>http://nullhandle.org/resume.html</loc>
+    <loc>https://nullhandle.org/resume.html</loc>
     <lastmod>2017-09-24T17:10:07+00:00</lastmod>
     <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2009-02-09_usability_testing_in_federal_libraries.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2011-05-17_where_we're_going.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2011-06-16_web_and_twitter_archiving_at_the_library_of_congress.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2012-07-18_designing_preservable_websites.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2012-10_using_wayback_machine_for_research.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2012-12-20_tool_academy.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2013-02-11_web_archiving_legacy.com.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2013-02-21_a_survey_of_research_prospects_for_more_manageable_personal_digital_photo_collections.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2014-04-19_building_archivable_websites.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2014-05-07_advocating_for_web_archivability.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2014-05-12_boiling_the_ocean,_together.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2014-05-23_considerations_for_strategic_web_archive_collection_development.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2014-08-13_2013_ndsa_web_archiving_survey_report_highlights.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2014-08-15_campaign_web_archives_to_support_multi-institutional_research.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2014-11-18_a_snapshot_of_the_u.s._web_archiving_landscape.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2015-08-15_measure_all_the_(web_archiving)_things!.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2015-08-21_outreach_to_campus_webmasters_for_a_better_web,_and_better_web_archiving.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2015-11-13_building_web_archiving_technology,_together.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-03-11_one_site_among_many.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-04-12_sul_web_archiving_before_and_beyond_the_cdl_was_transition.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-04-12_wasapi_technical_working_group_update.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-06-14_wasapi_web_archive_data_transfer_apis.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-08-01_why_not_lots_of_copies_keep(ing)_software_safe.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-08-02_collection_development_for_selective_web_archiving.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-08-03_2015_ndsa_web_archiving_survey_report_highlights.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-08-04_rethinking_web_archiving_quality_assurance.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-08-22_interoperability_and_technical_collaboration_for_web_and_social_media_archiving.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-12-01_clockss,_lockss,_and_the_long_tail.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2016-12-12_lots_of_lockss_keeping_stuff_safe.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2017-02-22_unlocking_lockss_with_apis.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2017-03-25_lockss_for_coppul,_and_lots_of_lockss_keeping_stuff_safe.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2017-03-29_unlocking_lockss_with_apis.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2017-06-15_lots_more_lockss_for_web_archiving.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2017-06-16_understanding_legal_use_cases_for_web_archives.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2017-10-05_a_new_architecture_for_lockss_interoperability_and_community_engagement.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2017-10-25_systems_to_stem_government_threats_to_government_information.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2017-12-11_web_archiving_systems_apis_(wasapi)_for_systems_interoperability_and_collaborative_technical_development.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2018-05-14_distributed_digital_preservation_with_lockss.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
   </url>
 </urlset>
