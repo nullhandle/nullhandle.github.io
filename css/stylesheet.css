@@ -361,6 +361,10 @@ nav ol, nav ul {
   font-weight: 900;
 }
 
+.proper-name {
+  font-style: italic;
+}
+
 .word-cloud {
   display: block;
   margin: 0px auto;
