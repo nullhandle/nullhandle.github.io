@@ -273,7 +273,7 @@ nav ol, nav ul {
   color: white;
   float: left;
   font-size: 112.5%;
-  font-weight: 400px;
+  /*font-weight: 400px;*/
   letter-spacing: 2px;
   padding: 0.5em 1em;
   text-decoration: none;
