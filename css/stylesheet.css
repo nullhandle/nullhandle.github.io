@@ -223,11 +223,11 @@ nav ol, nav ul {
   font-weight: bold;
   padding: 1px 4px 1px;
 }
-
+/*
 .nav-collapse.disable-pointer-events {
   pointer-events: none;
 }
-
+*/
 .nav-collapse {
   font-family: "Open Sans", sans-serif;
   z-index: 1;
