@@ -5,6 +5,12 @@
     <link>https://nullhandle.org/</link>
     <title>nullhandle.org</title>
     <item>
+      <title>Scaling LOCKSS</title>
+      <link>2019-04-22-scaling-lockss.html</link>
+      <pubDate>2019-04-22T00:00:00-07:00</pubDate>
+      <description>Scale is a predictable preoccupation as memory institutions collectively contemplate the growing amount and size of candidate content for preservation. To ensure that limited resources have maximum impact, we want our digital preservation systems to scale well in terms of capacity and marginal cost, or efficiently maintain their effectiveness as capacity is increased. Folks considering LOCKSS wonder how a system conspicuously touting liberal replication as a core feature could possibly be scalable.</description>
+    </item>
+    <item>
       <title>LOCKSS Perspectives on the NDSA Levels of Digital Preservation</title>
       <link>2019-01-09-lockss-perspectives-on-the-ndsa-levels-of-digital-preservation.html</link>
       <pubDate>2019-01-09T00:00:00-08:00</pubDate>
