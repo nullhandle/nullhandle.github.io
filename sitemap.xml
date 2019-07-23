@@ -211,6 +211,11 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://nullhandle.org/blog/2018.html</loc>
+    <lastmod>2018-12-05T09:52:00-08:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://nullhandle.org/blog/2018-09-10-the-lockss-tortoise-now-in-cardinal.html</loc>
     <lastmod>2018-12-05T09:52:00-08:00</lastmod>
     <changefreq>yearly</changefreq>
@@ -218,6 +223,16 @@
   <url>
     <loc>https://nullhandle.org/blog/2018-11-30-trac-re-certification-of-the-clockss-archive.html</loc>
     <lastmod>2018-12-05T09:52:00-08:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/blog/2019-01-09-lockss-perspectives-on-the-ndsa-levels-of-digital-preservation.html</loc>
+    <lastmod>2019-01-09T22:32:00-07:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/blog/2019-04-22-scaling-lockss.html</loc>
+    <lastmod>2019-04-22T22:32:00-07:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -427,6 +442,41 @@
   </url>
   <url>
     <loc>https://nullhandle.org/pdf/2018-05-14_distributed_digital_preservation_with_lockss.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2018-10-16_recentering_community_for_decentralized_digital_preservation.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2018-11-13_sul_eal_web_archiving_programmatic_and_technical_concerns.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2018-11-27_fall_2018_web_archiving_updates.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2019-01-22_lockss_program_update,_january_2019.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2019-01-29_continuing_to_keep_stuff_safe_with_lots_of_copies,_communities,_and_innovation.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2019-03-12_collaborative,_self-governed,_secure_digital_preservation_with_lockss.pdf</loc>
+    <lastmod>2018-06-09T23:44:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2019-04-08_lots_of_checksums_keep_stuff_safer.pdf</loc>
     <lastmod>2018-06-09T23:44:00+00:00</lastmod>
     <changefreq>never</changefreq>
   </url>
