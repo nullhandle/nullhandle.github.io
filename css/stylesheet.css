@@ -20,6 +20,8 @@ figcaption {
   display: table-caption;
   font-size: .75em;
   padding-bottom: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
   text-align: center;
 }
 
@@ -29,11 +31,6 @@ figure {
   display: table;
   margin: 5px 20px 5px 5px;
   padding: 4px;
-}
-
-figure img {
-    display: block;
-    width: 100%;
 }
 
 h1 {
