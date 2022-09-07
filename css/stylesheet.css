@@ -220,6 +220,10 @@ nav ol, nav ul {
   font-weight: bold;
   padding: 1px 4px 1px;
 }
+
+.monospace {
+  font-family: monospace;
+}
 /*
 .nav-collapse.disable-pointer-events {
   pointer-events: none;
