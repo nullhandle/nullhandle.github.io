@@ -256,6 +256,11 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://nullhandle.org/blog/2022-09-20-caveats-on-the-internet-archive-standard-affidavit.html</loc>
+    <lastmod>2022-09-20T23:59:00-06:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://nullhandle.org/blog/index.html</loc>
     <lastmod>2022-09-06T22:00:00-06:00</lastmod>
     <changefreq>monthly</changefreq>

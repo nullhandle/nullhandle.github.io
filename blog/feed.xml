@@ -5,6 +5,12 @@
     <link>https://nullhandle.org/</link>
     <title>nullhandle.org</title>
     <item>
+      <title>Caveats on the Internet Archive Standard Affidavit</title>
+      <link>2022-09-20-caveats-on-the-internet-archive-standard-affidavit.html</link>
+      <pubDate>2022-09-20T23:59:00-06:00</pubDate>
+      <description>The &lt;a href="https://archive.org/legal/affidavit.php"&gt;Internet Archive (IA) standard affidavit&lt;/a&gt; has for some time functioned as a routine, reliable mechanism for the authentication and admission of Internet Archive Wayback Machine (IAWM) evidence in legal proceedings. While the prevailing acceptance of the IA standard affidavit for this purpose is probably reasonable, it is important to be mindful of IA's own stated qualifications on their attestation. The gap between authentic copies of IA's records and faithful re-presentations of historical webpages may be significant, and legally material.</description>
+    </item>
+    <item>
       <title>Web Archivability Guidance Refreshed and Republished</title>
       <link>2022-09-06-web-archivability-guidance-refreshed-and-republished.html</link>
       <pubDate>2022-09-06T22:00:00-06:00</pubDate>
