@@ -6,241 +6,241 @@
     <title>nullhandle.org</title>
     <item>
       <title>Caveats on the Internet Archive Standard Affidavit</title>
-      <link>2022-09-20-caveats-on-the-internet-archive-standard-affidavit.html</link>
+      <link>/blog/2022-09-20-caveats-on-the-internet-archive-standard-affidavit.html</link>
       <pubDate>2022-09-20T23:59:00-06:00</pubDate>
       <description>The &lt;a href="https://archive.org/legal/affidavit.php"&gt;Internet Archive (IA) standard affidavit&lt;/a&gt; has for some time functioned as a routine, reliable mechanism for the authentication and admission of Internet Archive Wayback Machine (IAWM) evidence in legal proceedings. While the prevailing acceptance of the IA standard affidavit for this purpose is probably reasonable, it is important to be mindful of IA's own stated qualifications on their attestation. The gap between authentic copies of IA's records and faithful re-presentations of historical webpages may be significant, and legally material.</description>
     </item>
     <item>
       <title>Web Archivability Guidance Refreshed and Republished</title>
-      <link>2022-09-06-web-archivability-guidance-refreshed-and-republished.html</link>
+      <link>/blog/2022-09-06-web-archivability-guidance-refreshed-and-republished.html</link>
       <pubDate>2022-09-06T22:00:00-06:00</pubDate>
       <description>Starting in 2014, I authored and published an extensive set of &lt;a data-originalurl="https://library.stanford.edu/projects/web-archiving/archivability" data-versiondate="2019-12-11" href="https://web.archive.org/web/20191211213544/https://library.stanford.edu/projects/web-archiving/archivability"&gt;web archivability guidelines&lt;/a&gt; in my role as the Service Manager for &lt;a href="https://library.stanford.edu/">Stanford Libraries&lt;/a&gt; &lt;a href="https://library.stanford.edu/projects/web-archiving"&gt;Web Archiving&lt;/a&gt;. Some time after I left in 2019, the staff who succeeded me apparently concluded that they no longer had the expertise to maintain the webpages and decided to unpublish them. This was an understandable though unfortunate decision, as it was one of few &lt;a data-originalurl="https://library.stanford.edu/projects/web-archiving/archivability/resources" data-versiondate="2020-06-21" href="https://web.archive.org/web/20200621000031/https://library.stanford.edu/projects/web-archiving/archivability/resources"&gt;contemporary community resources on the topic&lt;/a&gt;.</description>
     </item>
     <item>
       <title>The Sedona Conference on Wayback Machine Evidence</title>
-      <link>2021-08-18-the-sedona-conference-on-wayback-machine-evidence.html</link>
+      <link>/blog/2021-08-18-the-sedona-conference-on-wayback-machine-evidence.html</link>
       <pubDate>2021-08-18T07:00:00-06:00</pubDate>
       <description>Having worked in web archiving and also in and around the law and technology, I'm interested in seeing that courts and legal professionals better understand and make appropriate determinations regarding &lt;a href="https://archive.org/web/"&gt;Internet Archive Wayback Machine&lt;/a&gt; (IAWM) evidence.</description>
     </item>
     <item>
       <title>Scaling LOCKSS</title>
-      <link>2019-04-22-scaling-lockss.html</link>
+      <link>/blog/2019-04-22-scaling-lockss.html</link>
       <pubDate>2019-04-22T00:00:00-07:00</pubDate>
       <description>Scale is a predictable preoccupation as memory institutions collectively contemplate the growing amount and size of candidate content for preservation. To ensure that limited resources have maximum impact, we want our digital preservation systems to scale well in terms of capacity and marginal cost, or efficiently maintain their effectiveness as capacity is increased. Folks considering LOCKSS wonder how a system conspicuously touting liberal replication as a core feature could possibly be scalable.</description>
     </item>
     <item>
       <title>LOCKSS Perspectives on the NDSA Levels of Digital Preservation</title>
-      <link>2019-01-09-lockss-perspectives-on-the-ndsa-levels-of-digital-preservation.html</link>
+      <link>/blog/2019-01-09-lockss-perspectives-on-the-ndsa-levels-of-digital-preservation.html</link>
       <pubDate>2019-01-09T00:00:00-08:00</pubDate>
       <description>In 2013, a team of librarians, archivists, curators, engineers, and other technologists workshopped then published the &lt;a href="https://ndsa.org/activities/levels-of-digital-preservation/"&gt;NDSA Levels of Digital Preservation&lt;/a&gt;, a resource outlining high-level, progressive enhancements in digital preservation practices across a number of dimensions. A &lt;a href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=%22ndsa+levels+of+digital+preservation%22&amp;btnG="&gt;na&iuml;ve&lt;/a&gt; &lt;a href="https://duckduckgo.com/?q=%22ndsa+levels+of+preservation%22&amp;t=ffab&amp;atb=v125-3b_&amp;ia=web"&gt;review&lt;/a&gt; of its application in the intervening time suggests that it is regarded as a legitimate assessment and planning tool, and a foundation upon which to articulate new and/or improved preservation best practices.</description>
     </item>
     <item>
       <title>TRAC Re-Certification of the CLOCKSS Archive</title>
-      <link>2018-11-30-trac-re-certification-of-the-clockss-archive.html</link>
+      <link>/blog/2018-11-30-trac-re-certification-of-the-clockss-archive.html</link>
       <pubDate>2018-11-30T00:00:00-08:00</pubDate>
       <description>We are pleased to amplify the &lt;a href="https://clockss.org/"&gt;CLOCKSS Archive&lt;/a&gt;'s &lt;a href="https://clockss.org/2018/11/clockss-announces-its-trac-re-certification/"&gt;recent announcement&lt;/a&gt; of their &lt;a href="https://www.crl.edu/reports/clockss-audit-report"&gt;successfully-completed re-certification&lt;/a&gt; under the &lt;a href="https://www.crl.edu/sites/default/files/d6/attachments/pages/trac_0.pdf"&gt;Trusted Repositories Audit and Certification (TRAC) criteria&lt;/a&gt; (PDF), conducted by the &lt;a href="https://www.crl.edu/"&gt;Center for Research Libraries&lt;/a&gt;. The LOCKSS Program is closely engaged in support of the CLOCKSS Archive, carrying out content processing and ingest on its behalf, and managing its infrastructure in partnership with its &lt;a href="https://clockss.org/archive-nodes/"&gt;global Governing Library partners&lt;/a&gt;.</description>
     </item>
     <item>
       <title>The LOCKSS Tortoise, Now in Cardinal</title>
-      <link>2018-09-10-the-lockss-tortoise-now-in-cardinal.html</link>
+      <link>/blog/2018-09-10-the-lockss-tortoise-now-in-cardinal.html</link>
       <pubDate>2018-09-10T00:00:00-08:00</pubDate>
       <description>We are pleased to announce a new look and website for the LOCKSS Program! We invite you to learn more about &lt;a href="https://www.lockss.org/about/why-lockss"&gt;why many of the world's leading libraries choose LOCKSS&lt;/a&gt;, the &lt;a href="https://www.lockss.org/about/preservation-principles"&gt;digital preservation principles that set us apart&lt;/a&gt;, and the &lt;a href="https://www.lockss.org/join-lockss/case-studies"&gt;diverse digital preservation use cases that LOCKSS serves&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Changing LOCKSS</title>
-      <link>2017-03-21-changing-lockss.html</link>
+      <link>/blog/2017-03-21-changing-lockss.html</link>
       <pubDate>2017-03-21T00:00:00-07:00</pubDate>
       <description>On a fall day in 1999, a hike &lt;a href="https://www.sccgov.org/sites/parks/parkfinder/Pages/JosephDGrant.aspx"&gt;in the woods&lt;/a&gt; became the backdrop for a spontaneous problem-solving session on the preservation gap affecting online journals. The hikers, an electronic serials librarian (&lt;a href="https://www.lockss.org/contact-us/victoria-reich/"&gt;Vicky Reich&lt;/a&gt;) and a computer scientist (&lt;a href="https://www.lockss.org/contact-us/dshr/"&gt;David Rosenthal&lt;/a&gt;), sketched out a plan to replicate the incidentally distributed, redundant architecture by which print journals had been preserved, in a digital system. They brought the proposal to the Stanford University Librarian, &lt;a href="https://profiles.stanford.edu/michael-keller"&gt;Michael Keller&lt;/a&gt;, who famously blessed the project with the admonition, "don't cost me any money; don't get me into trouble; do what you want."</description>
     </item>
     <item>
       <title>Reflections on the 2016 IIPC General Assembly and Web Archiving Conference</title>
-      <link>2016-05-12-reflections-on-the-2016-iipc-general-assembly-and-web-archiving-conference.html</link>
+      <link>/blog/2016-05-12-reflections-on-the-2016-iipc-general-assembly-and-web-archiving-conference.html</link>
       <pubDate>2016-05-12T00:00:00-07:00</pubDate>
       <description>In keeping with shallow tradition, it's taken me a few weeks to collect my thoughts on the recently-concluded &lt;a data-originalurl="https://www.netpreserve.org/general-assembly/2016/overview" data-versiondate="2016-04-21" href="https://web.archive.org/web/20160421043812/http://www.netpreserve.org:80/general-assembly/2016/overview"&gt;IIPC General Assembly and Web Archiving Conference&lt;/a&gt;, hosted this year by the &lt;a href="https://landsbokasafn.is/index.php/english"&gt;National and University Library of Iceland&lt;/a&gt;. In the wake of last year's meeting, I &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2015/05/looking-ahead-2015-iipc-general-assembly"&gt;speculated&lt;/a&gt; on what developments in web archiving we might together effect in the year ahead (now behind). Nearly a year later, that conceit provides a convenient jumping-off point for reflecting on how it all went, where we might go from here, and the tremendous amount of work to do in our one remaining collective month before the anniversary of that post. :)</description>
     </item>
     <item>
       <title>Upcoming seminar by digital humanities and internet studies scholar</title>
-      <link>2016-03-21-upcoming-seminar-by-digital-humanities-and-internet-studies-scholar.html</link>
+      <link>/blog/2016-03-21-upcoming-seminar-by-digital-humanities-and-internet-studies-scholar.html</link>
       <pubDate>2016-03-21T00:00:00-07:00</pubDate>
       <description>Dovetailing our &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2016/03/resources-research-using-web-archives"&gt;recent announcement&lt;/a&gt; of documentation of &lt;a href="https://library.stanford.edu/projects/web-archiving/research-resources"&gt;resources for research using web archives&lt;/a&gt;, we will be visited next month by an individual who has done much to advance web archives as materials of scholarly interest and exploration. &lt;a href="http://pure.au.dk/portal/en/persons/id%282814967c-56b1-4b7c-9599-50ff791909b7%29.html"&gt;Niels Br&uuml;gger&lt;/a&gt; is Professor of Internet Studies and Digital Humanities at &lt;a href="http://www.au.dk/en/"&gt;Aarhus University&lt;/a&gt; in Denmark, where he also heads the &lt;a href="http://cfi.au.dk/"&gt;Centre for Internet Studies&lt;/a&gt; and &lt;a href="http://pure.au.dk/portal/en/projects/netlab%2838adf78c-5207-495b-a71e-23343f4e3b45%29.html"&gt;NetLab&lt;/a&gt;. On Thursday, April 7th he will present, &lt;em&gt;Digital Humanities, Web History, Web Archives, and Web Research Infrastructure &amp;mdash; between close and distant reading&lt;/em&gt;, followed by discussion. Additional event details may be found on the &lt;a href="https://events.stanford.edu/events/589/58941/"&gt;Stanford Event Calendar page&lt;/a&gt;. We hope you'll join us!</description>
     </item>
     <item>
       <title>Resources for research using web archives</title>
-      <link>2016-03-01-resources-for-research-using-web-archives.html</link>
+      <link>/blog/2016-03-01-resources-for-research-using-web-archives.html</link>
       <pubDate>2016-03-01T00:00:00-07:00</pubDate>
       <description>Since &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2014/04/campaign-web-archives-support-multi-institutional-research"&gt;our collaboration with political science researchers using web archives to understand the 2014 U.S. congressional elections&lt;/a&gt;, we've seen (and, hopefully, helped foster) growing interest in web archives as primary source material. This trend parallels a similar refocusing by other web archiving programs toward enhancing access services and facilitating research use. The maturity and the variety of these efforts, as well as the accumulating body of resulting research, provide an expanding list of references with which to orient and entice prospective researchers to the potential of working with web archives.</description>
     </item>
     <item>
       <title>Questions of ethics at Web Archives 2015</title>
-      <link>2015-12-17-questions-of-ethics-at-web-archives-2015.html</link>
+      <link>/blog/2015-12-17-questions-of-ethics-at-web-archives-2015.html</link>
       <pubDate>2015-12-17T00:00:00-07:00</pubDate>
       <description>A welcome complement to the lately growing number of web archiving-specific events, the inaugural &lt;em&gt;&lt;a href="https://www.lib.umich.edu/webarchivesconference"&gt;Web Archives: Capture, Curate, Analyze&lt;/a&gt;&lt;/em&gt; conference (&lt;a href="https://twitter.com/search?q=%23webarc15&amp;amp;src=typd"&gt;tweet stream&lt;/a&gt;) brought together an eclectic crowd of researchers, instructors, students, archivists, librarians, developers, and others interested in web archiving. A novel mixture of institutions was also represented - some active principally through &lt;a href="http://netpreserve.org/"&gt;IIPC&lt;/a&gt;, many more associated with the &lt;a href="https://www2.archivists.org/groups/web-archiving-roundtable"&gt;SAA Web Archiving Roundtable&lt;/a&gt; and/or &lt;a href="https://webarchive.jira.com/wiki/display/ARIH/Archive-It+Resources,+Presentations+and+Events"&gt;Archive-It Partner&lt;/a&gt; communities, and still others who I'd not yet encountered in these more established, practitioner-centric fora.</description>
     </item>
     <item>
       <title>Browsing the ancient Web with an ancient browser</title>
-      <link>2015-12-09-browsing-the-ancient-web-with-an-ancient-browser.html</link>
+      <link>/blog/2015-12-09-browsing-the-ancient-web-with-an-ancient-browser.html</link>
       <pubDate>2015-12-09T00:00:00-07:00</pubDate>
       <description>The world's first websites were built for very different rendering and navigation interfaces than the comparatively advanced browsers available today. Thanks to the work of web archivists (e.g., &lt;a href="http://first-website.web.cern.ch/"&gt;CERN&lt;/a&gt;, &lt;a href="https://library.stanford.edu/search/website?search=slac%20%22web%20archive%22"&gt;SLAC&lt;/a&gt;), we can celebrate the incongruity of accessing some of these ancient websites using modern browsers. While a traditional goal of web archiving has been to preserve the "canonical" user experience of a website, this has been persistently impaired by (&lt;a href="http://blog.dshr.org/2012/05/harvesting-and-preserving-future-web.html"&gt;among other challenges&lt;/a&gt;) accessing web archives using software other than would've been available at the time content was archived.</description>
     </item>
     <item>
       <title>Recap of web archiving at SAA Annual Meeting</title>
-      <link>2015-09-03-recap-of-web-archiving-at-saa-annual-meeting.html</link>
+      <link>/blog/2015-09-03-recap-of-web-archiving-at-saa-annual-meeting.html</link>
       <pubDate>2015-09-03T00:00:00-07:00</pubDate>
       <description>"&lt;em&gt;What does it take to archive a linear foot of the Web?&lt;/em&gt;," &lt;a href="https://about.me/annaperricci"&gt;Anna Perricci&lt;/a&gt; posed rhetorically to our web archiving metrics breakout discussion group two weeks ago. I don't yet have a good answer for what the question's getting at, but I was gratified by the level of interest and engagement in web archiving as &lt;em&gt;archiving&lt;/em&gt; at the just-concluded &lt;a href="https://archivists.org/am2015"&gt;Society of American Archivists (SAA) Annual Meeting&lt;/a&gt; and inaugurally coscheduled &lt;a href="https://archive-it.org/blog/2015-agenda/"&gt;Archive-It Partner Meeting&lt;/a&gt;.</description>
     </item>
     <item>
       <title>SUL developer wins Best Poster Award at JCDL</title>
-      <link>2015-07-13-sul-developer-wins-best-poster-award-at-jcdl.html</link>
+      <link>/blog/2015-07-13-sul-developer-wins-best-poster-award-at-jcdl.html</link>
       <pubDate>2015-07-13T00:00:00-07:00</pubDate>
       <description>We've written before on &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2014/10/explore-oldest-us-website"&gt;our restoration of the oldest U.S. website&lt;/a&gt;, covering in detail &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2014/10/web-halloween-secrets-resurrecting-slac-dead-website-computer"&gt;how we did it&lt;/a&gt; and &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2014/11/noteworthy-discoveries-slac-web-archive"&gt;some interesting discoveries we made along the way&lt;/a&gt;. More recently, Web Archiving Engineer &lt;a href="https://library.stanford.edu/people/aalsum"&gt;Ahmed AlSum&lt;/a&gt; prepared a visual diagram (see below) of the steps involved in packaging, indexing, and making accessible the legacy web content in a poster for the &lt;a href="http://www.jcdl2015.org/"&gt;Joint Conference on Digital Libraries (JCDL)&lt;/a&gt;, an annual meeting sponsored by the &lt;a href="https://www.acm.org/"&gt;Association for Computing Machinery (ACM)&lt;/a&gt; and the &lt;a href="https://www.ieee.org/index.html"&gt;Institute of Electrical and Electronics Engineers (IEEE)&lt;/a&gt; focused on research and development for digital libraries. Notably, the display won the &lt;a href="https://pbs.twimg.com/media/CISBD-5WsAAtU9q.jpg:large"&gt;Best Poster Award&lt;/a&gt;! We celebrate the continued community interest in Ahmed's innovative work.</description>
     </item>
     <item>
       <title>Looking ahead from the 2015 IIPC General Assembly</title>
-      <link>2015-05-18-looking-ahead-from-the-2015-iipc-general-assembly.html</link>
+      <link>/blog/2015-05-18-looking-ahead-from-the-2015-iipc-general-assembly.html</link>
       <pubDate>2015-05-18T00:00:00-07:00</pubDate>
       <description>A couple of weeks have passed since the successful conclusion of the annual &lt;a href="https://netpreserve.org/general-assembly"&gt;IIPC General Assembly&lt;/a&gt;, hosted &lt;a data-originalurl="https://netpreserve.org/general-assembly/2015/overview" data-versiondate="2015-06-02" href="https://web.archive.org/web/20150602203422/http://netpreserve.org/general-assembly/2015/overview"&gt;this year&lt;/a&gt; by &lt;a href="https://library.stanford.edu/"&gt;Stanford University Libraries&lt;/a&gt; and &lt;a href="https://archive.org/"&gt;Internet Archive&lt;/a&gt;. The meeting has been well summarized already in posts by &lt;a href="https://ws-dl.blogspot.com/2015/05/2015-05-09-iipc-general-assembly-2015.html"&gt;Sawood Alam&lt;/a&gt;, &lt;a href="https://archive-it.org/blog/post/notes-from-iipc-general-assembly-2015"&gt;Jefferson Bailey&lt;/a&gt;, &lt;a href="https://translate.google.com/translate?sl=auto&amp;amp;tl=en&amp;amp;js=y&amp;amp;prev=_t&amp;amp;hl=en&amp;amp;ie=UTF-8&amp;amp;u=http%3A%2F%2Ffigoblog.org%2F%3Fs%3Diipc%2Bga%2B2015%26submit%3DRecherche&amp;amp;edit-text="&gt;Emmanuelle Bermes&lt;/a&gt;, &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2015/05/web-archiving-2015-quick-redux-iipcs-general-assembly-stanford"&gt;Tom Cramer&lt;/a&gt;, &lt;a href="https://translate.google.com/translate?sl=auto&amp;amp;tl=en&amp;amp;js=y&amp;amp;prev=_t&amp;amp;hl=en&amp;amp;ie=UTF-8&amp;amp;u=http%3A%2F%2Facervo.estadao.com.br%2Fnoticias%2Facervo%2Ciipc-trabalha-para-salvar-a-memoria-da-internet%2C11039%2C0.htm&amp;amp;edit-text="&gt;Carlos Eduardo Entini&lt;/a&gt;, and &lt;a href="https://webarchivehistorians.org/2015/05/11/iipc-2015-recap/"&gt;Ian Milligan&lt;/a&gt;. Rather than contributing another retrospective, I'd like to instead look ahead to 2016 and consider what the web archiving community might accomplish together in the coming year, highlighting some of the opportunities discussed and presented two weeks ago.</description>
     </item>
     <item>
       <title>The History of the IIPC, through Web Archives</title>
-      <link>2015-03-25-the-history-of-the-iipc-through-web-archives.html</link>
+      <link>/blog/2015-03-25-the-history-of-the-iipc-through-web-archives.html</link>
       <pubDate>2017-09-30T15:28:00-07:00</pubDate>
       <description>Web archives have now been around long enough that the web content they've preserved may never have been previously experienced by full-grown adults today; to this cohort, some websites were only ever "historical." Web archives represent an increasingly vital and singular body of cultural heritage and a tool for understanding both the past and social phenomena. They're also a handy tool for understanding the evolution of the IIPC itself.</description>
     </item>
     <item>
       <title>Register Now for the 2015 IIPC General Assembly</title>
-      <link>2015-01-07-register-now-for-the-2015-iipc-general-assembly.html</link>
+      <link>/blog/2015-01-07-register-now-for-the-2015-iipc-general-assembly.html</link>
       <pubDate>2015-01-07T00:00:00-07:00</pubDate>
       <description>Once each year, the international web archiving community represented by the &lt;a href="https://netpreserve.org/"&gt;International Internet Preservation Consortium&lt;/a&gt; meets for a week-long "General Assembly". As alluded to in &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2014/06/recap-international-web-archiving-community-meeting"&gt;my recap of the 2014 meeting&lt;/a&gt;, I'm pleased to belatedly announce that Stanford University is the confirmed host for the &lt;a data-originalurl="https://netpreserve.org/general-assembly/2015/overview" data-versiondate="2015-06-02" href="https://web.archive.org/web/20150602203422/http://netpreserve.org/general-assembly/2015/overview"&gt;2015 IIPC General Assembly&lt;/a&gt; as well as more promptly announce that &lt;a href="https://www.eventbrite.co.uk/e/iipc-general-assembly-2015-stanford-registration-14876707633"&gt;registration&lt;/a&gt; is now open!</description>
     </item>
     <item>
       <title>SUL Joins the IIPC Steering Committee</title>
-      <link>2014-12-19-sul-joins-the-iipc-steering-committee.html</link>
+      <link>/blog/2014-12-19-sul-joins-the-iipc-steering-committee.html</link>
       <pubDate>2014-12-19T00:00:00-07:00</pubDate>
       <description>We are pleased to announce the acceptance of our bid to join the &lt;a href="https://netpreserve.org/leadership"&gt;IIPC Steering Committee&lt;/a&gt;, based on a vote by the &lt;a href="https://netpreserve.org/about-us/members"&gt;IIPC membership&lt;/a&gt;. SUL joins the 15-member group as one of two currently-serving university library members (the other being the &lt;a href="http://www.library.unt.edu/"&gt;University of North Texas Libraries&lt;/a&gt;) and as the third university library to ever serve on the body (the other being the &lt;a href="http://www.cdlib.org/"&gt;California Digital Library&lt;/a&gt;).</description>
     </item>
     <item>
       <title>Noteworthy Discoveries in the SLAC Web Archive</title>
-      <link>2014-11-04-noteworthy-discoveries-in-the-slac-web-archive.html</link>
+      <link>/blog/2014-11-04-noteworthy-discoveries-in-the-slac-web-archive.html</link>
       <pubDate>2014-11-04T00:00:00-07:00</pubDate>
       <description>In the course of &lt;a href="https://library.stanford.edu/blogs/digital-library-blog/2014/10/explore-oldest-us-website"&gt;creating a browsable archive of the SLAC earliest websites&lt;/a&gt;, we discovered a number of interesting facts and features that might not be readily apparent on casual browsing. While surely not an exhaustive catalog, we hope that these observations will help you to quickly get into the archive and discover some of what it has to offer.</description>
     </item>
     <item>
       <title>Explore the Oldest U.S. Website</title>
-      <link>2014-10-28-explore-the-oldest-us-website.html</link>
+      <link>/blog/2014-10-28-explore-the-oldest-us-website.html</link>
       <pubDate>2014-10-28T00:00:00-07:00</pubDate>
       <description>At a microscopic level, &lt;a href="https://en.wikipedia.org/wiki/Web_archiving"&gt;web archives&lt;/a&gt; document the evolution of individual websites. At a macroscopic level, they document the evolution of the Web itself. In the case of web archives for the period when the entire Web consisted of only a handful of individual websites, changes to even a single website reflect changes to the Web itself. We are pleased to announce the availability of such an archive, notably featuring &lt;em&gt;&lt;a href="https://swap.stanford.edu/19911206000000/http://slacvm.slac.stanford.edu/FIND/default.html"&gt;the oldest U.S. website&lt;/a&gt;&lt;/em&gt;, dating to December 21, 1991.</description>
     </item>
     <item>
       <title>Designing for Archivability</title>
-      <link>2014-10-20-designing-for-archivability.html</link>
+      <link>/blog/2014-10-20-designing-for-archivability.html</link>
       <pubDate>2014-10-20T08:56:24-07:00</pubDate>
       <description>Web archives are a great way to reference or recover deprecated site content. You can help to ensure that old versions of your website will be faithfully preserved by designing for archivability.</description>
     </item>
     <item>
       <title>Web Observatory Briefing and Workshop</title>
-      <link>2014-10-09-web-observatory-briefing-and-workshop.html</link>
+      <link>/blog/2014-10-09-web-observatory-briefing-and-workshop.html</link>
       <pubDate>2014-10-09T00:00:00-07:00</pubDate>
       <description>A couple of weeks ago, Stanford University Libraries hosted &lt;a href="http://users.ecs.soton.ac.uk/wh/"&gt;Dame Wendy Hall&lt;/a&gt;, &lt;a href="http://www.cs.rpi.edu//~hendler/"&gt;Jim Hendler&lt;/a&gt;, and other &lt;a href="https://en.wikipedia.org/wiki/Web_science"&gt;web scientists&lt;/a&gt; affiliated with the &lt;a href="http://webscience.org/"&gt;Web Science Trust&lt;/a&gt; for a briefing on the &lt;a href="http://wstweb1.ecs.soton.ac.uk/web-observatory/about/introduction/"&gt;Web Observatory initiative&lt;/a&gt; and &lt;a href="https://www.meetup.com/Open-Data-Bay-Area/events/209112862/"&gt;a follow-on workshop&lt;/a&gt; organized by &lt;a href="https://commoncrawl.org/about/team/#headshot-14185"&gt;Lisa Green&lt;/a&gt; from &lt;a href="https://commoncrawl.org/"&gt;Common Crawl&lt;/a&gt;. The notion of a Web &lt;em&gt;Observatory&lt;/em&gt; implies a center proferring scientific instruments, but for the analysis of web data rather than natural phenomena. Indeed, the group's vision is that Web Observatories provide access to &lt;a href="http://www.slideshare.net/jahendler/facilitating-web-science-collaboration-through-semantic-markup-35137375/15"&gt;web datasets, projects, and tools&lt;/a&gt;. Eventually, a network of Web Observatories might offer both an interoperable architecture and distributed infrastructures for sharing and analysis of web datasets. The initiative touches on several areas of interest and investment by Stanford University Libraries, including &lt;a href="https://library.stanford.edu/research/data-management-services"&gt;data curation&lt;/a&gt;, &lt;a href="https://library.stanford.edu/projects/web-archiving"&gt;web archiving&lt;/a&gt;, and &lt;a href="https://lib.stanford.edu/ssrc"&gt;supporting&lt;/a&gt; &lt;a href="https://ssds.stanford.edu/"&gt;social&lt;/a&gt; &lt;a href="https://web.stanford.edu/group/ats/cgi-bin/hivetalkin/?p=3955"&gt;science&lt;/a&gt; &lt;a href="https://library.stanford.edu/subjects/social-sciences"&gt;research&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Guidance on Building Archivable Websites</title>
-      <link>2014-09-29-guidance-on-building-archivable-websites.html</link>
+      <link>/blog/2014-09-29-guidance-on-building-archivable-websites.html</link>
       <pubDate>2014-09-29T00:00:00-07:00</pubDate>
       <description>A major challenge for web archivists is the low visibility that downstream archiving has on upstream web content creation. And, yet, deliberate and inadvertent architectural decisions made by web content creators strongly impact the ease or difficulty with which their websites can be captured and faithfully re-presented. A non-trivial byproduct of webmasters helping to ensure their content is archived for their own later use is that the Web itself becomes more archivable, to everyone's benefit.</description>
     </item>
     <item>
       <title>Reliable and Confidential Archiving of U.S. Supreme Court Web Cites</title>
-      <link>2014-09-17-reliable-and-confidential-archiving-of-u-s-supreme-court-web-cites.html</link>
+      <link>/blog/2014-09-17-reliable-and-confidential-archiving-of-u-s-supreme-court-web-cites.html</link>
       <pubDate>2014-09-17T22:27:13+00:00</pubDate>
       <description>The topic of link rot in legal materials has been an area of study &lt;a href="http://www.aallnet.org/main-menu/Publications/llj/LLJ-Archives/Vol-94/pub_llj_v94n01/2002-02.pdf"&gt;for some time&lt;/a&gt; (PDF) but has only recently &lt;a href="https://www.theverge.com/2013/9/23/4763646/half-of-supreme-court-web-citations-have-changed-or-disappeared"&gt;surfaced in the mainstream press&lt;/a&gt; with the high-profile findings by &lt;a href="http://digitalcommons.law.yale.edu/yjolt/vol15/iss2/2/"&gt;two&lt;/a&gt; &lt;a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2329161"&gt;separate&lt;/a&gt; law journal articles of the high incidence of broken links in U.S. Supreme Court opinions. It's a problem that the Court has made some effort to mitigate, albeit in a disjointed way. Staff working for the &lt;a href="https://www.fjc.gov/history/administration/court-officers-and-staff-reporter-decisions"&gt;Reporter of Decisions&lt;/a&gt; pre-check the citations in all-but-published opinions and save cited web content to PDF for inclusion in the files, an approach consistent with &lt;a data-originalurl="http://indianalawblog.com/documents/Director%20Memo.pdf" data-versiondate="2015-02-03" href="https://web.archive.org/web/20150203034441/http://indianalawblog.com/documents/Director%20Memo.pdf"&gt;2009 guidance&lt;/a&gt; (PDF) issued by the U.S. Federal Courts. The &lt;a href="https://www.ca9.uscourts.gov/library/"&gt;Ninth Circuit Library&lt;/a&gt; uses a similar technique but does one better by actually &lt;a href="https://www.ca9.uscourts.gov/library/webcites/"&gt;posting the PDFs online&lt;/a&gt;.</description>
     </item>
     <item>
       <title>The MH17 Crash and Selective Web Archiving</title>
-      <link>2014-07-28-the-mh17-crash-and-selective-web-archiving.html</link>
+      <link>/blog/2014-07-28-the-mh17-crash-and-selective-web-archiving.html</link>
       <pubDate>2014-07-28T12:34:14+00:00</pubDate>
       <description>The &lt;a href="http://archive.org/web/"&gt;Internet Archive Wayback Machine&lt;/a&gt; has been mentioned in several news articles within the last week&amp;#xA0; (see &lt;a href="https://www.csmonitor.com/World/Europe/2014/0717/Web-evidence-points-to-pro-Russia-rebels-in-downing-of-MH17-video"&gt;here,&lt;/a&gt; &lt;a href="https://www.washingtonpost.com/news/the-intersect/wp/2014/07/21/how-web-archivists-and-other-digital-sleuths-are-unraveling-the-mystery-of-mh17/"&gt;here&lt;/a&gt; and &lt;a href="https://www.slate.com/blogs/future_tense/2014/07/22/mh17_investigation_and_the_right_to_be_forgotten.html"&gt;here&lt;/a&gt;) for having archived a &lt;a href="https://web.archive.org/web/20140717155720/https://vk.com/wall-57424472_7256"&gt;since-deleted blog post&lt;/a&gt; from &lt;a href="https://en.wikipedia.org/w/index.php?title=Igor_Girkin&amp;amp;oldid=618438049"&gt;a Ukrainian separatist leader&lt;/a&gt; touting his shooting down a military transport plane which may have actually been &lt;a href="https://en.wikipedia.org/w/index.php?title=Malaysia_Airlines_Flight_17&amp;amp;oldid=618451648"&gt;Malaysia Airlines Flight 17&lt;/a&gt;. At this early stage in the crash investigation, the significance of the ephemeral post is &lt;a href="https://www.vox.com/2014/7/17/5913089/did-this-ukrainian-rebel-commander-take-credit-for-shooting-down-the"&gt;still unclear&lt;/a&gt;, but it could prove to be a pivotal piece of evidence.</description>
     </item>
     <item>
       <title>Recap of International Web Archiving Community Meeting</title>
-      <link>2014-06-12-recap-of-international-web-archiving-community-meeting.html</link>
+      <link>/blog/2014-06-12-recap-of-international-web-archiving-community-meeting.html</link>
       <pubDate>2014-06-12T00:00:00-07:00</pubDate>
       <description>Web archivists &lt;a href="https://a-alsum.blogspot.com/"&gt;Ahmed AlSum&lt;/a&gt; and &lt;a href="https://library.stanford.edu/people/ntay"&gt;Nicholas Taylor&lt;/a&gt; and &lt;a href="https://www.lockss.org/"&gt;LOCKSS&lt;/a&gt; Chief Scientist &lt;a href="https://www.lockss.org/contact-us/dshr/"&gt;David Rosenthal&lt;/a&gt; recently attended the &lt;a href="http://netpreserve.org/"&gt;International Internet Preservation Consortium&lt;/a&gt; (IIPC) &lt;a data-originalurl="https://netpreserve.org/general-assembly/2014/overview" data-versiondate="2014-07-18" href="https://web.archive.org/web/20140718101459/http://netpreserve.org/general-assembly/2014/overview"&gt;General Assembly&lt;/a&gt;, an &lt;a href="http://netpreserve.org/general-assembly"&gt;annual meeting&lt;/a&gt; of national libraries, research universities, non-profits, and service providers engaged in web archiving. This was the first General Assembly we all attended since Stanford University Libraries (SUL) &lt;a href="https://twitter.com/NetPreserve/status/390041109356744704"&gt;joined the IIPC&lt;/a&gt;, though we had all previously attended meetings under the auspices of other organizations.</description>
     </item>
     <item>
       <title>Campaign Web Archives to Support Multi-Institutional Research</title>
-      <link>2014-04-29-campaign-web-archives-support-multi-institutional-research.html</link>
+      <link>/blog/2014-04-29-campaign-web-archives-support-multi-institutional-research.html</link>
       <pubDate>2014-04-29T00:00:00-07:00</pubDate>
       <description>Recognizing the at-risk nature of this content and its value to scholarship, the &lt;a href="https://library.stanford.edu/"&gt;Stanford University Libraries&lt;/a&gt; (SUL) and the &lt;a href="https://iriss.stanford.edu/"&gt;Institute for Research in the Social Sciences&lt;/a&gt; (IRiSS) are collaborating on a project conceived by researchers in the &lt;a href="https://politicalscience.stanford.edu/"&gt;Department of Political Science&lt;/a&gt;, enabled by the &lt;a href="https://www.archive-it.org/"&gt;Archive-It web archiving service&lt;/a&gt;, and since joined by political science researchers at two other institutions, to create a comprehensive and longitudinal web archive collection of 2014 congressional primary and general election candidate websites.</description>
     </item>
     <item>
       <title>Personal Digital (Web) Archiving</title>
-      <link>2014-04-18-personal-digital-web-archiving.html</link>
+      <link>/blog/2014-04-18-personal-digital-web-archiving.html</link>
       <pubDate>2017-09-30T08:36:00-07:00</pubDate>
       <description>Physical keepsakes like photos, letters, and vital documents have a thankfully long shelf-life with little affirmative effort. The susceptibility of the digital artifacts that increasingly replace them to loss or corruption has raised awareness about the heightened need to curate, manage, and protect these assets. Interest in "personal digital archiving" has grown significantly within the last few years, as demonstrated by &lt;a href="http://www.personalarchiving.com/"&gt;three&lt;/a&gt; &lt;a href="http://mith.umd.edu/pda2013/"&gt;annual&lt;/a&gt; &lt;a href="http://visions.indstate.edu/pda2014/"&gt;conferences&lt;/a&gt; on the topic, &lt;a href="http://www.digitalpreservation.gov/personalarchiving/"&gt;practical guidance&lt;/a&gt; developed by the &lt;a href="http://www.digitalpreservation.gov/"&gt;National Digital Information Infrastructure and Preservation Program&lt;/a&gt; (NDIIPP) at the Library of Congress, as well as &lt;a href="https://www.google.com/#q=personal+digital+archiving+.edu+.org"&gt;attention from other educational and cultural heritage institutions&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Anatomy of a Web Archive</title>
-      <link>2013-11-05-anatomy-of-a-web-archive.html</link>
+      <link>/blog/2013-11-05-anatomy-of-a-web-archive.html</link>
       <pubDate>2013-11-05T15:44:32+00:00</pubDate>
       <description>I'm inclined to blame the &lt;a href="http://www.archivesnext.com/?p=1726"&gt;semantic flexibility of the word "archive"&lt;/a&gt; for the fact that someone with no previous exposure to &lt;em&gt;web&lt;/em&gt; archives might variously suppose that they are: the result of saving web pages from the browser, institutions acting as repositories for web resources, a navigational feature of some websites allowing for browsing of past content, online storage platforms imagined to be more durable than the web itself, or, simply, "the Wayback Machine." For as many policies and practices guide cultural heritage institutions' approaches to web archiving, however, the "web archives" that they create and preserve are remarkably consistent. What &lt;em&gt;are&lt;/em&gt; web archives, exactly?</description>
     </item>
     <item>
       <title>Link Persistence, Website Persistence</title>
-      <link>2013-04-30-link-persistence-website-persistence.html</link>
+      <link>/blog/2013-04-30-link-persistence-website-persistence.html</link>
       <pubDate>2013-04-30T11:17:27+00:00</pubDate>
       <description>A &lt;a href="https://blogs.loc.gov/digitalpreservation/2011/11/the-average-lifespan-of-a-webpage/"&gt;previous post&lt;/a&gt; on this blog explored why it's so hard to come up with a reliable measurement of the average lifespan of a webpage. In essence, the argument came down to this: links and the websites they represent tend to become decoupled over time. Without a broad understanding of how that process takes place, it's hard to make definitive claims about the persistence of websites when available automated tools can only capably check for the persistence of links.</description>
     </item>
     <item>
       <title>Using Wayback Machine for Research</title>
-      <link>2012-10-26-using-wayback-machine-for-research.html</link>
+      <link>/blog/2012-10-26-using-wayback-machine-for-research.html</link>
       <pubDate>2012-10-26T11:48:44+00:00</pubDate>
       <description>Prompted by questions from Library of Congress staff on how to more effectively use web archives to answer research questions, I recently gave a presentation on "&lt;a href="https://blogs.loc.gov/digitalpreservation/files/2012/10/Using_Wayback_Machine_for_Research_2.pdf"&gt;Using Wayback Machine for Research&lt;/a&gt;" (PDF). I thought that readers of &lt;a href="https://blogs.loc.gov/digitalpreservation/"&gt;The Signal&lt;/a&gt; might be interested in this topic as well. This post covers the outline of the presentation.</description>
     </item>
     <item>
       <title>The Immeasurable Library of Congress</title>
-      <link>2012-08-06-the-immeasurable-library-of-congress.html</link>
+      <link>/blog/2012-08-06-the-immeasurable-library-of-congress.html</link>
       <pubDate>2012-08-06T11:13:45+00:00</pubDate>
       <description>Online photo platforms increasingly support the precise positioning and browsing of user-submitted images in a three-dimensional space. Unsurprisingly, the geographic locations that are most thoroughly blanketed with photos correspond to popular tourist attractions; so many photos are taken as to construct "complete" digital facsimiles. These digitized versions are never really complete, though, because no number of photos could perfectly capture and represent every aspect of the originals. It is for much the same reason that the data stored in the Library of Congress won't fit on a 10 terabyte hard drive.</description>
     </item>
     <item>
       <title>Harvesting and Preserving the Future Web: Replay and Scale Challenges</title>
-      <link>2012-06-18-harvesting-and-preserving-the-future-web-replay-and-scale-challenges.html</link>
+      <link>/blog/2012-06-18-harvesting-and-preserving-the-future-web-replay-and-scale-challenges.html</link>
       <pubDate>2012-06-18T11:01:16+00:00</pubDate>
       <description>This is the second part of a two-post recap of the "&lt;a data-originalurl="https://netpreserve.org/events/2012ga.php" data-versiondate="2012-05-10" href="https://web.archive.org/web/20120510105848/http://netpreserve.org/events/2012ga.php"&gt;Harvesting and Preserving the Future Web&lt;/a&gt;" workshop at the recent &lt;a href="http://netpreserve.org/"&gt;International Internet Preservation Consortium&lt;/a&gt; &lt;a data-originalurl="https://netpreserve.org/events/2012ga.php" data-versiondate="2012-05-10" href="https://web.archive.org/web/20120510105848/http://netpreserve.org/events/2012ga.php"&gt;General Assembly&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Harvesting and Preserving the Future Web: Content Capture Challenges</title>
-      <link>2012-06-01-harvesting-and-preserving-the-future-web-content-capture-challenges.html</link>
+      <link>/blog/2012-06-01-harvesting-and-preserving-the-future-web-content-capture-challenges.html</link>
       <pubDate>2012-06-01T13:03:54+00:00</pubDate>
       <description>Following our earlier &lt;a href="https://blogs.loc.gov/digitalpreservation/2012/05/iipc12-a-week-of-web-archiving/"&gt;summary&lt;/a&gt; of the recent &lt;a href="http://netpreserve.org/"&gt;International Internet Preservation Consortium&lt;/a&gt; &lt;a data-originalurl="https://netpreserve.org/events/2012ga.php" data-versiondate="2012-05-10" href="https://web.archive.org/web/20120510105848/http://netpreserve.org/events/2012ga.php"&gt;General Assembly&lt;/a&gt;, I thought I'd share some of the insights from the workshop, "&lt;a data-originalurl="http://netpreserve.org/events/2012ga.php" data-versiondate="2012-05-10" href="https://web.archive.org/web/20120510105848/http://netpreserve.org/events/2012ga.php"&gt;Harvesting and Preserving the Future Web&lt;/a&gt;".</description>
     </item>
     <item>
       <title>The Value of a Broken Link</title>
-      <link>2012-03-28-the-value-of-a-broken-link.html</link>
+      <link>/blog/2012-03-28-the-value-of-a-broken-link.html</link>
       <pubDate>2012-03-28T10:14:00+00:00</pubDate>
       <description>What is the value of a &lt;a href="https://www.loc.gov/404/global_404.html"&gt;broken link&lt;/a&gt;? For understandable reasons, many would say, "not much." While the &lt;a href="https://www.w3.org/DesignIssues/Architecture.html#Topology"&gt;destination-unaware&lt;/a&gt; nature of hyperlinks has facilitated the decentralized &lt;a href="https://news.netcraft.com/archives/category/web-server-survey/"&gt;growth of the web&lt;/a&gt;, it has also greatly contributed to the &lt;a href="https://blogs.loc.gov/digitalpreservation/2011/11/the-average-lifespan-of-a-webpage/"&gt;perceived&lt;/a&gt; &lt;a href="http://blog.longnow.org/2012/03/23/long-bets-bet-how-durable-are-urls/"&gt;ephemerality&lt;/a&gt; of its contents. A &lt;a href="https://arxiv.org/abs/1105.3459"&gt;recent literature review&lt;/a&gt; of the extent of &lt;a href="https://en.wikipedia.org/w/index.php?title=Link_rot&amp;amp;oldid=483510244"&gt;link rot&lt;/a&gt; in academic publications, for example, demonstrated &lt;a href="https://arxiv.org/ftp/arxiv/papers/1105/1105.3459.pdf#page=2"&gt;broken link rates of 39-83%&lt;/a&gt;. Concerned, in particular, with this reality, the Modern Language Association prominently &lt;a data-originalurl="http://www.mla.org/style/handbook_faq/whatsnew_7edhandbook" data-versiondate="2012-04-02" href="https://web.archive.org/web/20120402022728/http://www.mla.org/style/handbook_faq/whatsnew_7edhandbook"&gt;dispensed with the requirement&lt;/a&gt; that URLs be included in works-cited lists in the most recent revision of its handbook. It might be said that if links are the &lt;a href="http://www.jurecuhalev.com/blog/2009/01/13/links-are-currency-of-the-web/"&gt;currency of the web&lt;/a&gt;, then broken links are paper notes in a &lt;a href="https://en.wikipedia.org/w/index.php?title=List_of_historical_currencies&amp;amp;oldid=482784433"&gt;defunct coinage&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Designing Preservable Websites, Redux</title>
-      <link>2012-02-06-designing-preservable-websites-redux.html</link>
+      <link>/blog/2012-02-06-designing-preservable-websites-redux.html</link>
       <pubDate>2012-02-06T14:55:51+00:00</pubDate>
       <description>As much as we can do to &lt;a href="https://blogs.loc.gov/digitalpreservation/2011/08/web-archive-preservation-planning/"&gt;preserve archived websites&lt;/a&gt; once we have them, the challenges we encounter are always already determined by how those websites were originally constructed. In the interest of giving &lt;a href="https://www.loc.gov/webarchiving/index.html"&gt;us&lt;/a&gt; and &lt;a href="https://en.wikipedia.org/w/index.php?title=List_of_Web_archiving_initiatives&amp;amp;oldid=472217918"&gt;others&lt;/a&gt; the best possible chance of preserving your online content, I wanted to follow on an &lt;a href="https://siarchives.si.edu/blog/five-tips-designing-preservable-websites"&gt;excellent blog post&lt;/a&gt; by &lt;a href="http://www.robincamille.com/about/"&gt;Robin Davis&lt;/a&gt; (previously) of the &lt;a href="https://siarchives.si.edu/"&gt;Smithsonian Institution Archives&lt;/a&gt; on the topic of designing preservable websites. Here are some best practices to keep in mind:</description>
     </item>
     <item>
       <title>The Average Lifespan of a Webpage</title>
-      <link>2011-11-08-the-average-lifespan-of-a-webpage.html</link>
+      <link>/blog/2011-11-08-the-average-lifespan-of-a-webpage.html</link>
       <pubDate>2011-11-08T09:50:51+00:00</pubDate>
       <description>What is the average lifespan of webpage? Predictably, estimates vary and vary over time. A 1997 &lt;a href="https://web.archive.org/web/19970504212157/http://www.sciam.com/0397issue/0397kahle.html"&gt;special report in Scientific American&lt;/a&gt; claimed 44 days. A subsequent 2001 &lt;a href="https://clgiles.ist.psu.edu/papers/Computer-2001-web-references.pdf#page=5"&gt;academic study in IEEE Computer&lt;/a&gt; suggested 75 days. More recently, in 2003, a &lt;a data-originalurl="http://stevereads.com/cache/ephemeral_web_pages.html" data-versiondate="2011-11-12" href="https://web.archive.org/web/20111112053459/http://stevereads.com/cache/ephemeral_web_pages.html"&gt;Washington Post article&lt;/a&gt; indicated that the number was 100 days.</description>
     </item>
     <item>
       <title>Web Archive Preservation Planning</title>
-      <link>2011-08-18-web-archive-preservation-planning.html</link>
+      <link>/blog/2011-08-18-web-archive-preservation-planning.html</link>
       <pubDate>2011-08-18T10:08:45-04:00</pubDate>
       <description>Though presented as a unified experience, a website depends on many interrelated parts: document markup and dynamic code, assorted binary file types, software interpreters and platforms. The challenge of web archive preservation planning is to save this experience, accounting for ongoing changes in the constitutive layers. While web archives and, for that matter, websites themselves haven't been around long enough that we've yet had to contend with issues of wide-scale &lt;a href="http://www.icpsr.umich.edu/dpm/dpm-eng/oldmedia/obsolescence1.html"&gt;digital obsolescence&lt;/a&gt; at any layer of the stack, we are currently devising strategies to handle such eventualities.</description>
     </item>
     <item>
       <title>Transferring "Libraries of Congress" of Data</title>
-      <link>2011-07-11-transferring-libraries-of-congress-of-data.html</link>
+      <link>/blog/2011-07-11-transferring-libraries-of-congress-of-data.html</link>
       <pubDate>2011-07-11T11:51:56-04:00</pubDate>
       <description>If science reporters, IT industry pundits and digital storage and network infrastructure purveyors &lt;a href=&quot;http://newsroom.cisco.com/press-release-content?type=webcontent&amp;articleId=5386763&quot;&gt;are&lt;/a&gt; &lt;a href=&quot;http://enterprise.media.seagate.com/2010/12/inside-it-storage/future-storage-technology-how-to-store-the-entire-u-s-library-of-congress-on-a-coin/"&gt;to&lt;/a&gt; &lt;a href=&quot;http://www.opternity.com/&quot;>be&lt;/a&gt; &lt;a href=&quot;http://articles.baltimoresun.com/2011-05-07/news/bs-md-nsa-bin-laden-20110507_1_bin-terrorist-leader-intelligence-agencies/2&quot;>believed&lt;/a&gt;, devices are being lab-tested even now that can store all of the data in the Library of Congress or transmit it over a network in mere moments. To this list of improbable claims, I'd like to add another: by the most conservative estimates, I transfer more than a Library of Congress' worth of data to the Library of Congress every month.</description>
     </item>
