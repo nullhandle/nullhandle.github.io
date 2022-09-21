@@ -168,6 +168,10 @@ nav ol, nav ul {
   padding-left: 19px;
 }
 
+.image-11px-margin {
+margin: 0px 11px 0px 11px;
+}
+
 .image-highlight {
   border: 1px solid #ccc;
   display: table;
