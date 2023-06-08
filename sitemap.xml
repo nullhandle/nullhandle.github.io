@@ -251,6 +251,11 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://nullhandle.org/blog/2022.html</loc>
+    <lastmod>2023-06-07T22:00:00-06:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://nullhandle.org/blog/2022-09-06-web-archivability-guidance-refreshed-and-republished.html</loc>
     <lastmod>2022-09-06T22:00:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
@@ -263,6 +268,16 @@
   <url>
     <loc>https://nullhandle.org/blog/2022-11-29-subtleties-of-the-google-date-search-operators.html</loc>
     <lastmod>2022-11-29T22:54:00-07:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/blog/2023.html</loc>
+    <lastmod>2023-05-31T07:00:00-06:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/blog/2023-06-07-a-brief-primer-on-using-web-archived-evidence.html</loc>
+    <lastmod>2023-06-07T22:00:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
