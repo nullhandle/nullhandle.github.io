@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
-    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc" />
-    <link href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" rel="schema.dcterms" />
-    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css" />
-    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css" />
-    <link href="../img/favicon.ico" rel="icon" type="image/x-icon" />
-    <meta charset="UTF-8" />
-    <meta name="DC.Creator.PersonalName" content="Nicholas Taylor" />
-    <meta name="DC.Date" content="2019-04-22" scheme="W3CDTF" />
-    <meta name="DC.Format" content="text/html" scheme="IMT" />
-    <meta name="DC.Language" content="en-US" scheme="RFC4646" />
-    <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0/" scheme="URL" />
-    <meta name="DC.Source" content="https://nullhandle.org/" scheme="URL" />
-    <meta name="DC.Title" content="Scaling LOCKSS" />
-    <meta name="DC.Type" content="blogPost" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc">
+    <link href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/" rel="schema.dcterms">
+    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css">
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="DC.Creator.PersonalName" content="Nicholas Taylor">
+    <meta name="DC.Date" content="2019-04-22" scheme="W3CDTF">
+    <meta name="DC.Format" content="text/html" scheme="IMT">
+    <meta name="DC.Language" content="en-US" scheme="RFC4646">
+    <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0/" scheme="URL">
+    <meta name="DC.Source" content="https://nullhandle.org/" scheme="URL">
+    <meta name="DC.Title" content="Scaling LOCKSS">
+    <meta name="DC.Type" content="blogPost">
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "514c441e9d464f3fb864fa3a50ae9d62"}'></script><!-- End Cloudflare Web Analytics -->
     <script src="../js/responsive-nav.js"></script>
     <title>Scaling LOCKSS</title>
@@ -34,15 +34,15 @@
     </nav>
     <div class="content" itemscope itemtype="http://schema.org/BlogPosting">
       <h2 itemprop="headline">Scaling LOCKSS</h2>
-      <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../biography.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2019-04-22T00:00:00-07:00" itemprop="dateModified" /><time datetime="2019-04-22T00:00:00-07:00" itemprop="datePublished">22 April 2019</time></div>
+      <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../biography.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2019-04-22T00:00:00-07:00" itemprop="dateModified"><time datetime="2019-04-22T00:00:00-07:00" itemprop="datePublished">22 April 2019</time></div>
       <br>
       <div itemprop="articleBody">
         <div>Scale is a predictable preoccupation as memory institutions collectively contemplate the growing amount and size of candidate content for preservation. To ensure that limited resources have maximum impact, we want our digital preservation systems to scale well in terms of capacity and marginal cost, or efficiently maintain their effectiveness as capacity is increased. Folks considering LOCKSS wonder how a system conspicuously touting liberal replication as a core feature could possibly be scalable.</div>
         <br>
         <figure class="figure-left" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">
-          <img alt="Redwood Canopy" height="320" itemprop="url" src="https://live.staticflickr.com/8030/7921541888_34668cb8a6_n.jpg" width="213" />
-          <meta itemprop="height" content="320" />
-          <meta itemprop="width" content="213" />
+          <img alt="Redwood Canopy" height="320" itemprop="url" src="https://live.staticflickr.com/8030/7921541888_34668cb8a6_n.jpg" width="213">
+          <meta itemprop="height" content="320">
+          <meta itemprop="width" content="213">
           <figcaption>"<a href="https://www.flickr.com/photos/floyd_noise/7921541888/" property="dct:title">Redwood Canopy</a>" by <a href="https://www.flickr.com/photos/floyd_noise/" property="cc:attributionName" rel="cc:attributionURL dct:creator">Floyd Stewart</a> under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" rel="license">CC BY-NC-SA 2.0</a></figcaption>
         </figure>
         <div>The LOCKSS system is demonstrably scalable in a couple of key ways:</div>
@@ -63,7 +63,7 @@
         <div>We have some ideas of how we could approach this. On the foundation of the <a href="https://www.lockss.org/../about/frequently-asked-questions#laaws">re-architected LOCKSS software</a>, we're starting by prototyping what we're calling the <em><a href="https://web.stanford.edu/group/lockss/resources/2019-04_Lots_of_Checksums_Keep_Stuff_Safer.pptx">LOCKSS fixity service</a></em> (PPTX) — a highly-replicated LOCKSS network that preserves checksums and can therefore provide high-confidence fixity assertions for large volumes of data stored at lower replication factors. The service has been designed and we're in early stages of development. We look forward to sharing more details as we progress.</div>
       </div>
       <br>
-      <div class="byline"><a href="https://nullhandle.org/blog/2019-04-22-scaling-lockss.html" rel="canonical">Permalink</a> | <a href="https://www.lockss.org/blog/scaling-lockss">Crossposted</a> to the <a href="https://www.lockss.org/">LOCKSS Program website</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" width="80" /></a></div>
+      <div class="byline"><a href="https://nullhandle.org/blog/2019-04-22-scaling-lockss.html" rel="canonical">Permalink</a> | <a href="https://www.lockss.org/blog/scaling-lockss">Crossposted</a> to the <a href="https://www.lockss.org/">LOCKSS Program website</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" width="80"></a></div>
       <br>
       <script>
         var nav = responsiveNav(".nav-collapse");
