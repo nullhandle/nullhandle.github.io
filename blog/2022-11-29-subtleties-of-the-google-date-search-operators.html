@@ -35,17 +35,17 @@
     <div class="content" itemscope itemtype="http://schema.org/BlogPosting">
       <h2 itemprop="headline">Subtleties of the Google Date Search Operators</h2>
       <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../biography.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2022-11-29T22:54:00-07:00" itemprop="dateModified" /><time datetime="2022-11-29T22:54:00-07:00" itemprop="datePublished">29 November 2022</time></div>
-      <br />
+      <br>
       <div itemprop="articleBody">
         <img alt="Google logo" class="image-highlight" height="100" itemprop="image" src="../img/google_logo_(100x100).png" width="100" />
         <div>Google has for some time permitted temporal filtering of search results, limiting what is presented to those before and/or after a specified date. This can help approximate what search results would have been presented to a user at specific points in time. The <a href="https://archive.org/web/">Internet Archive Wayback Machine (IAWM)</a> can then fill in more of the hypothetical historical user journey by showing what those webpages might've looked like contemporaneously.</div>
-        <br />
+        <br>
         <div>Temporal filtering has long been available via the Tools menu on the search results page as well as through the <a href="https://www.google.com/advanced_search">Google Advanced Search</a> interface. More recently, explicit date operators &mdash; <em>before:</em> and <em>after:</em> &mdash; were implemented, that could be included in the search query itself.</div>
-        <br />
+        <br>
         <div>While conceptually intuitive, in my experience, the application of temporal filtering to Google searches frequently yields counterintuitive results. It turns out that this has a lot to do with the challenges of determining the relevant date(s) of a webpage. Here I'll unpack what I've learned about temporal filtering of Google search results, with some examples using the date operators.</div>
         <h3>How Google explains its date search operators</h3>
         <div>Let's start by reviewing Google's explanations of how the date operators work. Unfortunately, they don't appear to provide canonical documentation, so we have to resort to feature announcements and other incidental resources.</div>
-        <br />
+        <br>
         <div>The <a href="https://twitter.com/searchliaison/status/1115706765088182272">original Twitter thread announcing the date operators</a> provides a number of details:
           <ul>
             <li>The date operator-based filtering <a href="https://twitter.com/searchliaison/status/1115706766279335936">works the same as the date range filter available via the "Custom date range" widget</a> accessible through the Tools menu on the search results page;</li>
@@ -54,17 +54,17 @@
           </ul>
         </div>
         <div>The announcement also most succinctly and plainly describes what the date operators do as, "<a href="https://twitter.com/searchliaison/status/1115707059998052354">The before: &amp; after: commands return documents before &amp; after a date.</a>"</div>
-        <br />
+        <br>
         <div><a href="https://dannysullivan.com/">Danny Sullivan</a>, Google's public search liaison, commenting on the new date operators at the time of their announcement, critically notes that <a href="https://twitter.com/dannysullivan/status/1115711077273100288">they work most reliably for news articles</a>, as that is the content type for which Google can most confidently determine dates.</div>
-        <br />
+        <br>
         <div>The facility to limit search results to those updated within several pre-specified time frames up to present (i.e., akin to the functionality ostensibly provided by the <em>after:</em> operator) is also available in the <a href="https://www.google.com/advanced_search">Google Advanced Search</a> interface.</div>
-        <br />
+        <br>
         <div>Implied by all of this guidance is that <em>date</em> (singular) is a property of a web resource in Google's search index, and that this is what the date operators key off of.</div>
-        <br />
+        <br>
         <div>Later in the <a href="https://twitter.com/searchliaison/status/1115706765088182272">same aforementioned announcement Twitter thread</a>, there's a discussion of the challenges with reliably determining webpage dates in an automated fashion, which links off to a <a href="https://developers.google.com/search/blog/2019/03/help-google-search-know-best-date-for">blog post providing some insight into how they do this</a>. It makes sense that the functionality works best for news articles, since those are published at a point in time and infrequently updated thereafter.</div>
-        <br />
+        <br>
         <div>That turns out not to be true, though. While the body content of an old news article typically remains static, the webpage itself more than likely has syndicated elements (e.g., headlines and links for current top articles) that would result in the webpage being updated and, therefore, potentially present as perpetually recent to Google's crawlers.</div>
-        <br />
+        <br>
         <div>So Google's official guidance leaves us with the following questions:
           <ul>
             <li>Does Google store in its index more than one date (e.g., when published, some or all instances when subsequent updates are observed) for any given web resource?</li>
@@ -75,25 +75,25 @@
         </div>
         <h3>Web content dates in Google's index</h3>
         <div>Using either of the date operators in a Google search, an immediately apparent difference is that a date is included in the search result snippet. With the <a href="https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site"><em>site:</em> operator</a>, we can furthermore constrain the results to a given domain or web address path. Utilizing these operators in concert, we can compare the <a href="https://www.google.com/search?q=site%3Awww.supremecourt.gov">results for any and all content on the Supreme Court of the United States (SCOTUS) website</a> and <a href="https://www.google.com/search?q=site%3Awww.supremecourt.gov+before%3A2022-11-29">those for any and all content on the SCOTUS website with dates prior to today</a>.</div>
-        <br />
+        <br>
         <div>(Given that the results returned by these queries will vary over time, here also are screenshots for the <a href="../img/2022-11-29_google_search_site-www.supremecourt.gov_(1280x1781).png">former</a> and <a href="../img/2022-11-29_google_search_site-www.supremecourt.gov+before-2022-11-29_(1280x1707).png">latter</a> examples above. Screenshots will hereafter be provided parenthetically for any other temporally-dependent example queries or webpages.)</div>
-        <br />
+        <br>
         <div>Comparing these searches, we also notice a discrepancy between the total number of results returned for what should be functionally equivalent queries &mdash; i.e., a domain-constrained search and a domain-constrained search additionally constrained to only those results with dates before today, which should necessarily be the same set. This suggests that not all of the web resources that are responsive to the first query have associated dates in Google's index, and they are therefore not returned for the second, temporalized query.</div>
-        <br />
+        <br>
         <div>Drilling down to an individual webpage, we can see from a <a href="https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.supremecourt.gov%2Fabout%2Fabout.aspx+before%3A2022-11-29">search constrained to the SCOTUS About page and before today's date</a> (<a href="../img/2022-11-29_google_search_site-www.supremecourt.gov_about_about.aspx+before-2022-11-29_(1280x960).png">screenshot</a>) that the operative date for the webpage in Google's index is 24 August 2011. What can we understand about the source of this date?</div>
-        <br />
+        <br>
         <div>Its provenance is not immediately clear. IAWM suggests that a webpage at that web address existed <a href="https://web.archive.org/web/20100601000000*/https://www.supremecourt.gov/about/about.aspx">no later than 23 March 2010</a>. The source code of the capture most closely succeeding the 24 August 2011 snapshot &mdash; that is, <a data-originalurl="https://www.supremecourt.gov/about/about.aspx" data-versiondate="2011-08-28" href="https://web.archive.org/web/20110828024137/http://www.supremecourt.gov/about/about.aspx">from 28 August 2011</a> &mdash; includes a couple of timestamps in <span class="monospace">&lt;meta&gt;</span> elements:
           <blockquote class="monospace">
-            &lt;meta name="created" content="9/30/2010 10:38:54 AM"/&gt;<br />
+            &lt;meta name="created" content="9/30/2010 10:38:54 AM"/&gt;<br>
             &lt;meta name="revised" content="4/28/2011 8:12:57 AM"/&gt;
           </blockquote>
         </div>
         <div>This is the kind of structured information that Google had professed to rely upon, in its <a href="https://developers.google.com/search/blog/2019/03/help-google-search-know-best-date-for">blog post on determining dates</a>. However, the key date, 24 August 2011, doesn't appear here or anywhere else in the source code.</div>
-        <br />
+        <br>
         <div>The <a href="https://ws-dl.blogspot.com/2015/08/2015-08-28-original-header-replay.html">cached original HTTP headers replayed by IAWM</a> (i.e., <span class="monospace">x-archive-orig-last-modified</span>) can sometimes provide insight as to when a webpage was most recently updated prior to its having been archived. In this case, examining the HTTP headers for the <a data-originalurl="https://www.supremecourt.gov/about/about.aspx" data-versiondate="2011-08-28" href="https://web.archive.org/web/20110828024137/https://www.supremecourt.gov/about/about.aspx">capture most closely succeeding 24 August 2011</a> provides no indication that was some sort of special date. Indeed, <a data-originalurl="https://www.supremecourt.gov/about/about.aspx" data-versiondate="2011-08-28" href="https://web.archive.org/web/20110828024137/https://www.supremecourt.gov/about/about.aspx">that capture</a> and the <a data-originalurl="https://www.supremecourt.gov/about/about.aspx" data-versiondate="2011-07-28" href="https://web.archive.org/web/20110728094130/https://www.supremecourt.gov/about/about.aspx">one immediately preceding it by about a month</a> are <a href="https://web.archive.org/web/diff/20110728094130/20110828024137/http://www.supremecourt.gov/about/about.aspx">virtually identical</a>.</div>
-        <br />
+        <br>
         <div>It's implausible that Google would not have indexed the webpage for more than a year after the webpage was created. The robots.txt rules also <a href="https://web.archive.org/web/changes/http://www.supremecourt.gov/robots.txt">remained identical from 19 March 2010 through at least 24 August 2011</a> and permitted access by Google's crawlers, so neither should that have impeded the indexing of the website.</div>
-        <br />
+        <br>
         <div>So let's review what we've learned so far:
           <ul>
             <li>Web content appears to have no more than one associated operative date in Google's search index, and sometimes may not have one at all.</li>
@@ -102,27 +102,27 @@
         </div>
         <h3>What the Google date search operators actually do</h3>
         <div>There's an important subtlety in how the Google <em>before:</em> operator works; it processes the keyword parts of the query and the <em>before:</em> operator as separate, successive operations, before returning results. This will be easier to explain with an example.</div>
-        <br />
+        <br>
         <div>Some time between 24 June and 20 July 2021, the <a href="https://www.supremecourt.gov/about/about.aspx">SCOTUS About page</a> was updated to reflect that <a data-originalurl="https://www.ccpio.org/members/pmccabeestrada/profile/" data-versiondate="2021-06-17" href="https://web.archive.org/web/20210617200704/https://www.ccpio.org/members/pmccabeestrada/profile/">Patricia McCabe</a> took over from <a data-originalurl="https://www.ccpio.org/members/kathleenarberg/profile/" data-versiondate="2020-11-08" href="https://web.archive.org/web/20201108012928/https://www.ccpio.org/members/kathleenarberg/profile/">Kathleen Arberg</a> as the Court's Public Information Officer. We can <a href="https://web.archive.org/web/diff/20210624020409/20210720085946/https://www.supremecourt.gov/about/about.aspx">see this update highlighted using the IAWM Changes tool</a> (i.e., by expanding the "Court Officers" menu on both embedded webpages).</div>
-        <br />
+        <br>
         <div>From the <a href="https://www.supremecourt.gov/publicinfo/press/pressreleases/pr_07-02-21">associated, contemporaneous Press Release</a>, we know that Patricia had not previously served as a Court Officer. There is therefore no reason that her name would have previously appeared on the <a href="https://www.supremecourt.gov/about/about.aspx">SCOTUS About page</a>.</div>
-        <br />
+        <br>
         <div>Executing a <a href="https://www.google.com/search?q=site%3Awww.supremecourt.gov%2Fabout%2Fabout.aspx+patricia+mccabe">contemporary Google search for her name</a> (<a href="../img/2022-11-29_google_search_site-www.supremecourt.gov_about_about.aspx+patricia_mccabe_(1280x960).png">screenshot</a>) (and constraining the search to only the page of interest using the <a href="https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site"><em>site:</em> operator</a>, to simplify presentation), predictably provides the page as a result, since that text is present on the page. Executing a <a href="https://www.google.com/search?q=site%3Awww.supremecourt.gov%2Fabout%2Fabout.aspx+kathleen+arberg">search for "kathleen arberg"</a> (<a href="../img/2022-11-29_google_search_site-www.supremecourt.gov_about_about.aspx+kathleen_arberg_(1280x960).png">screenshot</a>) also, predictably, does not provide the page as a result, since that text is no longer present on the page.</div>
-        <br />
+        <br>
         <div>Now let's try with the <em>before:</em> operator.</div>
-        <br />
+        <br>
         <div>We know from IAWM that Kathleen's name was on the webpage at least as late as 24 June 2021, so let's use that as our date. We would intuitively expect that a search for <em>patricia mccabe</em> with the constraint <em>before:2021-06-24</em> would not return any results. However, <a href="https://www.google.com/search?q=site%3Awww.supremecourt.gov%2Fabout%2Fabout.aspx+patricia+mccabe+before%3A2021-06-24">it does</a> (<a href="../img/2022-11-29_google_search_site-www.supremecourt.gov_about_about.aspx+patricia_mccabe+before-2021-06-24_(1280x960).png">screenshot</a>).</div>
-        <br />
+        <br>
         <div>Why is that?</div>
-        <br />
+        <br>
         <div>It turns out that the query: <em>patricia mccabe before:2021-06-24</em> is understood as, "return those webpage search results that are relevant to the keywords <em>patricia mccabe</em> (i.e., against the most recent Google search index) <a href="https://en.wikipedia.org/wiki/Boolean_function#Examples">boolean-AND</a> that were updated before 24 June 2021." The query is not read (as you might think) as, "return those webpage search results that <em>would've been relevant</em> to the keywords <em>patricia mccabe</em> based on Google's historical search index contents from before 24 June 2021."</div>
-        <br />
+        <br>
         <div>The <a href="https://www.supremecourt.gov/about/about.aspx">SCOTUS About page</a> is both relevant to the keywords <em>patricia mccabe</em> and was previously updated before 24 June 2021 &mdash; the snippet indicates the operative date as 24 August 2011 &mdash; so it is correctly returned in the set of results.</div>
-        <br />
+        <br>
         <div>Let's quickly look at one more example to test the hypothesis that Google only stores one operative date in its index for a given web resoruce.</div>
-        <br />
+        <br>
         <div><a href="https://web.archive.org/web/diff/20220630161334/20220806110842/https://www.supremecourt.gov/about/about.aspx">IAWM shows</a> that Stephen Breyer's name was replaced with that of Ketanji Brown Jackson in the "Associate Justices" section of the webpage sometime between 30 June and 6 August 2022. However, if we run a <a href="https://www.google.com/search?q=site%3Awww.supremecourt.gov%2Fabout%2Fabout.aspx+after%3A2022-06-30+before%3A2022-08-06">Google search constrained to the SCOTUS About page bounded by those dates</a> (<a href="../img/2022-11-29_google_search_site-www.supremecourt.gov_about_about.aspx+after_2022-06-30+before-2022-08-06_(1280x960).png">screenshot</a>), it returns no results. Google almost certainly crawls the SCOTUS website frequently enough to have noticed the change, but it evidently did not store the date of that observation as an (additional) operative date for the purposes of the date operators.</div>
-        <br />
+        <br>
         <div>Let's review what we've learned:
           <ul>
             <li>Whether or not Google maintains historical search indexes, it does not consult them for the purpose of relevance evaluation for queries using the date operators; relevance evaluation takes place against the contemporary index.</li>
@@ -131,15 +131,15 @@
         </div>
         <h3>What dates count for the Google date search operators?</h3>
         <div>So what about actual news content?</div>
-        <br />
+        <br>
         <div>You'll note that the <a href="https://www.supremecourt.gov/about/about.aspx">SCOTUS About page</a> didn't have an indicated date in the <a href="https://www.google.com/search?q=site%3Awww.supremecourt.gov%2Fabout%2Fabout.aspx">search results</a> (<a href="../img/2022-11-29_google_search_site-www.supremecourt.gov_about_about.aspx_(1280x960).png">screenshot</a>).</div>
-        <br />
+        <br>
         <div>By contrast, <a href="https://www.google.com/search?q=site:scotusblog.com&tbm=nws">Google offers precise dates for when SCOTUSblog posts were published</a>. Presumably, these dates function as the basis for the date operators.</div>
-        <br />
+        <br>
         <div>A <a href="https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/">SCOTUSblog post on Kathleen Arberg's retirement</a> (<a href="../img/2022-11-29_scotusblog_www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years_(1280x2725).png">screenshot</a>) was published on 2 June 2021. The webpage includes more recent content, incorporated via JavaScript, such as an embedded Twitter widget for the <a href="https://twitter.com/SCOTUSblog">SCOTUSblog account</a>, blog post archives, and featured posts. Technically, any of these should count as the webpage having been updated.</div>
-        <br />
+        <br>
         <div>One of the tweets in the embedded Twitter feed is an announcement of the passing of <a href="https://en.wikipedia.org/wiki/Cecilia_Suyat_Marshall">Cecilia Suyat Marshall</a>, the widow of <a href="https://en.wikipedia.org/wiki/Thurgood_Marshall">Justice Thurgood Marshall</a>, on 22 November 2022. For obvious reasons, this text couldn't have affected the relevance determination of the webpage for a contemporaneous Google search executed on 2 June 2021. It does, however, affect the relevance determination of the <a href="https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/">SCOTUSblog post on Kathleen Arberg's retirement</a> (<a href="../img/2022-11-29_scotusblog_www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years_(1280x2725).png">screenshot</a>) for a contemporary Google search.</div>
-        <br />
+        <br>
         <div>We can demonstrate this with a few tests:
           <ul>
             <li>The query, <em><a href="https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.scotusblog.com%2F2021%2F06%2Fsupreme-courts-spokesperson-to-step-down-after-38-years%2F+before%3A2021-06-01">site:https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/ before:2021-06-01</a></em> (<a href="../img/2022-11-29_google_search_site-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years+before-2021-06-01_(1280x960).png">screenshot</a>) predictably yields no results.</li>
@@ -150,16 +150,16 @@
         <div>(Note that the precise search terms used in this demonstration won't yield the same results for long, as the embedded Twitter feed only loads a limited number of tweets by default and the <a href="https://twitter.com/scotusblog/status/1595154429577408512">tweet in question</a> will eventually roll off. In that case, check out the screenshots or update the example queries with keywords from more recent tweets.)
         <h3>Conclusions</h3>
         <div>What does this all mean?</div>
-        <br />
+        <br>
         <div>It's probably the exception rather than the rule at this point that much of any webpages are truly static. Even published articles, by virtue of recency-biased content management systems, will in some sense look new.</div>
-        <br />
+        <br>
         <div>When using the Google date operators to try to approximate what search results may have been served to a user at a specific point in time, it will therefore be essential to additionally evaluate not just the dates that the webpages themselves were published or updated, but also the date that the relevance-matched content on those webpages was added.</div>
-        <br />
+        <br>
         <div>News articles are more likely to have been static, once published, so relevance matching on article body text can more reliably be supposed to be contemporaneous. Otherwise, for non-news content, consulting IAWM is likely to be the best bet. Without this additional step, you're likely to have false positives in the search results list.</div>
       </div>
-      <br />
+      <br>
       <div class="byline"><a href="https://nullhandle.org/blog/2022-11-29-subtleties-of-the-google-date-search-operators.html" rel="canonical">Permalink</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" width="80" /></a></div>
-      <br />
+      <br>
       <script>
         var nav = responsiveNav(".nav-collapse");
       </script>
