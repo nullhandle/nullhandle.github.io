@@ -5,7 +5,13 @@
     <link>https://nullhandle.org/</link>
     <title>nullhandle.org</title>
     <item>
-      <title>Subtleties of the Google date search operators</title>
+      <title>A Brief Primer on Using Web-Archived Evidence</title>
+      <link>/blog/2023-06-07-a-brief-primer-on-using-web-archived-evidence.html</link>
+      <pubDate>2023-06-07T22:00:00-06:00</pubDate>
+      <description>One would suppose that Elon Musk had adopted Meta's (n&eacute;e Facebook's) famous motto, "move fast and break things" since &lt;a href="https://www.theverge.com/2022/10/27/23184519/elon-musk-twitter-acquisition-deal-complete-agreement"&gt;his takeover of Twitter&lt;/a&gt; in October 2022. A steady stream of news articles has chronicled the numerous and not entirely successful experiments that he has undertaken with the company and its service. We need not even take journalists' word for it, or rely on the continued accessibility and discoverability of those articles; many of the changes themselves can be observed by anyone through indelible web archives, most notably among them the &lt;a href="https://archive.org/web/"&gt;Internet Archive Wayback Machine (IAWM)&lt;/a&gt;.</description>
+    </item>
+    <item>
+      <title>Subtleties of the Google Date Search Operators</title>
       <link>/blog/2022-11-29-subtleties-of-the-google-date-search-operators.html</link>
       <pubDate>2022-11-29T22:54:00-07:00</pubDate>
       <description>Google has for some time permitted temporal filtering of search results, limiting what is presented to those before and/or after a specified date. This can help approximate what search results would have been presented to a user at specific points in time. The &lt;a href="https://archive.org/web/"&gt;Internet Archive Wayback Machine (IAWM)&lt;/a&gt; can then fill in more of the hypothetical historical user journey by showing what those webpages might've looked like contemporaneously</description>
