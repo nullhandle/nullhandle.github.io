@@ -796,8 +796,18 @@
     <changefreq>never</changefreq>
   </url>
   <url>
+    <loc>https://nullhandle.org/pdf/aws_cloud_practitioner_essentials_certificate_of_completion.pdf</loc>
+    <lastmod>2022-02-17T04:00:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
     <loc>https://nullhandle.org/pdf/becoming_a_product_manager_certificate_of_completion.pdf</loc>
     <lastmod>2023-10-06T14:25:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/certified_peer_reviewer_certificate_of_completion.pdf</loc>
+    <lastmod>2023-10-10T16:10:00+00:00</lastmod>
     <changefreq>never</changefreq>
   </url>
   <url>
@@ -808,11 +818,6 @@
   <url>
     <loc>https://nullhandle.org/pdf/nij_communicating_certificate_of_completion.pdf</loc>
     <lastmod>2022-01-24T04:51:00+00:00</lastmod>
-    <changefreq>never</changefreq>
-  </url>
-  <url>
-    <loc>https://nullhandle.org/pdf/aws_cloud_practitioner_essentials_certificate_of_completion.pdf</loc>
-    <lastmod>2022-02-17T04:00:00+00:00</lastmod>
     <changefreq>never</changefreq>
   </url>
   <url>
