@@ -366,6 +366,18 @@ margin: 0px 11px 0px 11px;
   font-style: italic;
 }
 
+.search-result-bing {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.search-result-google {
+  font-family: 'Arial', sans-serif;
+}
+
+.search-result-youtube {
+  font-family: 'Roboto', sans-serif;
+}
+
 .selected-year {
   font-weight: 900;
 }

@@ -281,6 +281,11 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://nullhandle.org/blog/2024-04-09-on-the-technical-vs-public-accessibility-of-historical-web-content-as-patent-prior-art.html</loc>
+    <lastmod>2024-04-09T23:05:00-06:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://nullhandle.org/blog/feed.xml</loc>
     <lastmod>2022-11-29T22:54:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -353,6 +358,16 @@
   <url>
     <loc>https://nullhandle.org/img/2022-11-29_google_search_site-www.supremecourt.gov+before-2022-11-29_(1280x1707).png</loc>
     <lastmod>2022-11-29T22:54:00-07:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-03-03_google_search_wattsun+solar+tracker+before-2010-07-06_(1280x6580).png</loc>
+    <lastmod>2024-04-08T22:00:00-07:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-03-10_google_search_az-125+installation+guide+before-2010-07-06_(1280x3239).png</loc>
+    <lastmod>2024-04-08T22:00:00-07:00</lastmod>
     <changefreq>never</changefreq>
   </url>
   <url>

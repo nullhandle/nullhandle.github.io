@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="dc: http://purl.org/dc/elements/1.1 dcterms: http://purl.org/dc/terms/">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc">
+    <link href="http://purl.org/dc/terms/" rel="schema.dcterms">
+    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css">
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="feed.xml" rel="alternate" title="nullhandle.org" type="application/rss+xml">
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="DC.Creator.PersonalName" content="Nicholas Taylor">
+    <meta name="DC.Date" content="2024-04-08" scheme="DCTERMS.W3CDTF">
+    <meta name="DC.Format" content="text/html" scheme="DCTERMS.IMT">
+    <meta name="DC.Language" content="en-US" scheme="DCTERMS.RFC4646">
+    <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0/" scheme="DCTERMS.URI">
+    <meta name="DC.Source" content="https://nullhandle.org/" scheme="DCTERMS.URI">
+    <meta name="DC.Title" content="On the Technical vs. Public Accessibility of Historical Web Content as Patent Prior Art">
+    <meta name="DC.Type" content="blogPost">
+    <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "514c441e9d464f3fb864fa3a50ae9d62"}'></script><!-- End Cloudflare Web Analytics -->
+    <script src="../js/responsive-nav.js"></script>
+    <title>On the Technical vs. Public Accessibility of Historical Web Content as Patent Prior Art</title>
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <div class="border"></div>
+    <nav class="nav-collapse" id="nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../biography.html">Biography</a></li>
+        <li><a href="../resume.html">R&eacute;sum&eacute;</a></li>
+        <li><a href="../consulting.html">Consulting</a></li>
+        <li class="active"><a href="index.html">Blog</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content" itemscope itemtype="http://schema.org/BlogPosting">
+      <h2 itemprop="headline">On the Technical vs. Public Accessibility of Historical Web Content as Patent Prior Art</h2>
+      <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../biography.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2024-04-09T23:05:00-06:00" itemprop="dateModified"></time><time datetime="2024-04-09T23:05:00-06:00" itemprop="datePublished">9 April 2024</time></div>
+      <br>
+      <div itemprop="articleBody">
+        <figure class="figure-left" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+          <img alt="Solar-powered sun flower seen in Provence, France, near Avignon" height="213" itemprop="url" src="https://live.staticflickr.com/4265/35932162695_ee008fbc85_n.jpg" width="320">
+          <meta itemprop="height" content="213">
+          <meta itemprop="width" content="320">
+          <figcaption>"<a href="https://www.flickr.com/photos/ralf-steinberger/35932162695/" property="dct:title">Solar-powered sun flower seen in Provence, France, near Avignon</a>" by <a href="https://www.flickr.com/photos/ralf-steinberger/" property="cc:attributionName" rel="cc:attributionURL dct:creator">Ralf Steinberger</a> under <a href="https://creativecommons.org/licenses/by/2.0/" rel="license">CC BY 2.0</a></figcaption>
+        </figure>
+        <div>A <a href="https://www.ptablitigationblog.com/proceed-with-caution-when-using-wayback-machine-prior-art/">recent blog post</a> by <a href="https://www.jonesday.com/en/lawyers/m/john-marlott">John Marlott</a> at <a href="https://www.jonesday.com/">Jones Day</a> brought to my attention a <a href="https://kmfa11.a2cdn1.secureserver.net/wp-content/uploads/2023/12/PTAB-IPR2023-00827-13-1.pdf">ruling from last fall</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16"> by the <a href="https://www.uspto.gov/patents/ptab">Patent Trial and Appeal Board (PTAB)</a> concerning the use of the <a href="https://web.archive.org/">Internet Archive Wayback Machine (IAWM)</a> for patent prior art in the context of an <a href="https://en.wikipedia.org/wiki/Inter_partes_review">inter partes review</a>. While <a href="https://www.uspto.gov/web/offices/pac/mpep/s2128.html#ch2100_p_2c193_1d6e0_3de">this use of IAWM is well-established</a>, the ruling suggests that IAWM may not unto itself be sufficient to qualify as a "<a href="https://www.uspto.gov/web/offices/pac/mpep/s2128.html">printed publication</a>" for the purposes of establishing dated patent disclosures.</div>
+        <br>
+        <div>Specifically, the PTAB judge noted that the demonstrated historical public accessibility of a given web document, as substantiated by IAWM, only established that it was <em>technically</em> accessible; it didn't go to its "public accessibility" &mdash; i.e., its discoverability by, dissemination to, and/or circulation within the relevant community of practice. Here is the critical excerpt from the ruling, <a href="https://kmfa11.a2cdn1.secureserver.net/wp-content/uploads/2023/12/PTAB-IPR2023-00827-13-1.pdf#page=18"><em>First Solar, Inc. v. Rovshan Sade</em>, IPR2023-00227, Paper 13 at 18 (PTAB Nov. 16, 2023)</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">:</div>
+        <blockquote>"<em>[T]he present case lacks any testimonial evidence that a person interested in solar trackers or solar panel assemblies would be independently aware of the web address for Wattsun or even of the company or its products. In other words, there was no evidence that the ordinarily skilled artisan would know of Wattsun or its web address. Nor does Petitioner offer evidence, or even argument, that Wattsun's webpage was 'indexed ... (through search engines or otherwise)' and thus locatable by a search engine.</em>"</blockquote>
+        <div>While IAWM is no doubt essential to these kinds of investigations, it's not the only tool for <a href="2023-06-07-a-brief-primer-on-using-web-archived-evidence.html">web archaeology</a>. Curious about this case specifically and the more general possibilities for discovering applicable historical web context for these kinds of cases, I decided to perform some additional exploration and document it here. For reference, the <a href="https://patents.google.com/patent/US9057546B2/en">patent in question</a> was filed on 6 July 2010.</div>
+        <br>
+        <div>This ended up being a long post. For convenience, I'm providing a table of contents below for folks interested in particular approaches. You can also jump ahead to the <a href="#conclusion">conclusion</a>, for a summary of findings.</div>
+        <ul>
+          <li><a href="#key-web-addresses">Key web addresses</a></li>
+          <li><a href="#backlink-analysis">Backlink analysis</a></li>
+          <li><a href="#google-date-operators">Google date operators</a></li>
+          <li><a href="#youtube-date-operators">YouTube date operators</a></li>
+          <li><a href="#bing-date-filters">Bing date filters</a></li>
+          <li><a href="#x-date-operators">X date operators</a></li>
+          <li><a href="#reddit-threads">Reddit threads</a></li>
+        </ul>
+        <h3 id="key-web-addresses">Key web addresses</h3>
+        <div>Let's start by reviewing the key historical web resources.</div>
+        <br>
+        <div>The main prior art of interest was an installation guide for a commercial <a href="https://en.wikipedia.org/wiki/Solar_tracker">solar tracker</a> product, with model name <em>AZ-125</em>. The copy referenced by the petitioner was an <a data-originalurl="http://www.wattsun.com/PDF/Wattsun_AZ-125_Instructions.pdf" data-versiondate="2005-12-02" href="https://web.archive.org/web/20051202075211/www.wattsun.com/PDF/Wattsun_AZ-125_Instructions.pdf">IAWM capture dated 2 December 2005</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16"> from the website for the product family brand, <em>Wattsun</em>.</div>
+        <br>
+        <div>By extension, we might reasonably suppose that the contemporaneous discoverability of either the <a data-originalurl="http://www.wattsun.com/" data-versiondate="2005-12-02" href="https://web.archive.org/web/20051202071621/www.wattsun.com/">Wattsun home page</a> or the <a data-originalurl="http://www.wattsun.com/products/wattsun_trackers/AZ-125.html" data-versiondate="2005-11-30" href="https://web.archive.org/web/20051130093409/www.wattsun.com/products/wattsun_trackers/AZ-125.html">AZ-125 product page</a>, from which the installation guide was linked, would also be relevant.</div>
+        <br>
+        <div>Reviewing the <a data-originalurl="http://www.wattsun.com/" data-versiondate="2005-12-02" href="https://web.archive.org/web/20051202071621/www.wattsun.com/">2 December 2005 capture of the Wattsun home page</a>, it appears that Wattsun solar trackers were manufactured by a company called <a href="https://arraytechinc.com/">Array Technologies</a>.</div>
+        <br>
+        <div>IAWM has few captures of the Array Technologies website prior to the patent filing date. A <a data-originalurl="http://www.arraytechinc.com/about.htm" data-versiondate="2005-02-15" href="https://web.archive.org/web/20050215081738/www.arraytechinc.com/about.htm">15 February 2005 capture of the "About Us" webpage</a> suggests that the domain belonged to another company at this time. A <a data-originalurl="https://arraytechinc.com/" data-versiondate="2009-08-07" href="https://web.archive.org/web/20090807042411/arraytechinc.com/">7 August 2009 capture of the home page</a> shows a <a href="https://en.wikipedia.org/wiki/Domain_parking">parked domain</a>, suggesting that the solar systems company didn't own the domain at this time, either.</div>
+        <br>
+        <div>Given that, let's proceed only with the three aforementioned web addresses:
+        <ul>
+          <li>The AZ-125 installation guide, at: <a href="https://www.wattsun.com/PDF/Wattsun_AZ-125_Instructions.pdf">www.wattsun.com/PDF/Wattsun_AZ-125_Instructions.pdf</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">;</li>
+          <li>The AZ-125 product webpage, at: <a href="https://wattsun.com/products/wattsun_trackers/AZ-125.html">wattsun.com/products/wattsun_trackers/AZ-125.html</a>; and</li>
+          <li>The Wattsun home page, at: <a href="https://www.wattsun.com/">www.wattsun.com</a>.</li>
+        </ul>
+        <div>Only the last of these still resolves, and the content of the webpage has, predictably, <a href="https://web.archive.org/web/diff/20051202071621/20230628104649/www.wattsun.com">drifted significantly from 2005</a>.</div>
+        <br>
+        <div>A <a href="https://www.google.com/search?q=site%3Awattsun.com+az-125">Google search for "az-125" limited to the domain wattsun.com</a> (i.e., using the <a href="https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site"><em>site:</em> operator</a>) yields no results, suggesting that the web resources at the first two links were not just moved but are in fact now gone.</div>
+        <h3 id="backlink-analysis">Backlink analysis</h3>
+        <div><a href="https://en.wikipedia.org/wiki/Backlink">Backlink</a> analysis is a <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">search engine optimization (SEO)</a> technique that looks at external links pointing to a website or webpage of interest. The number of backlinks as well as the relative popularity, authority, and/or subject relevance of the websites where they appear can be useful signals for the discoverability of the target website or webpage.</div>
+        <br>
+        <div>That two of the key historical web addresses are no longer active complicates this analysis, as any historical backlinks are more likely to have decayed over time (i.e., removed by their webmasters, having recognized that they were <a href="https://en.wikipedia.org/wiki/Link_rot">dead links</a>).</div>
+        <br>
+        <div>Given the commercial importance of SEO, there are a number of backlink analyzers available. Through some experimentation, I've mostly settled on <a href="https://app.neilpatel.com/">Ubersuggest</a> as my preferred tool, since it (uniquely, that I've seen) provides the date on which its crawlers first observed a given backlink.</div>
+        <br>
+        <div>I ran all three of the key web addresses through the tool. Not entirely surprisingly, it didn't find any backlinks for either the <a href="https://app.neilpatel.com/en/traffic_analyzer/overview?domain=wattsun.com%2FPDF%2FWattsun_AZ-125_Instructions.pdf&lang=en&locId=2840&mode=url">AZ-125 installation guide</a> or the <a href="https://app.neilpatel.com/en/traffic_analyzer/overview?domain=wattsun.com%2Fproducts%2Fwattsun_trackers%2FAZ-125.html&lang=en&locId=2840&mode=url">AZ-125 product webpage</a>. It did find over 1,500 backlinks for the <a href="https://app.neilpatel.com/en/traffic_analyzer/overview?lang=en&locId=2840&domain=wattsun.com">Wattsun home page</a> as of 8 March 2024, though none from prior to the patent filing date.</div>
+        <br>
+        <div>From IAWM, it's clear that <a href="https://www.wattsun.com/">www.wattsun.com</a> was a live website at least as early as <a data-originalurl="http://www.wattsun.com/" data-versiondate="1999-01-25" href="https://web.archive.org/web/19990125104410/www.wattsun.com/">25 January 1999</a>, which makes the absence of observed backlinks prior to 6 July 2010 surprising. Suspicious of this result, I looked up and discovered that the <a href="https://www.crunchbase.com/organization/ubersuggest-by-neil-patel">founding date of Ubersuggest was 2012</a>, so understandably it wouldn't have indexed backlinks prior to that date.</div>
+        <br>
+        <div>While this tool didn't work with these links for this threshold date, hopefully one can nonetheless see the conceptual potential. If Ubersuggest had been able to identify backlinks prior to the patent filing date, IAWM could then be employed to verify that they were in fact present on the indicated webpages at specific points in time.</div>
+        <h3 id="google-date-operators">Google date operators</h3>
+        <div>Google's search results can obviously provide a contemporary view of the discoverability of specific webpages or websites for specific queries. Through the additional application of <em><a href="https://twitter.com/searchliaison/status/1115706765088182272">date operators</a></em>, it is possible to also gain insight into historical search results.</div>
+        <br>
+        <div>Functionally, the date operators allow for the temporal filtering of returned search results. This sounds straight-forward, but there are some counter-intuitive aspects to how this works which I documented through experimentation in a <a href="2022-11-29-subtleties-of-the-google-date-search-operators.html">previous, standalone blog post</a>.</div>
+        <br>
+        <div>Google searches modified with date operators should be understood to provide only approximations of what search results would have historically been returned. There are at least three ways in which they are definitively unrepresentative:</div>
+        <ul>
+          <li><em>They're over-inclusive of search results</em>, because the keyword matching takes place against the most current indexed version of the webpage, not the historical one. That is to say, if the matching keywords weren't present on the historical version of a webpage, then it's less likely that it would've been included in the search results then even though it is now.</li>
+          <li><em>They're under-inclusive of search results</em>, because some webpages that may have previously existed and been returned no longer exist and thus have been dropped from Google's search index.</li>
+          <li><em><a href="https://blog.google/products/search/how-we-update-search-improve-results/">How Google performs relevance matching and results ranking changes constantly</a></em>, so any given search result may or may not have been included at all, or been more or less prominent historically than it is now. On the other hand, if we are to assume that Google strives and generally succeeds at maintaining the quality of its search results over time, a plausibly high-ranking search result may be a relatively stronger indicator of that it also ranked highly historically.</li>
+        </ul>
+        <div>With that background, let's start with a <a href="https://www.google.com/search?q=%22az-125%22+installation+guide+before%3A2010-07-06&uact=5#ip=1">Google search for <em>"az-125" installation guide</em> with a <em>before:</em> date of 6 July 2010</a> (i.e., the patent filing date).</div>
+        <br>
+        <div>There are a few promising results, from a search executed on 10 March 2024 (<a href="../img/2024-03-10_google_search_az-125+installation+guide+before-2010-07-06_(1280x3239).png">screenshot</a>):</div>
+        <ul>
+          <li><a class="search-result-google" href="https://www.altestore.com/static/datafiles/Others/Wattsun_AZ-125_Instructions.pdf">INSTALLATION GUIDE</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, with a Google-recorded date of 15 August 2005. This appears to be a copy of the <a data-originalurl="http://www.wattsun.com/PDF/Wattsun_AZ-125_Instructions.pdf" data-versiondate="2005-12-02" href="https://web.archive.org/web/20051202075211/www.wattsun.com/PDF/Wattsun_AZ-125_Instructions.pdf">aforementioned AZ-125 installation guide</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, though in this case hosted on another website, that of the <a href="https://www.altestore.com/">Alternative Energy Store</a>, an electrical and renewable energy-related equipment provider.</li>
+          <li><a class="search-result-google" href="https://www.solarray.com/Images/PDFs/Wattsun.pdf">wattsun solar trackers: suggested retail price and ordering guide</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, with a Google-recorded date of 1 May 2003. This appears to be a product information and marketing document for Wattsun solar trackers hosted by <a href="https://www.solarray.com/">SolarRay</a>, a Colorado-based solar energy systems provider.</li>
+          <li><a class="search-result-google" href="http://www.fcgilbert.com/FCGSOLAR.pdf">How Solar Cells Work</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, with a Google-recorded date of 21 February 2005. This appears to be a booklet covering various types of equipment, including Wattsun solar trackers, compiled by <a href="http://www.fcgilbert.com/">Fred C. Gilbert Co.</a>, a California-based provider of metering pumps and lubrication equipment.</li>
+        </ul>
+        <div>If a clear and credible date doesn't accompany the content, we can then look up these web addresses in IAWM to corroborate that the references to the Wattsun AZ-125 were present in the time frame of interest. For these results, their date of publication is not self-evident, so let's consult IAWM.</div>
+        <br>
+        <div>The earliest capture of the search result with title, "<a class="search-result-google" href="https://www.altestore.com/static/datafiles/Others/Wattsun_AZ-125_Instructions.pdf">INSTALLATION GUIDE</a>" <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16"> is <a data-originalurl="https://www.altestore.com/static/datafiles/Others/Wattsun_AZ-125_Instructions.pdf" data-versiondate="2023-12-21" href="https://web.archive.org/web/20231221064734/www.altestore.com/static/datafiles/Others/Wattsun_AZ-125_Instructions.pdf">21 December 2023</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16"> &mdash; unfortunately, well after the patent filing date. Sometimes examining the <a href="https://ws-dl.blogspot.com/2015/08/2015-08-28-original-header-replay.html">cached original</a> <em><a href="https://datatracker.ietf.org/doc/html/rfc9110#name-last-modified">last-modified</a></em> <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields">HTTP header</a> in IAWM can provide additional insight on the preceding time period in which the captured version of the webpage was likely available, but in this instance the header was missing.</div>
+        <br>
+        <div>Returning to the <a href="https://www.altestore.com/static/datafiles/Others/Wattsun_AZ-125_Instructions.pdf">still-available live version</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, it turns out that it reports a 16 March 2007 <em><a href="https://datatracker.ietf.org/doc/html/rfc9110#name-last-modified">last-modified</a></em> date, so there is a high likelihood that this version of the document has been continuously available at this web address since that time, notwithstanding the later IAWM capture.</div>
+        <br>
+        <div>We can then <a href="https://app.neilpatel.com/en/seo_analyzer/backlinks?domain=https%3A%2F%2Fwww.altestore.com%2Fstatic%2Fdatafiles%2FOthers%2FWattsun_AZ-125_Instructions.pdf&lang=en&locId=2840&mode=url">check the web address in Ubersuggest</a> to possibly see where on the website (or externally) it had been linked from, but that turned up no results.</div>
+        <br>
+        <div>The earliest capture of the search result with title, "<a class="search-result-google" href="https://www.solarray.com/Images/PDFs/Wattsun.pdf">wattsun solar trackers: suggested retail price and ordering guide</a>" <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16"> is <a data-originalurl="http://www.solarray.com/Images/PDFs/Wattsun.pdf" data-versiondate="2006-03-22" href="https://web.archive.org/web/20060322180731/www.solarray.com/Images/PDFs/Wattsun.pdf">22 March 2006</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, which is prior to the patent filing date.</div>
+        <br>
+        <div>The earliest capture of the search result with title, "<a class="search-result-google" href="http://www.fcgilbert.com/FCGSOLAR.pdf">How Solar Cells Work</a>" <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16"> is <a data-originalurl="http://www.fcgilbert.com/FCGSOLAR.pdf" data-versiondate="2006-10-16" href="https://web.archive.org/web/20061016023518/www.fcgilbert.com/FCGSOLAR.pdf">16 October 2006</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, which is also prior to the patent filing date.</div>
+        <br>
+        <div>To get some sense of the extent to which either Wattsun or the AZ-125 show up organically for a set of date-limited results, let's next try a <a href="https://www.google.com/search?q=solar+tracker+before%3A2010-07-06&uact=5#ip=1">Google search for <em>solar tracker</em> with a <em>before:</em> date of 6 July 2010</a>.</div>
+        <br>
+        <div>For me, executing the search on 1 March 2024, this returns about 111,000 results. A quick <em>Find in page</em> search for either "wattsun" or "az-125" turns up neither. If I scroll down and force the asynchronous load of a few more "pages" of search results, hits for both eventually show up.</div>
+        <br>
+        <div>Curious as to whether any Wattsun webpages show up in this entire search result set, I <a href="https://www.google.com/search?q=solar+tracker+before%3A2010-07-06+site%3Awattsun.com&uact=5">add the <em>site:</em> operator and constrain the search to the domain <em>wattsun.com</em></a>.</div>
+        <br>
+        <div>No results are returned. This is odd, as <a href="https://www.wattsun.com/">wattsun.com</a> is currently a live domain and, as we already know from IAWM, the <a data-originalurl="http://wattsun.com/" data-versiondate="2010-06-11" href="https://web.archive.org/web/20100611103748/wattsun.com/">website also existed by 6 July 2010</a>.</div>
+        <br>
+        <div>To review the dates that Google has recorded for the wattsun.com webpages that it has indexed, we can <a href="https://www.google.com/search?q=before%3A2024-03-01+site%3Awattsun.com&uact=5">remove the keywords from the search and set the <em>before:</em> value to today's date</a> (i.e., 1 March 2024).</div>
+        <br>
+        <div>Looking through the dates associated with the search results, the earliest date is 5 October 2013. Evidently, the website underwent a major change subsequent to 6 July 2010, such that Google has recorded no earlier change or publication dates for any of its webpages. We can actually observe this in IAWM, by <a href=https://web.archive.org/web/diff/20130725054230/20131114231109/www.wattsun.com">comparing the two closest captures of www.wattsun.com before and after 5 October 2013</a>.</div>
+        <br>
+        <div>Let's try another Google search, this time for <a href="https://www.google.com/search?q=before%3A2010-07-06+wattsun+solar+tracker&uact=5#ip=1"><em>wattsun solar tracker</em>, again with a <em>before:</em> date of 6 July 2010</a>. For me, executing the search on 3 March 2024, this returns about 45 results (<a href="../img/2024-03-03_google_search_wattsun+solar+tracker+before-2010-07-06_(1280x6580).png">screenshot</a>).</div>
+        <br>
+        <div>If I scroll down and force the asynchronous load of all of the results, a quick <em>Find in page</em> returns no hits for "az-125". There are, however, a few hits for the Wattsun AZ-225 dual-axis solar tracker:</div>
+        <ul>
+          <li><a class="search-result-google" href="https://www.infinigi.com/wattsun-az225-solar-tracker-for-12-kyocera-200-modules-p-2389.html">Wattsun AZ-225 Solar Tracker for 12 Kyocera 200 Modules</a>, with a Google-recorded date of 17 July 2008. This appears to be a product page for the Wattsun AZ-225 from <a data-originalurl="http://www.infinigi.com/" data-versiondate="2008-06-12" href="https://web.archive.org/web/20080612072511/www.infinigi.com/">Infinigi</a>, a vendor of electrical and renewable energy-related equipment.</li>
+          <li><a class="search-result-google" href="https://www.solarypsi.org/repository/documents/DreamFarm/ac20energycomparison-madison-wi-43155.pdf">TRACKED VS FIXED: PV SYSTEM COST AND AC ...</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, with a Google-recorded date of 8 February 2008. This appears to be a comparative analysis of the cost characteristics and performance of fixed versus tracked solar panels for <a data-originalurl="https://www.solarypsi.org/" data-versiondate="2010-06-27" href="https://web.archive.org/web/20100627083610/www.solarypsi.org/">SolarYpsi</a>, a community-based solar initiative in Michigan, which mentions the Wattsun AZ-225 as the tracked solution.</li>
+          <li><a class="search-result-google" href="http://www.controlaltenergy.com/EnPhaseSystemShowCases/WollSolar.htm">Helping You Control Alternative Energy! Woll Solar System</a>, with a Google-recorded date of 2 November 2008. This appears to be a showcase of a completed project involving Wattsun AZ-225s by <a data-originalurl="http://www.controlaltenergy.com/" data-versiondate="2010-03-26" href="https://web.archive.org/web/20100326175651/www.controlaltenergy.com/">Control Alt Energy</a>, a Pennsylvania-based renewable energy systems provider.</li>
+        </ul>
+        <div>Once again, aside from what Google asserts, the dates of these search results are not self-evident. Let's again look up these web addresses in IAWM, to corroborate that the references to the Wattsun AZ-225 (or perhaps, even, the Wattsun AZ-125) were present in the time frame of interest.</div>
+        <br>
+        <div>The earliest capture of the search result with title, "<a class="search-result-google" href="https://www.infinigi.com/wattsun-az225-solar-tracker-for-12-kyocera-200-modules-p-2389.html">Wattsun AZ-225 Solar Tracker for 12 Kyocera 200 Modules</a>" is <a data-originalurl="https://www.infinigi.com/wattsun-az225-solar-tracker-for-12-kyocera-200-modules-p-2389.html" data-versiondate="2010-08-07" href="https://web.archive.org/web/20100807062454/www.infinigi.com/wattsun-az225-solar-tracker-for-12-kyocera-200-modules-p-2389.html">7 August 2010</a> &mdash; close to but subsequent to the patent filing date. The <em><a href="https://datatracker.ietf.org/doc/html/rfc9110#name-last-modified">last-modified</a></em> <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields">HTTP header</a> was absent for both the <a href="https://www.infinigi.com/wattsun-az225-solar-tracker-for-12-kyocera-200-modules-p-2389.html">still-available live version</a> and the <a data-originalurl="https://www.infinigi.com/wattsun-az225-solar-tracker-for-12-kyocera-200-modules-p-2389.html" data-versiondate="2010-08-07" href="https://web.archive.org/web/20100807062454/www.infinigi.com/wattsun-az225-solar-tracker-for-12-kyocera-200-modules-p-2389.html">IAWM capture</a>.</div>
+        <br>
+        <div>
+        Clicking on the "<a date-originalurl="http://www.infinigi.com/module-mounts-trackers-active-c-2_22_83.html" data-versiondate="2010-08-05" href="https://web.archive.org/web/20100805170928/www.infinigi.com/module-mounts-trackers-active-c-2_22_83.html">Trackers - Active</a>" link in the breadcrumb navigation, then clicking the left temporal navigation arrow in the IAWM overlay banner brings up a capture of that webpage from <a data-originalurl="http://www.infinigi.com:80/module-mounts-trackers-active-c-2_22_83.html" data-versiondate="2010-07-02" href="https://web.archive.org/web/20100702042524/www.infinigi.com:80/module-mounts-trackers-active-c-2_22_83.html">2 July 2010</a>, a few days before the patent filing date. The webpage shows multiple configurations of the Wattsun AZ-125 solar tracker. For whatever it's worth, it also indicates configurations of the AZ-125 and AZ-225 as "Bestsellers" (perhaps for this category?).</div>
+        <br>
+        <div>There were no captures for the search result with title, "<a class="search-result-google" href="https://www.solarypsi.org/repository/documents/DreamFarm/ac20energycomparison-madison-wi-43155.pdf">TRACKED VS FIXED: PV SYSTEM COST AND AC ...</a>" <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">. I went ahead and added one using the <a href="https://help.archive.org/help/save-pages-in-the-wayback-machine/">IAWM Save Page Now</a> feature. Other clues as to the date of this document's online availability point in varying directions:</div>
+        <ul>
+          <li>The <em><a href="https://datatracker.ietf.org/doc/html/rfc9110#name-last-modified">last-modified</a></em> <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields">HTTP header</a> was 11 September 2018.</li>
+          <li>Viewing the PDF document properties, we can observe that both the <a data-originalurl="www.adobe.com/content/dam/acom/en/devnet/pdf/pdf_reference_archive/PDFReference15_v6.pdf" data-versiondate="2021-10-06" href="https://web.archive.org/web/20211006011302/www.adobe.com/content/dam/acom/en/devnet/pdf/pdf_reference_archive/PDFReference15_v6.pdf#page=736">created and modified dates</a> were meaningfully earlier &mdash; 18 September 2008 and 27 May 2015, respectively.</li>
+          <li>Also, the latest IAWM capture of one of the web addresses cited in the document that resolves to an actual webpage (i.e., as opposed to a <a href="https://en.wikipedia.org/wiki/HTTP_404">missing page</a>) is <a data-originalurl="http://www.clean-power.com/PowerNaturally/Default.aspx" data-versiondate="2009-02-11" href="https://web.archive.org/web/20090211181206/www.clean-power.com/PowerNaturally/Default.aspx">11 February 2009</a>, corroborating that at least some of the document content originated from prior to the patent filing date.</li>
+          <li>However, the earliest <a href="https://web.archive.org/web/*/www.solarypsi.org/*">IAWM capture of any content from the parent SolarYpsi website is 27 June 2010</a>, and no link to the document was readily apparent browsing around the oldest captures.</li>
+        </ul>
+        <div>None of these observations necessarily contradict the Google-recorded date of 8 February 2008, but they don't clearly corroborate it, either.</div>
+        <br>
+        <div>Moving on, the earliest capture of the search result with title, "<a class="search-result-google" href="http://www.controlaltenergy.com/EnPhaseSystemShowCases/WollSolar.htm">Helping You Control Alternative Energy! Woll Solar System</a>" was <a data-originalurl="http://www.controlaltenergy.com/EnPhaseSystemShowCases/WollSolar.htm" data-versiondate="2012-06-17" href="https://web.archive.org/web/20120617172058/www.controlaltenergy.com/EnPhaseSystemShowCases/WollSolar.htm">17 June 2012</a> &mdash; a couple of years later than the patent filing date. The <em>x-archive-orig-last-modified</em> date was only slightly earlier: 22 April 2012.</div>
+        <br>
+        <div>On previous Google data operator-amended searches, I had turned up a couple more results with references to Wattsun solar trackers:</div>
+        <ul>
+          <li><a href="http://shop.altenergystore.com/items~Cc~TRACKERS~iTpStatus~0~Tp~~Bc~.htm">Active Trackers Items at ALTERNATIVE ENERGY STORE</a></li>
+          <li><a href="http://www.altestore.com/store/Solar-Panel-Mounting-Trackers/Active-Trackers/c681/">Active Trackers  -  DIY Solar Panels &amp; Renewable Energy @ AltE Store</a></li>
+        </ul>
+        <div>There was exactly one capture for each of these search results: on <a data-originalurl="http://shop.altenergystore.com/items~Cc~TRACKERS~iTpStatus~0~Tp~~Bc~.htm" data-versiondate="2005-05-13" href="https://web.archive.org/web/20050513212247/shop.altenergystore.com/items~Cc~TRACKERS~iTpStatus~0~Tp~~Bc~.htm">13 May 2005</a> for the one with title, "<a class="search-result-google" href="http://shop.altenergystore.com/items~Cc~TRACKERS~iTpStatus~0~Tp~~Bc~.htm">Active Trackers Items at ALTERNATIVE ENERGY STORE</a>", and on <a data-originalurl="http://www.altestore.com/store/Solar-Panel-Mounting-Trackers/Active-Trackers/c681/" data-versiondate="2010-05-04" href="https://web.archive.org/web/20100504162625/www.altestore.com/store/Solar-Panel-Mounting-Trackers/Active-Trackers/c681/">4 May 2010</a> for the one with title, "<a class="search-result-google" href="http://www.altestore.com/store/Solar-Panel-Mounting-Trackers/Active-Trackers/c681/">Active Trackers  -  DIY Solar Panels &amp; Renewable Energy @ AltE Store</a>".</div>
+        <br>
+        <div>On closer inspection, these seem to be the same section &mdash; "Active Trackers" &mdash; of the same company's (i.e., the <a href="http://www.altestore.com/">Alternative Energy Store</a>) website at different points in time. Unfortunately, there were no captures for either version of the website for the section labeled, "Wattsun Trackers", but it at least strongly suggests that this was a category of product that they offered in both 2005 and 2010.</div>
+        <br>
+        <div>In summary, the combined application of Google date operators and IAWM corroborate the availability of the following relevant content prior to the patent filing date:</div>
+        <ul>
+          <li>A copy of the AZ-125 installation guide separately made available by a commercial provider and</li>
+          <li>Information about and marketing of Wattsun solar trackers, including the AZ-125, by at least four commercial providers.</li>
+        </ul>
+        <div>Google by itself also attests to references to Wattsun solar trackers prior to the patent filing date by an additional commercial provider and a community initiative.</div>
+        <br>
+        <div>These are all de facto discoverable through Google, though it's hard to say definitively when they were indexed.</div>
+        <h3 id="youtube-date-operators">YouTube date operators</h3>
+        <div>YouTube conveniently supports the same date operators as Google search. This can be used to discover matching videos from a particular time frame.</div>
+        <br>
+        <div>Let's try a <a href="https://www.youtube.com/results?search_query=wattsun+before%3A2010-07-06">YouTube search for <em>wattsun</em>, with a <em>before:</em> date of 6 July 2010</a>.</div>
+        <br>
+        <div>There are a handful of clearly related videos:</div>
+        <ul>
+          <li><a class="search-result-youtube" href="https://www.youtube.com/watch?v=ayjVNouuIqQ">Wattsun Solar Tracker</a>, a time lapse of a Wattsun solar tracker following the sun, published on 8 June 2007.</li>
+          <li><a class="search-result-youtube" href="https://www.youtube.com/watch?v=sNtZRqetD08">Six Wattsun Solar Trackers</a>, another time lapse of a group of Wattsun solar trackers following the sun, published on 18 April 2008.</li>
+          <li><a class="search-result-youtube" href="https://www.youtube.com/watch?v=xAA1PDeuSIY">Wattsun solar tracker time lapse</a>, another time lapse of a Wattsun solar tracker following the sun, published on 10 August 2008.</li>
+          <li><a class="search-result-youtube" href="https://www.youtube.com/watch?v=6j46qfuK72I">Wattsun Solar Trackers</a>, another time lapse of Wattsun solar trackers following the sun, published on 15 February 2008.</li>
+          <li><a class="search-result-youtube" href="https://www.youtube.com/watch?v=gEzaIK7rijE">Solar Tracking array installation</a>, a time lapse of the installation of a Wattsun solar tracker by <a data-originalurl="https://blueskypower.co.uk/" data-versiondate="2009-06-03" href="https://web.archive.org/web/20090603221533/blueskypower.co.uk/">Blue Sky Power</a>, a solar systems provider based in the UK, published on 11 May 2009.</li>
+          <li><a class="search-result-youtube" href="https://www.youtube.com/watch?v=Dxs4teGzWN0">Visite de l'usine CNPV à Dongying par Wattsun</a>, a slideshow of a visit by Wattsun representatives(?) to a factory in China, published on 4 June 2010.</li>
+          <li><a class="search-result-youtube" href="https://www.youtube.com/watch?v=3GJxyjyD9zc">PV Solar Tracker Location Time Laps shadow study</a>, a time lapse shadow study to prospect the siting of a Wattsun solar tracker, published on 10 June 2008.</li>
+        </ul>
+        <div>Contemporary view counts for these videos range from ~900 to ~76,000. More relevant to our purposes is the view count around the time of the patent filing, as a measure of their historical dissemination.</div>
+        <br>
+        <div>A couple of the higher-view count videos have older captures in IAWM. This allows us to check the view count at points in time closer to that of the patent filing:</div>
+        <ul>
+          <li>The search result with title, <a href="https://www.youtube.com/watch?v=ayjVNouuIqQ">Wattsun Solar Tracker</a> (published on 8 June 2007) had ~73,000 views as of <a class="search-result-youtube" data-originalurl="https://www.youtube.com/watch?v=ayjVNouuIqQ" data-versiondate="2014-01-05" href="https://web.archive.org/web/20140105035504/www.youtube.com/watch?v=ayjVNouuIqQ">5 January 2014</a>. While this is more than three years after the patent filing date, we can observe that the video has only gained ~3,000 views in the last decade, suggesting that the views are heavily weighted towards the first seven years after its publication.</li>
+          <li>The search result with title, <a class="search-result-youtube" href="https://www.youtube.com/watch?v=xAA1PDeuSIY">Wattsun solar tracker time lapse</a> (published on 10 August 2008) had ~5,000 views as of <a data-originalurl="https://www.youtube.com/watch?v=xAA1PDeuSIY" data-versiondate="2012-04-21" href="https://web.archive.org/web/20120421015001/www.youtube.com/watch?v=xAA1PDeuSIY">21 April 2012</a>. While this is almost two years after the patent filing date, we can observe that the video has only gained ~2,000 views in the last dozen years, again suggesting that the views are heavily weighted towards the first four years after its publication.</li>
+        </ul>
+        <div>In summary, through the combined application of YouTube date operators and IAWM, we have found seven videos published before the patent filing date, two of which plausibly had thousands of views by then. We also found another commercial provider working with Wattsun solar trackers.</div>
+        <h3 id="bing-date-filters">Bing date filters</h3>
+        <div>Like Google, Bing can also filter search results by date, providing additional insight into historical search results. While I haven't yet studied the mechanics of Bing's implementation in depth, it appears that results can be filtered both through <a href="https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/filter-answers#specifying-the-contents-freshness">web address parameters</a> as well as the <a href="https://searchengineland.com/bing-adds-search-filter-to-sort-results-by-time-period-153347">user interface</a>. For this exploration, I'll use the latter.</div>
+        <br>
+        <div>Let's start with a <a href="https://www.bing.com/search?q=wattsun+%22az-125%22&filters=ex1:%22ez5_10957_14796%22">Bing search for <em>wattsun "az-125"</em> limited to the time period from 1 January 2000 to 6 July 2010</a>.</div>
+        <br>
+        <div>This returns one promising result:</div>
+        <ul>
+          <li><a class="search-result-bing" href="https://issuu.com/csolarenergy/docs/cse-catalog-colorado/51">2008-2009 Colorado Solar Energy Catalog by CSolarEnergy - Issuu</a>, with a Bing-recorded date of 31 July 2008. This appears to be a product catalog uploaded to a document-hosting website by <a href="https://www.coloradosolarenergy.net/">Colorado Solar Energy</a>, a Colorado-based solar energy systems provider. Access to the publication itself is limited, but the search result snippet suggests that the catalog contains an entry for the Wattsun AZ-125 solar tracker.</li>
+        </ul>
+        <div>The search result is not archived in IAWM.</div>
+        <br>
+        <div>Interestingly, the <em>Images</em> section of the search results highlights a few images having to do with Wattsun solar trackers, if not the AZ-125 specifically. However, clicking through to the <a href="https://www.bing.com/images/search?q=wattsun+%22az-125%22&qpvt=wattsun+%22az-125%22&form=IGRE&first=1">Images interface</a>, I no longer see the operative date filter parameter in the web address nor any visual cue that these search results are constrained to the same time period, so I won't examine these further.</div>
+        <br>
+        <div>Next let's try a <a href="https://www.bing.com/search?q=solar+tracker&filters=ex1:%22ez5_10957_14796%22">search for <em>solar tracker</em> limited to the time period from 1 January 2000 to 6 July 2010</a>.</div>
+        <br>
+        <div>A quick <em>Find in page</em> search for either "wattsun" or "az-125" turns up neither, for the first five pages of results.</div>
+        <br>
+        <div>Given that, let's modify the query slightly, to <a href="https://www.bing.com//search?q=wattsun+solar+tracker&filters=ex1%3a%22ez5_10957_14796%22"><em>wattsun solar tracker</em> limited to the time period from 1 January 2000 to 6 July 2010</a>.</div>
+        <br>
+        <div>There are a few promising results:</div>
+        <ul>
+          <li><a class="search-result-bing" href="https://www.youtube.com/watch?v=xAA1PDeuSIY">Wattsun solar tracker time lapse</a>, with a Bing-recorded date of 10 August 2008. This is among the previously reviewed videos discovered via the <a href="#youtube-date-operators">YouTube date operator-enabled search</a>.</li>
+          <li><a class="search-result-bing" href="https://www.altestore.com/store/wattsun-dual-axis-trackers-p5508/reviews/">Wattsun Dual Axis Trackers reviews altE</a>, with a Bing-recorded date of 22 June 2008. These appear to be reviews of Wattsun dual-axis solar trackers on the previously observed <a href="https://www.altestore.com/">Alternative Energy Store</a>.</li>
+          <li><a class="search-result-bing" href="http://solar-guppy.com/forum/wattsun-tracker-t572.html">WattSun Tracker : All Things Hardware For Solar Installations</a>, with a Bing-recorded date of 4 September 2007. These appear to be posts discussing Wattsun solar trackers on <a href="http://solar-guppy.com/">Solar Guppy</a>, a forum dedicated to solar technology and products.</li>
+          <li><a class="search-result-bing" href="https://www.youtube.com/watch?v=ayjVNouuIqQ">Wattsun Solar Tracker</a>, with a Bing-recorded date of 8 June 2007. This is among the previously reviewed videos discovered via the <a href="#youtube-date-operators">YouTube date operator-enabled search</a>.</li>
+          <li><a class="search-result-bing" href="https://forum.outbackpower.com/viewtopic.php?t=3027">FLEXmax 80 and Wattsun AZ-225 DA Tracker install problems</a>, with a Bing-recorded date of 13 September 2008. This appears to be a post discussing the setup of a Wattsun AZ-225 on a forum for <a href="https://outbackpower.com/">OutBack Power Technologies</a>, a power conversion solutions provider.</li>
+          <li><a class="search-result-bing" href="https://www.altestore.com/store/wattsun-dual-axis-trackers-p5508/reviews/20908/">Review of Wattsun Dual Axis Trackers at altE</a>, with a Bing-recorded date of 30 June 2010. This appears to be a different web address for the same review of Wattsun dual-axis solar trackers on the previously observed <a href="https://www.altestore.com/">Alternative Energy Store</a>.</li>
+          <li><a class="search-result-bing" href="https://nanoengineeringmedical.asmedigitalcollection.asme.org/ISEC/proceedings-abstract/ISEC2003/36762/699/295871">Tracking Systems Evaluation for the "Hybrid Lighting System"</a>, with a Bing-recorded date of 5 January 2009. This appears to be a paper mentioning a Wattsun solar tracker from the <a href="https://www.asme.org/">American Society of Mechanical Engineers</a> <a href="https://asmedigitalcollection.asme.org/ISEC/volumes/browse-by-conference/ISEC2003/927">2003 International Solar Energy Conference</a>.</li>
+          <li><a class="search-result-bing" href="https://www.greenbiz.com/article/solar-energy-finds-new-home-ts-designs">Solar Energy Finds New Home at T.S Designs | GreenBiz</a>, with a Bing-recorded date of 9 October 2003. This appears to be a story in <a href="https://www.greenbiz.com/">GreenBiz</a>, a green industry trade publication, about a company setting up a large solar tracking array.</li>
+          <li><a class="search-result-bing" href="https://www.thefreelibrary.com/Countryside's+off-grid+system+installation.-a0153186835">Countryside's off-grid system installation. - Free Online Library</a>, with a Bing-recorded date of 1 November 2006. This appears to be an article detailing the setup of an off-grid electrical system including a Wattsun solar tracker for <a href="https://www.iamcountryside.com/">Countryside</a>, a publisher of farm-related periodicals.</li>
+        </ul>
+        <div>Helpfully, the landing pages for all of these search results have obvious publication dates and those correspond to the Bing-recorded dates, so there's little need to independently consult IAWM.</div>
+        <br>
+        <div>In summary, through the application of Bing date operators, we have found the following relevant content available prior to the patent filing date:</div>
+        <ul>
+          <li>Two consumer reviews of Wattsun solar trackers;</li>
+          <li>Another commercial solar energy systems provider working with Wattsun solar trackers, including the AZ-125;</li>
+          <li>Two (previously noted) videos about Wattsun solar trackers;</li>
+          <li>Two posts about Wattsun solar trackers on related forums;</li>
+          <li>A solar energy conference paper mentioning a Wattsun solar tracker; and</li>
+          <li>Two articles about companies setting up Wattsun solar trackers as part of larger solar energy equipment deployments.</li>
+        </ul>
+        <div>These are all de facto discoverable through Bing, though it's hard to say definitively when they were indexed.</div>
+        <h3 id="x-date-operators">X date operators</h3>
+        <div>X (n&eacute;e Twitter) also provides for date operator-enabled searches. This can be used to explore historical mentions of particular keywords on the platform.</div>
+        <br>
+        <div>Let's try an <a href="https://twitter.com/search?q=solar%20tracker%20until%3A2010-07-06&src=typed_query">X search for <em>solar tracker</em>, with an <em>until:</em> date of 6 July 2010</a>. If I scroll down and force the asynchronous load of all of the results, a quick <em>Find in page</em> returns <a href="https://twitter.com/HireContainers/status/11603106182">one hit for "wattsun"</a>.</div>
+        <br>
+        <div>The shortened link resolves to a <a href="https://texascontainerhomes.blogspot.com/2010/04/wattsun-solar-tracker.html">blog post dated 3 April 2010 titled "Wattsun Solar Tracker"</a> featuring a <a href="https://www.youtube.com/watch?v=ayjVNouuIqQ">YouTube video of the same</a>. The website appears to belong to a <a href="https://en.wikipedia.org/wiki/Shipping_container_architecture#Alternative_Housing_&_Architecture">container home</a> consultant.</div>
+        <br>
+        <div>Looking up the <a data-originalurl="https://twitter.com/HireContainers/" data-versiondate="2010-05-07" href="https://web.archive.org/web/20100507232847/twitter.com/HireContainers/">X user's account in IAWM for a roughly contemporaneous time frame</a>, we can see that they had 223 followers who would have had an opportunity to see the tweet.</div>
+        <br>
+        <div>As a follow up, let's try an <a href="https://twitter.com/search?q=%22wattsun%22%20until%3A2010-07-06&src=typed_query">X search for <em>"wattsun"</em>, with the same <em>until:</em> date</a> as before.</div>
+        <br>
+        <div>Some of the mentions appear to be from spam accounts, but others appear legitimate, e.g.,</div>
+        <ul>
+          <li>An <a href="https://twitter.com/AdvEnergyConf11">account for the Advanced Energy conference</a> advertised that a <a href="https://twitter.com/AdvEnergyConf11/status/5691905181">representative for Wattsun would be presenting on solar trackers at the meeting</a>. Notwithstanding the X user profile indicating that it was for the 2010 conference, the shortened link resolves to the (now defunct) <a href="https://aertc.org/conference09/conferenceprogram.html">program for the 2009 conference</a>; the profile must have been updated subsequent to when the tweet was published. In any case, if we check out the <a data-originalurl="http://www.aertc.org/conference09/index.html" data-versiondate="2009-11-30" href="https://web.archive.org/web/20091130030135/www.aertc.org/conference09/index.html">2009 conference website in IAWM</a>, we see their claim that the 2008 conference had nearly 1,000 attendees. Looking at the <a data-originalurl="http://www.aertc.org/conference09/docs/2009%20Advanced%20Energy%20Conference%20program%20rev1.pdf" data-versiondate="2014-04-08" href="https://web.archive.org/web/20140408095344/www.aertc.org/conference09/docs/2009%20Advanced%20Energy%20Conference%20program%20rev1.pdf#page=4">program</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, we also see the aforementioned representative from Array Technologies (i.e., manufacturer of the Wattsun product line) on the agenda.</li>
+          <li>An <a href="https://twitter.com/ClearBlueEnergy">account for a green energy solutions provider</a>, <a data-originalurl="https://www.clearblueenergyinc.com/" data-versiondate="2009-04-15" href="https://web.archive.org/web/20090415160216/www.clearblueenergyinc.com/">Clear Blue Energy</a>, reported that <a href="https://twitter.com/ClearBlueEnergy/status/1860047938">they were designing a system for a customer incorporating a Wattsun solar tracker</a>.</li>
+        </ul>
+        <div>In summary, through the combined application of X date operators and IAWM, we have found a conference at which a representative of the Wattsun manufacturer was on the program and another commercial provider working with Wattsun solar trackers.</div>
+        <h3 id="reddit-threads">Reddit threads</h3>
+        <div>Reddit is a popular forum-based social network. As it is natively organized around communities interested in a particular topic, it can be used to observe whether a particular idea or product was being discussed at a particular point in time.</div>
+        <br>
+        <div>In this instance, let's try the <a href="https://www.reddit.com/r/solar/"><em>r/solar</em> Subreddit</a>, as that's the most likely place we'll find relevant hits.</div>
+        <br>
+        <div>A <a href="https://www.reddit.com/r/solar/search/?q=wattsun&type=link">search for "wattsun"</a> returns three posts. The <a href="https://www.reddit.com/r/solar/comments/1r43dq/anyone_know_of_a_quality_residential_1215_72_cell/">oldest of these</a> is a decade old.</div>
+        <br>
+        <div>Clicking through to the thread, there are a couple of comments there regarding Wattsun solar trackers. The displayed datestamps are imprecise (e.g., "11y ago"), but we can either hover over them or inspect the source code to view the exact publication date.</div>
+        <br>
+        <div>Inspecting the source code, the timestamp of the original post is <span class="code">2013-11-21T03:32:04.638Z</span> and that of the last comment is <span class="code">2013-11-22T06:28:55.137Z</span> &mdash; too late with respect to the patent filing date, unfortunately.</div>
+        <br>
+        <div>Looking up the <a data-originalurl="http://www.reddit.com/r/solar/" data-versiondate="2010-09-07" href="https://web.archive.org/web/20100907010638/www.reddit.com/r/solar/">Subreddit in IAWM for the capture date closest to the patent filing date</a>, we see that the group only had 30 readers (which I suppose means members?). However, by the time of the aforementioned post, the <a data-originalurl="http://www.reddit.com/r/solar/" data-versiondate="2013-11-02" href="https://web.archive.org/web/20131102123556/www.reddit.com/r/solar/">Subreddit was up to 3,604 readers</a>.</div>
+        <br>
+        <div>Though the dates didn't work neatly in this instance, this approach is conceptually promising.</div>
+        <h3 id="conclusion">Conclusion</h3>
+        <div>To summarize the cumulative findings through all approaches, I discovered and documented the following online references to Wattsun solar trackers prior to the patent filing date:</div>
+        <ul>
+          <li>A <a href="https://www.altestore.com/static/datafiles/Others/Wattsun_AZ-125_Instructions.pdf">copy of the AZ-125 installation guide</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, separately hosted and made available by the <a href="https://www.altestore.com/">Alternative Energy Store</a>;</li>
+          <li>Information about or marketing of Wattsun solar trackers by seven commercial providers: <a href="https://www.altestore.com/">Alternative Energy Store</a>, <a data-originalurl="https://www.clearblueenergyinc.com/" data-versiondate="2009-04-15" href="https://web.archive.org/web/20090415160216/www.clearblueenergyinc.com/">Clear Blue Energy</a>, <a href="https://www.coloradosolarenergy.net/">Colorado Solar Energy</a>, <a href="http://www.controlaltenergy.com/">Control Alt Energy</a>, <a href="http://www.fcgilbert.com/">Fred C. Gilbert Co.</a>, <a href="https://www.infinigi.com/">Infinigi</a>, and <a href="https://www.solarray.com/">SolarRay</a> and by one community initiative, <a href="https://www.solarypsi.org/">SolarYpsi</a>, at least five of which reference the AZ-125 solar tracker, specifically;</li>
+          <li>A <a href="https://nanoengineeringmedical.asmedigitalcollection.asme.org/ISEC/proceedings-abstract/ISEC2003/36762/699/295871">conference paper</a> from the <a href="https://www.asme.org/">American Society of Mechanical Engineers</a> <a href="https://asmedigitalcollection.asme.org/ISEC/volumes/browse-by-conference/ISEC2003/927">2003 International Solar Energy Conference</a> and a <a data-originalurl="http://www.aertc.org/conference09/docs/2009%20Advanced%20Energy%20Conference%20program%20rev1.pdf#page=4" data-versiondate="2014-04-08" href="https://web.archive.org/web/20140408095344/www.aertc.org/conference09/docs/2009%20Advanced%20Energy%20Conference%20program%20rev1.pdf#page=4">Wattsun representative presenting</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16"> at the <a data-originalurl="http://www.aertc.org/conference09/index.html" data-versiondate="2009-11-30" href="https://web.archive.org/web/20091130030135/www.aertc.org/conference09/index.html">2009 Advanced Energy conference</a>;</li>
+          <li>Seven videos, two of which plausibly had thousands of views by the time of the patent filing date;</li>
+          <li>Two articles about companies setting up Wattsun solar trackers as part of larger solar energy equipment deployments; and</li>
+          <li>Two posts about Wattsun solar trackers on related forums.</li>
+        </ul>
+        <div>The publication dates of a few of these rely solely on Google's attestations, but many either self-attest or can be corroborated by antecedent captures in IAWM.</div>
+        <br>
+        <div>It's hard to say what threshold a PTAB judge might apply, but here there are clearly multiple and diverse traces suggesting that Wattsun products were known within the community of practice and commercially available prior to the patent filing date.</div>
+        <br />
+        <div>Circling back to the top, and an animating concern for this investigation, while the PTAB may increasingly regard isolated IAWM captures alone as insufficient to substantiate "public accessibility" going forward, IAWM remains an essential complement to almost all of the other techniques explored here. Without it, relevant context may be overlooked and the dates of content without self-evident timestamps can't be corroborated.</div>
+        <br>
+        <div>Given that, I would encourage patent litigators and prior art researchers to continue to consider how best to leverage IAWM's unique affordances, in combination with other methods.</div>
+      </div>
+      <br>
+      <div class="byline"><a href="https://nullhandle.org/blog/2024-04-09-on-the-technical-vs-public-accessibility-of-historical-web-content-as-patent-prior-art.html" rel="canonical">Permalink</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" width="80"></a></div>
+      <br>
+      <script>
+        var nav = responsiveNav(".nav-collapse");
+      </script>
+    </div>
+  </body>
+</html>
