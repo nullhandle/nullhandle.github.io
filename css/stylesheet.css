@@ -137,14 +137,16 @@ nav ol, nav ul {
   background-image: url('../img/github_(16x16).png');
   background-repeat: no-repeat;
   display: inline;
-  padding: 0px 1px 0px 18px;
+  margin-left: 9px;
+  padding-right: 19px;
 }
 
 .icon-linkedin {
   background-image: url('../img/linkedin_(16x16).png');
   background-repeat: no-repeat;
   display: inline;
-  padding: 0px 1px 0px 18px;
+  margin-left: 9px;
+  padding-right: 19px;
 }
 
 .icon-location {
@@ -158,7 +160,8 @@ nav ol, nav ul {
   background-image: url('../img/twitter_(16x16).png');
   background-repeat: no-repeat;
   display: inline;
-  padding: 0px 1px 0px 18px;
+  margin-left: 9px;
+  padding-right: 19px;
 }
 
 .icon-url {
