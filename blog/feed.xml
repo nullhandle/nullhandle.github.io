@@ -5,6 +5,12 @@
     <link>https://nullhandle.org/</link>
     <title>nullhandle.org</title>
     <item>
+      <title>Exploring the Bing date search operators</title>
+      <link>/blog/2024-06-12-exploring-the-bing-date-search-operators.html</link>
+      <pubDate>2024-06-12T23:03:00-06:00</pubDate>
+      <description>I previously &lt;a href="/blog/2022-11-29-subtleties-of-the-google-date-search-operators.html"&gt;examined and documented the behavior of the Google date operators&lt;/a&gt; as a tool for approximating what content would have been presented to a user at specific points in time. Another web-scale search engine that permits date filtering is &lt;a href="https://www.bing.com/"&gt;Microsoft Bing&lt;/a&gt;. While &lt;a href="https://gs.statcounter.com/search-engine-market-share"&gt;it has never been nearly as popular as Google&lt;/a&gt;, it can nonetheless be useful as an additional source of information about what webpages may have been discoverable when.</description>
+    </item>
+    <item>
       <title>On the Technical vs. Public Accessibility of Historical Web Content as Patent Prior Art</title>
       <link>/blog/2024-04-09-on-the-technical-vs-public-accessibility-of-historical-web-content-as-patent-prior-art.html</link>
       <pubDate>2024-04-09T23:05:00-06:00</pubDate>
@@ -14,7 +20,7 @@
       <title>A Brief Primer on Using Web-Archived Evidence</title>
       <link>/blog/2023-06-07-a-brief-primer-on-using-web-archived-evidence.html</link>
       <pubDate>2023-06-07T22:00:00-06:00</pubDate>
-      <description>One would suppose that Elon Musk had adopted Meta's (n&eacute;e Facebook's) famous motto, "move fast and break things" since &lt;a href="https://www.theverge.com/2022/10/27/23184519/elon-musk-twitter-acquisition-deal-complete-agreement"&gt;his takeover of Twitter&lt;/a&gt; in October 2022. A steady stream of news articles has chronicled the numerous and not entirely successful experiments that he has undertaken with the company and its service. We need not even take journalists' word for it, or rely on the continued accessibility and discoverability of those articles; many of the changes themselves can be observed by anyone through indelible web archives, most notably among them the &lt;a href="https://archive.org/web/"&gt;Internet Archive Wayback Machine (IAWM)&lt;/a&gt;.</description>
+      <description>One would suppose that Elon Musk had adopted Meta's (n&#233;e Facebook's) famous motto, "move fast and break things" since &lt;a href="https://www.theverge.com/2022/10/27/23184519/elon-musk-twitter-acquisition-deal-complete-agreement"&gt;his takeover of Twitter&lt;/a&gt; in October 2022. A steady stream of news articles has chronicled the numerous and not entirely successful experiments that he has undertaken with the company and its service. We need not even take journalists' word for it, or rely on the continued accessibility and discoverability of those articles; many of the changes themselves can be observed by anyone through indelible web archives, most notably among them the &lt;a href="https://archive.org/web/"&gt;Internet Archive Wayback Machine (IAWM)&lt;/a&gt;.</description>
     </item>
     <item>
       <title>Subtleties of the Google Date Search Operators</title>

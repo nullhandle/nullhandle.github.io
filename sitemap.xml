@@ -281,13 +281,18 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://nullhandle.org/blog/2024-06-12-exploring-the-bing-date-search-operators.html</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://nullhandle.org/blog/feed.xml</loc>
     <lastmod>2022-11-29T22:54:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://nullhandle.org/blog/index.html</loc>
-    <lastmod>2024-06-07T17:30:00-00:00</lastmod>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -363,6 +368,67 @@
   <url>
     <loc>https://nullhandle.org/img/2022-11-29_scotusblog_www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years_(1280x2725).png</loc>
     <lastmod>2022-11-29T22:54:00-07:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_cache-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years_(1280x2795).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_site-supremecourt.gov_(1280x2296).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_site-supremecourt.gov+after_1991-08-06+before_2010-03-20_(1280x1367).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_site-supremecourt.gov+after_1991-08-06+before_2010-03-20_(1280x2075).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_site-supremecourt.gov+after_2010-03-20+before_2024-06-12_(1280x2376).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_site-supremecourt.gov+after_2010-03-20+before_2024-06-12_(1280x3248).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_url-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years_(1280x1026).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_url-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years+emergency_docket_(1280x1340).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_url-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years+emergency_docket+after-2010-03-20+before-2021-06-03_(1280x1340).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/2024-06-12_bing_search_url-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years+jackson+after-2010-03-20+before-2021-06-03_(1280x1340).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>2024-06-12_google_search_site-www.supremecourt.gov_publicinfo_speeches_viewspeech_sp_10-22-01_(1280x580).jpeg</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/bing_logo_(100x100).png</loc>
+    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
     <changefreq>never</changefreq>
   </url>
   <url>

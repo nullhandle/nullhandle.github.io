@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="dc: http://purl.org/dc/elements/1.1 dcterms: http://purl.org/dc/terms/">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc">
+    <link href="http://purl.org/dc/terms/" rel="schema.dcterms">
+    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css">
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="feed.xml" rel="alternate" title="nullhandle.org" type="application/rss+xml">
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="DC.Creator.PersonalName" content="Nicholas Taylor">
+    <meta name="DC.Date" content="2024-06-12" scheme="DCTERMS.W3CDTF">
+    <meta name="DC.Format" content="text/html" scheme="DCTERMS.IMT">
+    <meta name="DC.Language" content="en-US" scheme="DCTERMS.RFC4646">
+    <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0/" scheme="DCTERMS.URI">
+    <meta name="DC.Source" content="https://nullhandle.org/" scheme="DCTERMS.URI">
+    <meta name="DC.Title" content="Exploring the Bing date search operators">
+    <meta name="DC.Type" content="blogPost">
+    <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "514c441e9d464f3fb864fa3a50ae9d62"}'></script><!-- End Cloudflare Web Analytics -->
+    <script src="../js/responsive-nav.js"></script>
+    <title>Exploring the Bing date search operators</title>
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <div class="border"></div>
+    <nav class="nav-collapse" id="nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../resume.html">CV</a></li>
+        <li><a href="../consulting.html">Consulting</a></li>
+        <li class="active"><a href="index.html">Blog</a></li>
+        <li><a href="../web-archivability/index.html">Archivability</a></li>
+      </ul>
+    </nav>
+    <div class="content" itemscope itemtype="http://schema.org/BlogPosting">
+      <h2 itemprop="headline">Exploring the Bing date search operators</h2>
+      <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../biography.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2024-06-12T23:03:00-06:00" itemprop="dateModified"></time><time datetime="2024-06-12T23:03:00-06:00" itemprop="datePublished">12 June 2024</time></div>
+      <br>
+      <div itemprop="articleBody">
+        <img alt="Bing logo" class="image-highlight" height="100" itemprop="image" src="../img/bing_logo_(100x100).png" width="100">
+        <div>I previously <a href="2022-11-29-subtleties-of-the-google-date-search-operators.html">examined and documented the behavior of the Google date operators</a> as a tool for approximating what content would have been presented to a user at specific points in time. Another web-scale search engine that permits date filtering is <a href="https://www.bing.com/">Microsoft Bing</a>. While <a href="https://gs.statcounter.com/search-engine-market-share">it has never been nearly as popular as Google</a>, it can nonetheless be useful as an additional source of information about what webpages may have been discoverable when.</div>
+        <br>
+        <div>To better understand how Bing's date filtering works and to probe any particularities, I adapted, repeated, and documented some of the tests I'd also conducted with Google. It turns out that Bing is generally both more conservative and more transparent in how it handles dated web content, making its utility for approximating historical web discovery more limited.</div>
+        <h3>How Microsoft explains Bing date filtering</h3>
+        <div>As with the Google date operators, let's start by reviewing Microsoft's explanation of how Bing date filtering works.</div>
+        <br>
+        <div>Conveniently, the <a href="https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/filter-answers#specifying-the-contents-freshness">Bing API documentation</a> indicates support for fixed-value <em>before</em> date filtering, up to 30 days in the past, as well as limiting results to a specific time frame. At least for the API, no open-ended <em>after</em> date is supported, though presumably this could be specified using today as the end date.</div>
+        <br>
+        <div>The date filter keys off of the <a href="https://learn.microsoft.com/en-us/bing/search-apis/bing-web-search/reference/response-objects#webpage"><em>Webpage</em> object's</a> <em>datePublished</em> property, which is described as,</div>
+          <blockquote>The time that webpage published. The date is in the form, YYYY-MM-DDTHH:MM:SS.<br>Example: 2015-04-13T05:23:39.</blockquote>
+        <div>with a <a href="https://en.wikipedia.org/wiki/String_(computer_science)">string value type</a>.</div>
+        <br>
+        <div>Google is more vague about the meaning of its recorded dates, indicating that <a href="https://developers.google.com/search/blog/2019/03/help-google-search-know-best-date-for">they may also reflect the date that a webpage was "significantly" updated</a>. With Bing, if the documentation is correct, it appears that Bing shouldn't care about changes made to a webpage subsequent to its publication; the original publication date will be used for the purpose of date filtering.</div>
+        <h3>Dated indexed web resources</h3>
+        <div>Let's repeat some of the searches from the previous investigation and see what Bing returns. I will again include screenshots for temporally-dependent example queries or webpages, recognizing that these may change over time.</div>
+        <br>
+        <div>Like Google, <a href="https://seosly.com/blog/bing-search-operators/#site">Bing supports a <em>site:</em> operator</a>, that constrains the results to a given domain or web address path. <a href="https://www.bing.com/search?q=site%3Asupremecourt.gov">A search for any and all content on the Supreme Court of the United States (SCOTUS) website</a> returns 2,960 results (<a href="../img/2024-06-12_bing_search_site-supremecourt.gov_(1280x2296).jpeg">screenshot</a>). We know from previous exploration in the Internet Archive Wayback Machine (IAWM) that the <a href="https://web.archive.org/web/20100615000000*/supremecourt.gov">first capture of supremecourt.gov dates to 20 March 2010</a>.</div>
+        <br>
+        <div>Based on this date, let's <a href="https://www.bing.com/%2fsearch%3fq%3dsite%253asupremecourt.gov%26filters%3dex1%253a%2522ez5_14688_19886%2522">further constrain the Bing <em>site:</em> search to the time frame 20 March 2010 to today's date (i.e., 12 June 2024)</a> (<a href="../img/2024-06-12_bing_search_site-supremecourt.gov+after_2010-03-20+before_2024-06-12_(1280x2376).jpeg">screenshot</a>). The results count isn't indicated on the first page of results, though, curiously, it appears at the top after advancing to the second page of results; there are 519 results (<a href="../img/2024-06-12_bing_search_site-supremecourt.gov+after_2010-03-20+before_2024-06-12_(1280x3248).jpeg">screenshot</a>).</div>
+        <br>
+        <div>The web address syntax is more opaque than Google's; whereas Google has an easily manipulable parameter for date-limiting (e.g., "after%3A2010-03-20"), Bing's (e.g., "%26filters%3dex1%253a%2522ez5_14688_19886%2522") isn't immediately intelligible. Through further investigation, it turns out that the underscore-separated number-only strings (e.g., "14688_19875") represent day counts added to <a href="https://en.wikipedia.org/wiki/Unix_time">Unix epoch time (i.e., 1 January 1970)</a>, for the <em>after</em> and <em>before</em> filter dates, respectively.</div>
+        <br>
+        <div>Let's double check that results aren't being excluded on account of the 20 March 2010 date being set for the start of the range (i.e., on the possibility that Bing indexed content prior to that date that the Internet Archive didn't) by trying the date of publication of the <a href="https://www.history.com/news/the-worlds-first-web-site">very first website</a>, 6 August 1991. <a href="https://www.bing.com/%2fsearch%3fq%3dsite%253asupremecourt.gov%26filters%3dex1%253a%2522ez5_7887_14688%2522">Here</a> is the search (<a href="../img/2024-06-12_bing_search_site-supremecourt.gov+after_1991-08-06+before_2010-03-20_(1280x2075).jpeg">screenshot</a>). Clicking through to the second page of results, we see that 16 results were returned (<a href="../img/2024-06-12_bing_search_site-supremecourt.gov+after_1991-08-06+before_2010-03-20_(1280x1367).jpeg">screenshot</a>).</div>
+        <br>
+        <div>Taking a closer look at one of the results with the earliest date, <a href="https://www.supremecourt.gov/publicinfo/speeches/viewspeech/sp_10-22-01">"Our Democratic Constitution"</a> with a Bing-recorded date of 22 October 2001, we can see conspicuous body text with that date. My suspicion is that Bing has derived the date from the body text and that this doesn't actually reflect the date that the webpage was available at this web address.</div>
+        <br>
+        <div>IAWM corroborates this hunch, with a <a href="https://web.archive.org/web/20140801000000*/www.supremecourt.gov/publicinfo/speeches/viewspeech/sp_10-22-01">first capture on 12 October 2014</a>. This doesn't in and of itself establish that the webpage wasn't available earlier, but given that <a href="https://web.archive.org/web/*/www.supremecourt.gov/*">no web resources for supremecourt.gov were captured earlier than 20 March 2010</a>, it is very unlikely that the speech webpage was available in 2001, as Bing would seem to suggest.</div>
+        <br>
+        <div>As an aside, <a href="https://www.google.com/search?q=site%3Ahttps%3A%2F%2Fwww.supremecourt.gov%2Fpublicinfo%2Fspeeches%2Fviewspeech%2Fsp_10-22-01">a quick check on Google</a> demonstrates that it, too, has recorded the date 22 October 2001 for this webpage (<a href="../img/2024-06-12_google_search_site-www.supremecourt.gov_publicinfo_speeches_viewspeech_sp_10-22-01_(1280x580).jpeg">screenshot</a>). The takeaway is that both Bing- and Google-recorded dates may reflect that of the content <em>on the page</em> and not necessarily of <em>the webpage itself</em>; IAWM remains a more reliable ground-truth, if relevant captures are available.</div>
+        <br>
+        <div>Circling back to the discrepancy between the results count for the <a href="https://www.bing.com/search?q=site%3Asupremecourt.gov">domain-constrained Bing search</a> (<a href="../img/2024-06-12_bing_search_site-supremecourt.gov_(1280x2296).jpeg">screenshot</a>) and the <a href="https://www.bing.com/%2fsearch%3fq%3dsite%253asupremecourt.gov%26filters%3dex1%253a%2522ez5_14688_19886%2522">domain-constrained Bing search for the full effective time frame that the website has existed at supremecourt.gov</a> (<a href="../img/2024-06-12_bing_search_site-supremecourt.gov+after_2010-03-20+before_2024-06-12_(1280x2376).jpeg">screenshot</a>) &mdash; i.e., ostensibly functionally equivalent searches &mdash; strongly suggests that not all web resources have an associated <em>datePublished</em> property in the Bing index and furthermore that those lacking this property aren't returned for any sort of date-filtered search.</div>
+        <h3>Contemporary website leakage</h3>
+        <div>That webpages indexed by Bing without recorded dates are excluded from date-filtered searches makes some of the subsequent tests I tried with Google superfluous. Let's therefore jump ahead to examining whether Bing returns relevance-matched results based on content added to a webpage outside of a specified date-filtered time frame.</div>
+        <br>
+        <div>The previous example used a <a href="https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/">SCOTUSblog post from 2 June 2021 about the retirement of the Court Public Information Officer</a>.</div>
+        <br>
+        <div><a href="https://web.archive.org/web/diff/20210602202719/20230331025808/https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/">Comparing the earliest (2 June 2021) and latest (31 March 2023) IAWM captures of the webpage</a>, we can see that they're highly similar. One notable difference is that <em>Emergency Docket</em> appears in the top navigation bar in the latter capture. Let's use this difference to tease out what Bing searches against.</div>
+        <br>
+        <div>We can learn more about Bing's indexing of a given webpage by looking at its cache (<a href="https://searchengineland.com/bing-search-tests-removing-cache-link-439129">for now, anyway</a>). <a href="https://cc.bingj.com/cache.aspx?q=url%3ahttps%3a%2f%2fwww.scotusblog.com%2f2021%2f06%2fsupreme-courts-spokesperson-to-step-down-after-38-years%2f&d=4641876488448507&mkt=en-US&setlang=en-US&w=Bep9I2-Ir6s-4djAzxfXjyPXa40q2YfU">Bing's cached version of the SCOTUSblog post</a> is from 11 June 2024 (<a href="../img/2024-06-12_bing_cache-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years_(1280x2795).jpeg">screenshot</a>) and predictably includes <em>Emergency Docket</em> in the top navigation bar.</div>
+        <br>
+        <div>A <a href="https://www.bing.com/search?q=url%3Ahttps%3A%2F%2Fwww.scotusblog.com%2F2021%2F06%2Fsupreme-courts-spokesperson-to-step-down-after-38-years%2F&qs=n&form=QBRE&sp=-1&lq=0&sm=csrmain&pq=url%3Ahttps%3A%2F%2Fwww.scotusblog.com%2F2021%2F06%2Fsupreme-courts-spokesperson-to-step-down-after-38-years%2F&sc=0-95&sk=&cvid=778CE9202BFB4D26897342D143F67F99&ghsh=0&ghacc=0&ghpl=">search limited to the web address of the post</a> (i.e., without date filtering) also predictably returns it as a result, with a <em>publishedDate</em> of 2 June 2021 (<a href="../img/2024-06-12_bing_search_url-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years_(1280x1026).jpeg">screenshot</a>), consistent with the publication date indicated on the webpage.</div>
+        <br>
+        <div>Now let's try <a href="https://www.bing.com/search?q=url%3Ahttps%3A%2F%2Fwww.scotusblog.com%2F2021%2F06%2Fsupreme-courts-spokesperson-to-step-down-after-38-years%2F+emergency+docket&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&sm=csrmain&pq=url%3Ahttps%3A%2F%2Fwww.scotusblog.com%2F2021%2F06%2Fsupreme-courts-spokesperson-to-step-down-after-38-years%2F+emergency+docke&sc=10-111&sk=&cvid=E3651EE893A843718C8AC40B54E46708&ghsh=0&ghacc=0&ghpl=">adding the keywords, <em>emergency docket</em></a>. Predictably, the result still shows up (<a href="../img/2024-06-12_bing_search_url-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years+emergency_docket_(1280x1340).jpeg">screenshot</a>).</div>
+        <br>
+        <div>We know from IAWM that the text, "Emergency Docket", <a href="https://web.archive.org/web/20210602203913/https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/">wasn't part of the top navigation bar as of 2 June 2021</a>. However, if we perform the <a href="https://www.bing.com/%2fsearch%3fq%3durl%253ahttps%253a%252f%252fwww.scotusblog.com%252f2021%252f06%252fsupreme-courts-spokesperson-to-step-down-after-38-years%252f%2bemergency%2bdocket%26filters%3dex1%253a%2522ez5_14688_18781%2522%26qs%3dn%26FORM%3d000017%26sp%3d-1%26ghc%3d1%26lq%3d0%26sm%3dcsrmain%26pq%3durl%253ahttps%253a%252f%252fwww.scotusblog.com%252f2021%252f06%252fsupreme-courts-spokesperson-to-step-down-after-38-years%252f%2bemergency%2bdocke%26sc%3d10-111%26cvid%3dE3651EE893A843718C8AC40B54E46708%26ghsh%3d0%26ghacc%3d0%26qpvt%3durl%253ahttps%253a%252f%252fwww.scotusblog.com%252f2021%252f06%252fsupreme-courts-spokesperson-to-step-down-after-38-years%252f%2bemergency%2bdocket">previous search of <em>emergency docket</em> limited to that web address, additionally filtered to 20 March 2010 to 3 June 2021</a> (i.e., one day after the publication date), we still get the search result (<a href="../img/2024-06-12_bing_search_url-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years+emergency_docket+after-2010-03-20+before-2021-06-03_(1280x1340).jpeg">screenshot</a>).</div>
+        <br>
+        <div>Conducting the <a href="https://www.bing.com/%2fsearch%3fq%3durl%253ahttps%253a%252f%252fwww.scotusblog.com%252f2021%252f06%252fsupreme-courts-spokesperson-to-step-down-after-38-years%252f%2bjackson%26filters%3dex1%253a%2522ez5_14688_18781%2522%26qs%3dn%26FORM%3d000017%26sp%3d-1%26ghc%3d1%26lq%3d0%26pq%3durl%253ahttps%253a%252f%252fwww.scotusblog.com%252f2021%252f06%252fsupreme-courts-spokesperson-to-step-down-after-38-years%252f%2bjackson%26sc%3d11-103%26cvid%3d85DE1BE814454D49971B97C94829D377%26ghsh%3d0%26ghacc%3d0%26qpvt%3durl%253ahttps%253a%252f%252fwww.scotusblog.com%252f2021%252f06%252fsupreme-courts-spokesperson-to-step-down-after-38-years%252f%2bjackson">same search for a keyword that is not on the webpage &mdash; <em>jackson</em></a> &mdash; does not return it as a result (<a href="../img/2024-06-12_bing_search_url-www.scotusblog.com_2021_06_supreme-courts-spokesperson-to-step-down-after-38-years+jackson+after-2010-03-20+before-2021-06-03_(1280x1340).jpeg">screenshot</a>).</div>
+        <br>
+        <div>The upshot is that Bing, like Google, is susceptible to contemporary "leakage" &mdash; i.e., relevance matching takes place against the most recently indexed version of the webpage, not a cached, historical version of the webpage from the time of its publication or index-recorded date.</div>
+        <h3>Conclusions</h3>
+        <div>In summary, Bing appears to be both more conservative and more transparent in its assignments of dates, compared to Google.</div>
+        <br>
+        <div>This conservatism, combined with webpages without assigned dates being entirely excluded from date-filtered searches, makes Bing a less useful tool for approximating historical search results.</div>
+        <br>
+        <div>While Bing is nonetheless still useful for identifying historically discoverable webpages, it may not provide new date information that wasn't already evident.</div>
+        <br>
+        <div>As with Google, and especially given the observation of the potential discrepancy between webpage content dates and webpage dates, IAWM remains an important complement for validating dates recorded by Bing.</div>
+      </div>
+      <br>
+      <div class="byline"><a href="https://nullhandle.org/blog/2024-06-16-exploring-the-bing-date-search-operators.html" rel="canonical">Permalink</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" width="80"></a></div>
+      <br>
+      <script>
+        var nav = responsiveNav(".nav-collapse");
+      </script>
+    </div>
+  </body>
+</html>
