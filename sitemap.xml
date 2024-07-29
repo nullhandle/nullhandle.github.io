@@ -286,6 +286,11 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://nullhandle.org/blog/2024-07-28-the-temporal-dimensions-of-google-search-as-revealed-by-the-leaked-api-documentation.html</loc>
+    <lastmod>2024-07-28T22:05:00-06:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://nullhandle.org/blog/feed.xml</loc>
     <lastmod>2022-11-29T22:54:00-07:00</lastmod>
     <changefreq>monthly</changefreq>
