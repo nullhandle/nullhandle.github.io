@@ -230,6 +230,7 @@ margin: 0px 11px 0px 11px;
 
 .monospace {
   font-family: monospace;
+  font-size: 1.2em;
 }
 /*
 .nav-collapse.disable-pointer-events {
