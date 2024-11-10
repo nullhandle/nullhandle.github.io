@@ -133,6 +133,14 @@ nav ol, nav ul {
   padding-left: 19px;
 }
 
+.icon-bluesky {
+  background-image: url('../img/bluesky_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  margin-left: 9px;
+  padding-right: 19px;
+}
+
 .icon-github {
   background-image: url('../img/github_(16x16).png');
   background-repeat: no-repeat;
@@ -156,19 +164,19 @@ nav ol, nav ul {
   padding-left: 18px;
 }
 
-.icon-twitter {
-  background-image: url('../img/twitter_(16x16).png');
-  background-repeat: no-repeat;
-  display: inline;
-  margin-left: 9px;
-  padding-right: 19px;
-}
-
 .icon-url {
   background-image: url('../img/url_(16x16).png');
   background-repeat: no-repeat;
   display: inline;
   padding-left: 19px;
+}
+
+.icon-x {
+  background-image: url('../img/x_(16x16).png');
+  background-repeat: no-repeat;
+  display: inline;
+  margin-left: 9px;
+  padding-right: 19px;
 }
 
 .image-11px-margin {
