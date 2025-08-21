@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css">
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="feed.xml" rel="alternate" title="nullhandle.org" type="application/rss+xml">
+    <meta charset="UTF-8">
+    <meta name="description" content="Blog of Nicholas Taylor.">
+    <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "514c441e9d464f3fb864fa3a50ae9d62"}'></script><!-- End Cloudflare Web Analytics -->
+    <script src="../js/responsive-nav.js"></script>
+    <title>blog - nullhandle.org</title>
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <div class="border"></div>
+    <nav class="nav-collapse" id="nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../resume.html">CV</a></li>
+        <li><a href="../consulting.html">Consulting</a></li>
+        <li class="active"><a href="index.html">Blog</a></li>
+        <li><a href="../web-archivability/index.html">Archivability</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div class="blog-snippets">
+        <div itemscope itemtype="http://schema.org/BlogPosting">
+          <h2 itemprop="headline">The Temporal Dimensions of Google Search as Revealed by the Leaked API Documentation</h2>
+          <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../index.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2024-07-28T22:05:00-06:00" itemprop="dateModified"></time><time datetime="2024-07-28T22:05:00-06:00" itemprop="datePublished">28 July 2024</time></div>
+          <br>
+          <div itemprop="articleBody">
+            <img alt="Google logo" class="image-highlight" height="100" itemprop="image" src="../img/google_logo_(100x100).png" width="100">
+            <div>The <a href="https://en.wikipedia.org/wiki/Search_engine_optimization">search engine optimization</a> community <a href="https://ipullrank.com/google-algo-leak">has</a> <a href="https://sparktoro.com/blog/an-anonymous-source-shared-thousands-of-leaked-google-search-api-documents-with-me-everyone-in-seo-should-see-them/">been</a> <a href="https://moz.com/blog/google-api-leaks">abuzz</a> for the last couple of months with the inadvertent leak of a bundle of internal Google Search API documentation, revealing unprecedented detail about how the ranking algorithm works. Given <a href="2022-11-29-subtleties-of-the-google-date-search-operators.html">my own efforts at deciphering the behavior of the Google Search date operators</a>, I was particularly interested in what insights the documentation might contribute or corroborate on that front.</div>
+            <br>
+            <div>To that end, I mined <a href="https://hexdocs.pm/google_api_content_warehouse/0.4.0/api-reference.html">(a copy of) the documentation</a> for all references to temporalized web content. Here I'll walk through some of the more noteworthy findings. In summary, there are some nuances to how Google handles temporal context that I likely couldn't have discerned experimentally, but unfortunately it's not enough to really now know how Google assigns a date to any given web content.</div>
+            <br>
+            <a href="2024-07-28-the-temporal-dimensions-of-google-search-as-revealed-by-the-leaked-api-documentation.html">Read more &raquo;</a>
+          </div>
+        </div>
+        <div itemscope itemtype="http://schema.org/BlogPosting">
+          <h2 itemprop="headline">Exploring the Bing Date Search Operators</h2>
+          <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../index.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2024-06-12T23:03:00-06:00" itemprop="dateModified"></time><time datetime="2024-06-12T23:03:00-06:00" itemprop="datePublished">12 June 2024</time></div>
+          <br>
+          <div itemprop="articleBody">
+            <img alt="Bing logo" class="image-highlight" height="100" itemprop="image" src="../img/bing_logo_(100x100).png" width="100">
+            <div>I previously <a href="2022-11-29-subtleties-of-the-google-date-search-operators.html">examined and documented the behavior of the Google date operators</a> as a tool for approximating what content would have been presented to a user at specific points in time. Another web-scale search engine that permits date filtering is <a href="https://www.bing.com/">Microsoft Bing</a>. While <a href="https://gs.statcounter.com/search-engine-market-share">it has never been nearly as popular as Google</a>, it can nonetheless be useful as an additional source of information about what webpages may have been discoverable when.</div>
+            <br>
+            <div>To better understand how Bing's date filtering works and to probe any particularities, I adapted, repeated, and documented some of the tests I'd also conducted with Google. It turns out that Bing is generally both more conservative and more transparent in how it handles dated web content, making its utility for approximating historical web discovery more limited.</div>
+            <br>
+            <a href="2024-06-12-exploring-the-bing-date-search-operators.html">Read more &raquo;</a>
+          </div>
+        </div>
+        <div itemscope itemtype="http://schema.org/BlogPosting">
+          <h2 itemprop="headline">On the Technical vs. Public Accessibility of Historical Web Content as Patent Prior Art</h2>
+          <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../index.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2024-04-09T23:05:00-06:00" itemprop="dateModified"></time><time datetime="2024-04-09T23:05:00-06:00" itemprop="datePublished">9 April 2024</time></div>
+          <br>
+          <div itemprop="articleBody">
+            <img alt="Solar-powered sun flower seen in Provence, France, near Avignon" class="image-highlight" height="67" itemprop="image" src="https://live.staticflickr.com/4265/35932162695_ee008fbc85_t.jpg" width="100">
+            <div>A <a href="https://www.ptablitigationblog.com/proceed-with-caution-when-using-wayback-machine-prior-art/">recent blog post</a> by <a href="https://www.jonesday.com/en/lawyers/m/john-marlott">John Marlott</a> at <a href="https://www.jonesday.com/">Jones Day</a> brought to my attention a <a href="https://kmfa11.a2cdn1.secureserver.net/wp-content/uploads/2023/12/PTAB-IPR2023-00827-13-1.pdf">ruling from last fall</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16"> by the <a href="https://www.uspto.gov/patents/ptab">Patent Trial and Appeal Board (PTAB)</a> concerning the use of the <a href="https://web.archive.org/">Internet Archive Wayback Machine (IAWM)</a> for patent prior art in the context of an <a href="https://en.wikipedia.org/wiki/Inter_partes_review">inter partes review</a>. While <a href="https://www.uspto.gov/web/offices/pac/mpep/s2128.html#ch2100_p_2c193_1d6e0_3de">this use of IAWM is well-established</a>, the ruling suggests that IAWM may not unto itself be sufficient to qualify as a "<a href="https://www.uspto.gov/web/offices/pac/mpep/s2128.html">printed publication</a>" for the purposes of establishing dated patent disclosures.</div>
+            <br>
+            <div>Specifically, the PTAB judge noted that the demonstrated historical public accessibility of a given web document, as substantiated by IAWM, only established that it was <em>technically</em> accessible; it didn't go to its "public accessibility" &mdash; i.e., its discoverability by, dissemination to, and/or circulation within the relevant community of practice. Here is the critical excerpt from the ruling, <a href="https://kmfa11.a2cdn1.secureserver.net/wp-content/uploads/2023/12/PTAB-IPR2023-00827-13-1.pdf#page=18"><em>First Solar, Inc. v. Rovshan Sade</em>, IPR2023-00827, Paper 13 at 18 (PTAB Nov. 16, 2023)</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">:</div>
+            <blockquote>"<em>[T]he present case lacks any testimonial evidence that a person interested in solar trackers or solar panel assemblies would be independently aware of the web address for Wattsun or even of the company or its products. In other words, there was no evidence that the ordinarily skilled artisan would know of Wattsun or its web address. Nor does Petitioner offer evidence, or even argument, that Wattsun's webpage was 'indexed ... (through search engines or otherwise)' and thus locatable by a search engine.</em>"</blockquote>
+            <div>While IAWM is no doubt essential to these kinds of investigations, it's not the only tool for <a href="2023-06-07-a-brief-primer-on-using-web-archived-evidence.html">web archaeology</a>. Curious about this case specifically and the more general possibilities for discovering applicable historical web context for these kinds of cases, I decided to perform some additional exploration and document it here. For reference, the <a href="https://patents.google.com/patent/US9057546B2/en">patent in question</a> was filed on 6 July 2010.</div>
+            <br>
+            <a href="2024-04-09-on-the-technical-vs-public-accessibility-of-historical-web-content-as-patent-prior-art.html">Read more &raquo;</a>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="blog-archive">
+        <h3>Previous Years</h3>
+        <a href="index.html">2025</a><br>
+        <span class="selected-year">2024</span><br>
+        <a href="2023.html">2023</a><br>
+        <a href="2022.html">2022</a><br>
+        <a href="2021.html">2021</a><br>
+        <a href="2019.html">2019</a><br>
+        <a href="2018.html">2018</a><br>
+        <a href="2017.html">2017</a><br>
+        <a href="2016.html">2016</a><br>
+        <a href="2015.html">2015</a><br>
+        <a href="2014.html">2014</a><br>
+        <a href="2013.html">2013</a><br>
+        <a href="2012.html">2012</a><br>
+        <a href="2011.html">2011</a><br>
+      </div>
+    </div>
+    <br>
+    <script>
+      var nav = responsiveNav(".nav-collapse");
+    </script>
+  </body>
+</html>

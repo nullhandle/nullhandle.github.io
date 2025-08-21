@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head prefix="dc: http://purl.org/dc/elements/1.1 dcterms: http://purl.org/dc/terms/">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="http://purl.org/dc/elements/1.1/" rel="schema.dc">
+    <link href="http://purl.org/dc/terms/" rel="schema.dcterms">
+    <link href="../css/responsive-nav.css" rel="stylesheet" type="text/css">
+    <link href="../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="../img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="feed.xml" rel="alternate" title="nullhandle.org" type="application/rss+xml">
+    <meta charset="UTF-8">
+    <meta name="DC.Creator.PersonalName" content="Nicholas Taylor">
+    <meta name="DC.Date" content="2025-08-20" scheme="DCTERMS.W3CDTF">
+    <meta name="DC.Format" content="text/html" scheme="DCTERMS.IMT">
+    <meta name="DC.Language" content="en-US" scheme="DCTERMS.RFC4646">
+    <meta name="DC.Rights" content="https://creativecommons.org/licenses/by-sa/4.0/" scheme="DCTERMS.URI">
+    <meta name="DC.Source" content="https://nullhandle.org/" scheme="DCTERMS.URI">
+    <meta name="DC.Title" content="AI for Temporal Web Forensics">
+    <meta name="DC.Type" content="blogPost">
+    <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "514c441e9d464f3fb864fa3a50ae9d62"}'></script><!-- End Cloudflare Web Analytics -->
+    <script src="../js/responsive-nav.js"></script>
+    <title>AI for Temporal Web Forensics</title>
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+    <div class="border"></div>
+    <nav class="nav-collapse" id="nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../resume.html">CV</a></li>
+        <li><a href="../consulting.html">Consulting</a></li>
+        <li class="active"><a href="index.html">Blog</a></li>
+        <li><a href="../web-archivability/index.html">Archivability</a></li>
+      </ul>
+    </nav>
+    <div class="content" itemscope itemtype="http://schema.org/BlogPosting">
+      <h2 itemprop="headline">AI for Temporal Web Forensics</h2>
+      <div class="byline">Published by <span itemprop="author publisher" itemscope itemtype="http://schema.org/Person"><span itemprop="name" rel="author"><a href="../index.html" itemprop="url"><span itemprop="givenName">Nicholas</span> <span itemprop="familyName">Taylor</span></a></span></span> on <time datetime="2025-08-20T23:27:00-06:00" itemprop="dateModified"></time><time datetime="2025-08-20T23:27:00-06:00" itemprop="datePublished">20 August 2025</time></div>
+      <br>
+      <div itemprop="articleBody">
+        <div><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language models (LLMs)</a> have notably advanced beyond interpretation and generation of text. Critical for our purposes here, they can also now "<a href="https://en.wikipedia.org/wiki/Reasoning_language_model">reason</a>", interpret images, and responsively self-augment their knowledge base by retrieving new information (i.e., <a href="https://en.wikipedia.org/wiki/Agentic_AI">agentic</a>). Given these new capabilities, in particular, as well as my own desire to understand how artificial intelligence may complement (or perhaps, eventually, supplant) my expertise, it seemed timely to benchmark how well they can currently make sense of the temporal attributes of open web content. To that end, I conducted experiments with some of my go-to example websites and pages:</div>
+        <figure class="figure-right" itemprop="image" itemscope itemtype="https://schema.org/ImageObject" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+          <a href="https://th.bing.com/th/id/OIG1.pKVR58hQACirGxo3aMo0"><img alt="an AI that is the master of time" height="320" itemprop="url" src="../img/OIG1.pKVR58hQACirGxo3aMo0_(320x320).png" width="320"></a>
+          <meta itemprop="height" content="320">
+          <meta itemprop="width" content="320">
+          <figcaption>Created using <a href="https://www.bing.com/create">Bing Image Creator</a> (<a href="https://openai.com/index/hello-gpt-4o/">GPT-4o</a>)  with prompt, "an AI that is the master of time" on 16 August 2025.</figcaption>
+        </figure>
+        <ul>
+          <li><a href="https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/">A SCOTUSBlog post</a></li>
+          <li><a href="https://www.supremecourt.gov/">The U.S. Supreme Court website</a></li>
+          <li><a href="https://www.supremecourt.gov/publicinfo/speeches/viewspeech/sp_05-03-00">A webpage on the U.S. Supreme Court website featuring a speech by Chief Justice Rehnquist</a></li>
+          <li><a href="https://www.spacejam.com/1996/jam.html">The website for the 1996 film <em>Space Jam</em></a></li>
+          <li><a href="2011-07-11-transferring-libraries-of-congress-of-data.html">A post from my own blog</a></li>
+        </ul>
+        <div>I chose these specifically because their ostensible publication dates range from being obviously self-declared to entirely opaque or dependent on consulting third-party sources. A number of them additionally offer multiple, contradictory date signals, and so afford the opportunity to assess which signals are either legible or relatively more salient to LLMs.</div>
+        <br>
+        <div>I ran three types of tests:</div>
+        <ul>
+          <li><a href="https://www.ibm.com/think/topics/zero-shot-prompting">Zero-shot</a>: asking when a particular website or webpage was first published</li>
+          <li><a href="https://www.adaline.ai/blog/iterative-prompting-a-step-by-step-guide-for-reliable-llm-outputs">Iterative</a>: if the zero-shot prompt yielded a poor answer, I followed up by asking the model either how it came up with the date (i.e., if wildly off in its first response) or to venture a guess (i.e., if it demurred on being specific in its first response)</li>
+          <li>Screenshot interpretation: asking the model to estimate the publication date of a webpage based on a screenshot</li>
+        </ul>
+        <div>For this exercise, I used historical versions of the webpages in question to ensure better alignment between the actual (i.e., ground-truth) publication dates and the (closer-to-) contemporaneous website designs. As I've emphasized previously, the <a href="https://web.archive.org/">Internet Archive Wayback Machine (IAWM)</a> was indispensable for establishing ground-truth publication or, at least, earliest-available dates.</div>
+        <br>
+        <div>I tested four freely available frontier models (in late May):</div>
+        <ul>
+          <li><a href="https://openai.com/index/hello-gpt-4o/">ChatGPT 4o</a></li>
+          <li><a href="https://deepmind.google/models/gemini/flash/">Gemini 2.5 Flash</a></li>
+          <li><a href="https://x.ai/news/grok-3">Grok 3</a></li>
+          <li><a href="https://www.anthropic.com/claude/sonnet">Sonnet 4</a></li>
+        </ul>
+        <div>with memorization of previous chats disabled, to the extent possible, and previous chats manually deleted before each new chat session.</div>
+        <br>
+        <div>With that preamble, I'll cover the individual tests in sequence and then summarize my observations of the models' capabilities.</div>
+        <h3>SCOTUSBlog post</h3>
+        <div>The <a href="https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/">SCOTUSBlog post</a> has the most straight-forward published date. The body text timestamp says that it was published <strong>2 June 2021</strong>. This same date is corroborated by a <span class="monospace">dateCreated</span> metadata attribute in the source code, a <a data-originalurl="https://www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/" data-versiondate="2021-06-02" href="https://web.archive.org/web/20210602202719id_/www.scotusblog.com/2021/06/supreme-courts-spokesperson-to-step-down-after-38-years/">contemporaneous IAWM capture</a>, and the Google <em><a href="https://hexdocs.pm/google_api_content_warehouse/0.4.0/GoogleApi.ContentWarehouse.V1.Model.NlpSaftDocument.html#module-attributes">bylineDate</a></em>.</div>
+        <br>
+        <div>Not all models passed all tests, however; Gemini provided only a gross range for the screenshot interpretation test, and Grok was off by several weeks for both zero-shot and iterative prompting. All of the other model-tests yielded the correct answer.</div>
+        <br>
+        <div>Here is a summary view of the models' performance:</div>
+        <br>
+        <table>
+          <tr>
+            <th>Model</th>
+            <th>Version</th>
+            <th>Query type</th>
+            <th>Date in response</th>
+          </tr>
+          <tr>
+            <td>ChatGPT</td>
+            <td>GPT-4o</td>
+            <td>Zero-shot</td>
+            <td class="date-correct">2021-06-02</td>
+          </tr>
+          <tr>
+            <td>ChatGPT</td>
+            <td>GPT-4o</td>
+            <td>Screenshot interpretation</td>
+            <td class="date-correct">2021-06-02</td>
+          </tr>
+          <tr>
+            <td>Gemini</td>
+            <td>2.5 Flash</td>
+            <td>Zero-shot</td>
+            <td class="date-correct">2021-06-02</td>
+          </tr>
+          <tr>
+            <td>Gemini</td>
+            <td>2.5 Flash</td>
+            <td>Screenshot interpretation</td>
+            <td class="date-approximate">Late 2020 / early 2021</td>
+          </tr>
+          <tr>
+            <td>Grok</td>
+            <td>3</td>
+            <td>Zero-shot</td>
+            <td class="date-incorrect">2021-06-29</td>
+          </tr>
+          <tr>
+            <td>Grok</td>
+            <td>3</td>
+            <td>Iterative</td>
+            <td class="date-incorrect">2021-06-29</td>
+          </tr>
+          <tr>
+            <td>Grok</td>
+            <td>3</td>
+            <td>Screenshot interpretation</td>
+            <td class="date-correct">2021-06-02</td>
+          </tr>
+          <tr>
+            <td>Sonnet</td>
+            <td>4</td>
+            <td>Zero-shot</td>
+            <td class="date-correct">2021-06-02</td>
+          </tr>
+          <tr>
+            <td>Sonnet</td>
+            <td>4</td>
+            <td>Screenshot interpretation</td>
+            <td class="date-correct">2021-06-02</td>
+          </tr>
+        </table>
+        <h3>U.S. Supreme Court website</h3>
+        <div>The initial publication date of the U.S. Supreme Court website was progressively more ambiguous than that of the SCOTUSBlog post. From <a href="../pdf/2023-03-02_evidentiary_use_of_the_temporal_web.pdf#page=33">previous investigations</a> <img alt="pdf icon" height="16" src="../img/pdf_(16x16).png" width="16">, I determined that the original domain of the U.S. Supreme Court website had been <a href="https:supremecourtus.gov/">supremecourtus.gov</a>. Performing a <a href="https://www.whois.com/whois/supremecourtus.gov">WHOIS lookup for this domain</a>, it appears to have been registered on 1 December 1997, establishing the absolute earliest date that a website could have gone live. The earliest capture in IAWM <a data-originalurl="https://www.supremecourtus.gov/" data-versiondate="2000-05-20" href="https://web.archive.org/web/20000520031109id_/www.supremecourtus.gov/">dates to 20 May 2000</a>. Examining the <a href="https://ws-dl.blogspot.com/2015/08/2015-08-28-original-header-replay.html"><span class="monospace">x-archive-orig-last-modified</span> HTTP header</a> pushed the date back to <strong>27 April 2000</strong>, so I'd say that this is the earliest date that I can substantiate that the website had been published.</div>
+        <br>
+        <div>The models' guesses varied widely and were generally much less precise than for the SCOTUSBlog post. Sonnet performed the worst, on both the zero-shot and iterative tests; it suggested that the website had been published as early as the mid-1990s, implying that the U.S. Supreme Court was implausibly part of the early web's technological vanguard.</div>
+        <br>
+        <div>However, two different models (ChatGPT and Gemini) each for one of the tests (zero-shot and iterative, respectively) were able to come up with a plausible date &mdash; 17 April 2000 &mdash; that I hadn't otherwise discovered. It turns out that the go-live date for the U.S. Supreme Court website had been publicized and recorded contemporaneously on other websites (e.g., <a data-originalurl="https://www2.lib.uchicago.edu/~llou/conlaw.html" data-versiondate="2000-04-19" href="https://web.archive.org/web/20000419184722/www.lib.uchicago.edu/~llou/conlaw.html">Researching Constitutional Law on the Internet: World Constitutions/Comparative Constitutional Law</a>).</div>
+        <br>
+        <div>On some casual follow-up searching on <a href="https://duckduckgo.com/?q=u.s.+supreme+court+website+launch+date&t=ffab&atb=v120-1&ia=web">DuckDuckGo</a> and <a href="https://www.google.com/search?q=u.s.+supreme+court+website+launch+date">Google</a> with reasonable search terms, I wasn't able to readily turn up this or related references. Of course, such statements alone would only provide circumstantial evidence that the website had been published earlier, but the date is plausible based on the earliest capture date in IAWM.</div>
+      </div>
+      <br>
+      <div>Here is a summary view of the models' performance:</div>
+      <br>
+      <table>
+        <tr>
+          <th>Model</th>
+          <th>Version</th>
+          <th>Query type</th>
+          <th>Date in response</th>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>GPT-4o</td>
+          <td>Zero-shot</td>
+          <td class="date-correct">2000-04-17</td>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>GPT-4o</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">Late 1990s / early 2000s</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Zero-shot</td>
+          <td class="date-incorrect">Can't say</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Iterative</td>
+          <td class="date-correct">2000-04-17</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">Late 1990s / early 2000s</td>
+        </tr>
+        <tr>
+          <td>Grok</td>
+          <td>3</td>
+          <td>Zero-shot</td>
+          <td class="date-correct">2020-04</td>
+        </tr>
+        <tr>
+          <td>Grok</td>
+          <td>3</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">1997 &ndash; 2002</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Zero-shot</td>
+          <td class="date-incorrect">Mid-to-late 1990s</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Iterative</td>
+          <td class="date-incorrect">1996 &ndash; 1998</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">Late 1990s / early 2000s</td>
+        </tr>
+      </table>
+      <h3>Speech by Chief Justice Rehnquist</h3>
+      <div>The <a href="https://www.supremecourt.gov/publicinfo/speeches/viewspeech/sp_05-03-00">webpage for Chief Justice Rehnquist's speech</a> had many, and many contradictory, potential dates to work with. The body text of the webpage itself indicated 3 May 2000 both as the date that the speech was given and as the embargo release date. The source code of the webpage had <span class="monospace">&lt;meta&gt;</span> elements with attributes <span class="monospace">created</span> and <span class="monospace">revised</span> both with (ever-so-slightly) implausible 31 December 1600 dates. The Google <em><a href="https://hexdocs.pm/google_api_content_warehouse/0.4.0/GoogleApi.ContentWarehouse.V1.Model.NlpSaftDocument.html#module-attributes">bylineDate</a></em> was 5 March 2000. The <a data-originalurl="https://www.supremecourt.gov/publicinfo/speeches/viewspeeches.aspx?Filename=sp_05" data-versiondate="2010-04-30" href="https://web.archive.org/web/20100430215439/www.supremecourt.gov/publicinfo/speeches/viewspeeches.aspx?Filename=sp_05">first IAWM capture for the web address of the live webpage</a> was dated 30 April 2010. The version of the webpage that evidently existed on the previous domain, <a href="https://supremecourtus.gov/">supremecourtus.gov</a>, has an <a data-originalurl="https://www.supremecourtus.gov/publicinfo/speeches/sp_05-03-00.html" data-versiondate="2000-08-16" href="https://web.archive.org/web/20000816183848/www.supremecourtus.gov/publicinfo/speeches/sp_05-03-00.html">IAWM capture as old as 16 August 2000</a>. That one has an <a href="https://ws-dl.blogspot.com/2015/08/2015-08-28-original-header-replay.html"><span class="monospace">x-archive-orig-last-modified</span> HTTP header</a></em> taking the date back to 16 May 2000.</div>
+      <br>
+      <div>Given the IAWM dates, I think we could therefore say that the most credible dates of publication of the speech webpage are:
+        <ul>
+          <li>No later than <strong>30 April 2010</strong>, if the question is construed as, "what was the date of publication of the webpage at the current live web address?"</li>
+          <li>No later than <strong>16 May 2000</strong>, if the question is construed as, "what was the date of publication of this webpage, for any of the U.S. Supreme Court domain web addresses where it has been published?"</li>
+        </ul>
+      </div>
+      <div>Based on the models' responses, they appear to have largely interpreted the tests as asking the latter question. For those responses that were closest to the ground-truth date, the models appear to have just taken for granted that the 3 May 2000 date of the speech and embargo release date meant that the webpage was also published then, which we don't in fact know. Some of the remaining responses featured a range of years that technically encompassed the ground-truth date, but others were wildly off.</div>
+      <br>
+      <div>Here is a summary view of the models' performance:</div>
+      <br>
+      <table>
+        <tr>
+          <th>Model</th>
+          <th>Version</th>
+          <th>Query type</th>
+          <th>Date in response</th>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>GPT-4o</td>
+          <td>Zero-shot</td>
+          <td class="date-approximate">2000-05-03</td>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>GPT-4o</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">2000-05</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Zero-shot</td>
+          <td class="date-incorrect">2002-03-21</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Iterative</td>
+          <td class="date-incorrect">2002-03-21</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash (w/ <a href="https://gemini.google/overview/deep-research/?hl=en">Deep Research</a>)</td>
+          <td>Zero-shot</td>
+          <td class="date-approximate">2000-05-03</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">2000-05-03</td>
+        </tr>
+        <tr>
+          <td>Grok</td>
+          <td>3</td>
+          <td>Zero-shot</td>
+          <td class="date-approximate">2000-05-03</td>
+        </tr>
+        <tr>
+          <td>Grok</td>
+          <td>3</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-incorrect">2020-06-08</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Zero-shot</td>
+          <td class="date-approximate">2000-05-03</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-incorrect">1995 &ndash; 1999</td>
+        </tr>
+      </table>
+      <h3><em>Space Jam</em> website</h3>
+      <div>In contrast to Sonnet's confabulations regarding the U.S. Supreme Court website, the <a href="https://www.spacejam.com/1996/jam.html"><em>Space Jam</em> website</a> actually was part of the early web's technological vanguard. It is one of the oldest websites that has been continuously available in its original form, albeit at slightly shifting web addresses. A WHOIS query indicates that the domain was registered on 14 March 1996, establishing the earliest date that the website could've been published. The <a data-originalurl="https://www.spacejam.com/" data-versiondate="1996-12-27" href="https://web.archive.org/web/19961227161755/www.spacejam.com/">first IAWM capture for the root domain</a> dates to 27 December 1996. This is the earliest that I can substantiate that the website was available. With the debut of the <a href="https://www.imdb.com/title/tt3554046/">sequel film</a>, the original website moved to the <a href="https://www.spacejam.com/1996/jam.html">path where it is currently accessible</a>. The <a data-originalurl="https://www.spacejam.com/1996/jam.html" data-versiondate="2021-04-02" href="https://web.archive.org/web/20210403153935/www.spacejam.com/1996/jam.html">first IAWM capture of that version of the website</a> dates to 2 April 2021.</div>
+      <br>
+      <div>The models seemed reluctant to propose dates much more precise than the year, but almost all of the tests guessed that correctly. Interestingly and appropriately, on the screenshot interpretation tests, they also all mentioned the web design conventions supporting a mid-1990s vintage. On iterative prompting with Gemini, it went so far as to suggest that the website had likely been published in November 1996, coincident with the release of the film. As with the third-party websites publicizing the launch date of the U.S. Supreme Court website, it's useful to have the models integrate this supplementary information into their reasoning. And while the film release date doesn't definitively establish the website launch date, it makes it much more plausible that the website had in fact been available earlier than what IAWM demonstrated.</div>
+      <br>
+      <div>Here is a summary view of the models' performance:</div>
+      <br>
+      <table>
+        <tr>
+          <th>Model</th>
+          <th>Version</th>
+          <th>Query type</th>
+          <th>Date in response</th>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>GPT-4o</td>
+          <td>Zero-shot</td>
+          <td class="date-approximate">1996</td>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>GPT-4o</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">1996</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Zero-shot</td>
+          <td class="date-approximate">1996</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Iterative</td>
+          <td class="date-correct">1996-11</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">1996</td>
+        </tr>
+        <tr>
+          <td>Grok</td>
+          <td>3</td>
+          <td>Zero-shot</td>
+          <td class="date-approximate">1996</td>
+        </tr>
+        <tr>
+          <td>Grok</td>
+          <td>3</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">1996</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Zero-shot</td>
+          <td class="date-approximate">1996</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">1996 &ndash; 1998</td>
+        </tr>
+      </table>
+      <h3>nullhandle.org blog post</h3>
+      <div>The publication date of my blog post is deceptively self-evident; the body text and web address both clearly point to 11 July 2011. This is, in fact, the date of publication of the <a href="https://blogs.loc.gov/thesignal/2011/07/transferring-libraries-of-congress-of-data/">original blog post</a> from the <a href="https://blogs.loc.gov/thesignal/">Library of Congress Signal blog</a>, from which the <a href="2011-07-11-transferring-libraries-of-congress-of-data.html">blog post on nullhandle.org</a> was cross-posted. A <a href="https://www.whois.com/whois/nullhandle.org">WHOIS query for nullhandle.org</a> shows that it was registered on 17 September 2017. A <span class="monospace">datePublished</span> attribute in the source code indicates 11 July 2011 but a <span class="monospace">dateModified</span> attribute indicates 29 September 2017.</div>
+      <br>
+      <div>So, setting aside my insider knowledge of this particular example, based on public information, a reasonable inference would be that the version of the <a href="2011-07-11-transferring-libraries-of-congress-of-data.html">blog post on nullhandle.org</a> was published no later than 29 September 2017, with the <a href="https://blogs.loc.gov/thesignal/2011/07/transferring-libraries-of-congress-of-data/">original blog post</a> on the <a href="https://blogs.loc.gov/thesignal/">Signal blog</a> having been published with reasonable likelihood on 11 July 2011. Thus, the publication date of the blog post again hinges on how the question is interpreted. Seeing what answer the models come back with will tell us about which date signals are most salient.</div>
+      <br>
+      <div>For the most part, the models picked up on and reported the original date of publication &mdash; 11 July 2011 &mdash; which isn't that surprising. What was surprising was that Gemini struggled in both the zero-shot and screenshot interpretation tests, declining to hazard a guess for the former and reporting the more general date range 2009 &ndash; 2012 for the latter.</div>
+      <br>
+            <div>Here is a summary view of the models' performance:</div>
+      <br>
+      <table>
+        <tr>
+          <th>Model</th>
+          <th>Version</th>
+          <th>Query type</th>
+          <th>Date in response</th>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>GPT-4o</td>
+          <td>Zero-shot</td>
+          <td class="date-correct">2011-07-11</td>
+        </tr>
+        <tr>
+          <td>ChatGPT</td>
+          <td>GPT-4o</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-correct">2011-07-11</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Zero-shot</td>
+          <td class="date-incorrect">can't say</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Iterative</td>
+          <td class="date-correct">2011-07-11</td>
+        </tr>
+        <tr>
+          <td>Gemini</td>
+          <td>2.5 Flash</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-approximate">2009 &ndash; 2012</td>
+        </tr>
+        <tr>
+          <td>Grok</td>
+          <td>3</td>
+          <td>Zero-shot</td>
+          <td class="date-correct">2011-07-11</td>
+        </tr>
+        <tr>
+          <td>Grok</td>
+          <td>3</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-correct">2011-07-11</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Zero-shot</td>
+          <td class="date-correct">2011-07-11</td>
+        </tr>
+        <tr>
+          <td>Sonnet</td>
+          <td>4</td>
+          <td>Screenshot interpretation</td>
+          <td class="date-correct">2011-07-11</td>
+        </tr>
+      </table>
+      <h3>Roll-up observations</h3>
+      <div>So what conclusions might we draw from this small set of experiments?</div>
+      <br>
+      <div>When the date is self-evident &mdash; e.g., the body text publication date in the SCOTUSBlog post &mdash; the models can usually (though not always) be relied upon to provide the correct answer. For ambiguous cases, where there are multiple date signals, the models tend to be parsimonious; they seem inclined towards the most readily discoverable dates, which are those in the body text. Where they are most useful is in bringing to bear unexpected, supplementary references, such as the other webpages announcing the U.S. Supreme Court website launch date or the fact that <em>Space Jam</em> debuted in November 1996.</div>
+      <br>
+      <div>If I'm looking for that kind of integrated and expanded discovery, I could see potentially using these tools in the early stages of an investigation. Given current (i.e., now several-month-old) capabilities, I'm disinclined to rely on them for much more than that, as the accuracy of responses &mdash; to say nothing of the responses themselves even for the same model and prompt &mdash; is highly variable. Anecdotally, repeating the same prompts often yielded materially different answers. And to the extent that responses are correct, they're often less precise than I could otherwise discern using approaches such as IAWM or source code analysis.</div>
+      <br>
+      <div>In summary, while applying frontier models could be either a useful place to start or a complement to other approaches, they don't appear to be yet reliable enough that more manual and more proven techniques for temporal web forensics won't be the better approach.</div>
+      <br>
+      <div class="byline"><a href="https://nullhandle.org/blog/2025-08-20-ai-for-temporal-web-forensics.html" rel="canonical">Permalink</a><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img alt="Creative Commons Attribution-ShareAlike 4.0 International License" class="copyright" height="15" src="https://licensebuttons.net/l/by-sa/4.0/80x15.png" width="80"></a></div>
+    </div>
+    <script>
+      var nav = responsiveNav(".nav-collapse");
+    </script>
+  </body>
+</html>

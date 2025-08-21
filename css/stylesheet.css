@@ -57,6 +57,16 @@ nav ol, nav ul {
   padding: 0px;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid;
+  padding: 5px;
+}
+
 .blog-archive {
   margin-left: 76%;
   text-align: center;
@@ -100,6 +110,18 @@ nav ol, nav ul {
 .copyright {
   float:right;
   margin-top:2px;
+}
+
+.date-approximate {
+  background-color:#ff8;
+}
+
+.date-correct {
+  background-color:#8f8;
+}
+
+.date-incorrect {
+  background-color:#f88;
 }
 
 .figure-left {

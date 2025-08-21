@@ -5,6 +5,12 @@
     <link>https://nullhandle.org/</link>
     <title>nullhandle.org</title>
     <item>
+      <title>AI for Temporal Web Forensics</title>
+      <link>/blog/2025-08-20-ai-for-temporal-web-forensics.html</link>
+      <pubDate>2025-08-20T23:27:00-06:00</pubDate>
+      <description>&lt;a href="https://en.wikipedia.org/wiki/Large_language_model"&gt;Large language models (LLMs)&lt;/a&gt; have notably advanced beyond interpretation and generation of text. Critical for our purposes here, they can also now "&lt;a href="https://en.wikipedia.org/wiki/Reasoning_language_model"&gt;reason&lt;/a&gt;", interpret images, and responsively self-augment their knowledge base by retrieving new information (i.e., &lt;a href="https://en.wikipedia.org/wiki/Agentic_AI"&gt;agentic&lt;/a&gt;). Given these new capabilities, in particular, as well as my own desire to understand how artificial intelligence may complement (or perhaps, eventually, supplant) my expertise, it seemed timely to benchmark how well they can currently make sense of the temporal attributes of open web content.</description>
+    </item>
+    <item>
       <title>The Temporal Dimensions of Google Search as Revealed by the Leaked API Documentation</title>
       <link>/blog/2024-07-28-the-temporal-dimensions-of-google-search-as-revealed-by-the-leaked-api-documentation.html</link>
       <pubDate>2024-07-28T22:05:00-06:00</pubDate>

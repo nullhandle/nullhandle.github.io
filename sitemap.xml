@@ -7,7 +7,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2011.html</loc>
-    <lastmod>2024-06-07T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2012.html</loc>
-    <lastmod>2024-06-07T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2013.html</loc>
-    <lastmod>2024-06-07T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -77,7 +77,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2014.html</loc>
-    <lastmod>2024-06-07T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -137,7 +137,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2015.html</loc>
-    <lastmod>2024-06-07T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -177,7 +177,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2016.html</loc>
-    <lastmod>2024-06-07T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -197,7 +197,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2017.html</loc>
-    <lastmod>2024-06-07T17:30:00+00:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -207,7 +207,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2018.html</loc>
-    <lastmod>2018-12-05T09:52:00-08:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -222,7 +222,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2019.html</loc>
-    <lastmod>2019-04-22T22:32:00-07:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -237,7 +237,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2021.html</loc>
-    <lastmod>2021-08-18T07:00:00-06:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -247,7 +247,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2022.html</loc>
-    <lastmod>2023-06-07T22:00:00-06:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -267,12 +267,17 @@
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2023.html</loc>
-    <lastmod>2023-05-31T07:00:00-06:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://nullhandle.org/blog/2023-06-07-a-brief-primer-on-using-web-archived-evidence.html</loc>
     <lastmod>2023-06-07T22:00:00-06:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/blog/2024.html</loc>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>yearly</changefreq>
   </url>
   <url>
@@ -291,13 +296,18 @@
     <changefreq>yearly</changefreq>
   </url>
   <url>
+    <loc>https://nullhandle.org/blog/2025-08-20-ai-for-temporal-web-forensics.html</loc>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://nullhandle.org/blog/feed.xml</loc>
-    <lastmod>2022-11-29T22:54:00-07:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
+    <changefreq>quarterly</changefreq>
   </url>
   <url>
     <loc>https://nullhandle.org/blog/index.html</loc>
-    <lastmod>2024-06-12T23:03:00-06:00</lastmod>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -519,6 +529,16 @@
   <url>
     <loc>https://nullhandle.org/img/niels_brugger_(150x150).jpg</loc>
     <lastmod>2022-11-29T22:54:00-07:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/OIG1.pKVR58hQACirGxo3aMo0_(100x100).png</loc>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/img/OIG1.pKVR58hQACirGxo3aMo0_(320x320).png</loc>
+    <lastmod>2025-08-20T23:27:00-06:00</lastmod>
     <changefreq>never</changefreq>
   </url>
   <url>
