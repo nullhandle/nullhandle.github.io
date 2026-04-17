@@ -593,7 +593,7 @@
   </url>
   <url>
     <loc>https://nullhandle.org/resume.html</loc>
-    <lastmod>2026-03-05T05:26:00+00:00</lastmod>
+    <lastmod>2026-04-17T02:21:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
@@ -894,6 +894,11 @@
   <url>
     <loc>https://nullhandle.org/pdf/2026-03-04_ai_workforce_readiness.pdf</loc>
     <lastmod>2026-03-05T05:38:00+00:00</lastmod>
+    <changefreq>never</changefreq>
+  </url>
+  <url>
+    <loc>https://nullhandle.org/pdf/2026-04-13_facilitating_use_of_unencumbered_publications_as_data_for_ai.pdf</loc>
+    <lastmod>2026-04-17T02:21:00+00:00</lastmod>
     <changefreq>never</changefreq>
   </url>
   <url>
